@@ -1,0 +1,124 @@
+== percobaan 1 16:03 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-555dd710c7)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (d5e6b6f........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (ef6eaa6........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (9e43134........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 2 16:10 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-555dd710c7)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (3a82efb........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (4857b8c........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (ae2c165........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 1 16:17 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-555dd710c7)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (78b7205........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (f2c11ea........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (feadf73........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 2 16:24 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-555dd710c7)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (49.0 MB)
+    [colab] 120/860 frame, 2.4 dtk/frame, sisa ~30 menit
+    [colab] 240/860 frame, 1.9 dtk/frame, sisa ~20 menit
+    [colab] 360/860 frame, 1.8 dtk/frame, sisa ~15 menit
+    [colab] 480/860 frame, 1.7 dtk/frame, sisa ~11 menit
+    [colab] 600/860 frame, 1.8 dtk/frame, sisa ~8 menit
+    [colab] 720/860 frame, 1.7 dtk/frame, sisa ~4 menit
+    [colab] 840/860 frame, 1.7 dtk/frame, sisa ~1 menit
+    [colab] 860/860 frame, 1.8 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'haru', 3 efek suara
+[subtitle]
+  subtitle: 18 potongan
+[video]
+  provenance frame 1-860: PASS (8 potongan bermetadata)
+  grading shot 10: hitam RAW 0.0% -> graded 0.1%
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/benchmark_warung/output/benchmark_warung.mp4
+selesai dalam 27.6 menit
+EXIT 0
+== percobaan 1 17:25 GPU=G4,L4,A100 sesi=anim2d (lanjutan)
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-71837de932)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (49.1 MB)
+    [colab] 120/860 frame, 2.0 dtk/frame, sisa ~25 menit
+    [colab] 240/860 frame, 1.8 dtk/frame, sisa ~18 menit
+    [colab] 360/860 frame, 1.8 dtk/frame, sisa ~15 menit
+    [colab] 480/860 frame, 1.7 dtk/frame, sisa ~11 menit
+    [colab] 600/860 frame, 1.8 dtk/frame, sisa ~8 menit
+    [colab] 720/860 frame, 1.7 dtk/frame, sisa ~4 menit
+    [colab] 840/860 frame, 1.7 dtk/frame, sisa ~1 menit
+    [colab] 860/860 frame, 1.7 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'haru', 3 efek suara
+[subtitle]
+  subtitle: 18 potongan
+[video]
+  provenance frame 1-860: PASS (8 potongan bermetadata)
+  grading shot 10: hitam RAW 0.0% -> graded 0.1%
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/benchmark_warung/output/benchmark_warung.mp4
+selesai dalam 26.1 menit
+EXIT 0
+== percobaan 1 18:30 GPU=G4,L4,A100 sesi=anim2d (lanjutan3)
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-d61be635aa)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (49.0 MB)
+    [colab] 120/860 frame, 2.4 dtk/frame, sisa ~30 menit
+    [colab] 240/860 frame, 2.0 dtk/frame, sisa ~21 menit
+== percobaan 1 18:57 GPU=G4,L4,A100 sesi=anim2d (lanjutan4)
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-486e18fc49)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (49.1 MB)
+    [colab] 120/860 frame, 2.2 dtk/frame, sisa ~27 menit
+    [colab] 240/860 frame, 1.9 dtk/frame, sisa ~19 menit
+    [colab] 360/860 frame, 1.8 dtk/frame, sisa ~15 menit
+    [colab] 480/860 frame, 1.8 dtk/frame, sisa ~11 menit
+    [colab] 600/860 frame, 1.9 dtk/frame, sisa ~8 menit
+    [colab] 720/860 frame, 1.9 dtk/frame, sisa ~4 menit
+    [colab] 840/860 frame, 1.9 dtk/frame, sisa ~1 menit
+    [colab] 860/860 frame, 1.9 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'haru', 3 efek suara
+[subtitle]
+  subtitle: 18 potongan
+[video]
+  provenance frame 1-860: PASS (8 potongan bermetadata)
+  grading shot 10: hitam RAW 0.0% -> graded 0.1%
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/benchmark_warung/output/benchmark_warung.mp4
+selesai dalam 28.5 menit
+EXIT 0

@@ -1,0 +1,972 @@
+{
+ "build_id": "P4-486e18fc49",
+ "story": "benchmark_warung",
+ "inputs": {
+  "git_commit": null,
+  "source_hash": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+  "source_files": 40,
+  "story_hash": "f0b98015cace2aab2e081d47cee9de3d87640d56d012869546b098ad6c9fa38a",
+  "timeline_hash": "fa644a1dde67af8058419a91987a38223dc3beda7b3d67b78551f8d747f6fde0",
+  "characters": {
+   "darto": {
+    "chars_version": 20,
+    "spec_hash": "8a51ff11cb32fe6e",
+    "rig_hash": "b7c7ba4e4acc1d59",
+    "n_files": 122
+   },
+   "jali": {
+    "chars_version": 20,
+    "spec_hash": "6bdb4680585c85eb",
+    "rig_hash": "8d164cb4dcfd0c98",
+    "n_files": 122
+   }
+  },
+  "asset_manifest_hash": "57c42af21291f3fd43060fdfeaca3b68e7ceea60a5c5c0f354ec85e695e2a443",
+  "plan_hash": "e9404257cac68ec596685fe5b4619f82748799dd167f2c67a8f3b1737cd1f304",
+  "tools_hash": "ca7a2f4b349c804da4cd308579a734e529c3c9243fef58e4bdbd621edfccd0c4"
+ },
+ "scene_build": {
+  "dimulai": "2026-11-27T18:47:27+0700",
+  "blender": "Blender 4.5.16 LTS (hash 3f6797307da5 built 2026-11-10 01:31:21)",
+  "selesai": "2026-11-27T18:50:23+0700",
+  "durasi_dtk": 175.9,
+  "scene_blend_sha256": "78091a6ae9f820a8f66229ab5e65c1a120ecc89b5b85579a0c55579904cf27c6"
+ },
+ "host": {
+  "python": "3.14.4",
+  "os": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43"
+ },
+ "outputs": [
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0060.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 60,
+   "shot": "shot01_establishing_gerobak",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "d3b35c087c07f3e3c0e019bf52b6f8ce13baf41b3ded2ab3f62f2c182243ce6f",
+   "dibuat": "2026-11-27T18:56:59+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0060.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 60,
+   "shot": "shot01_establishing_gerobak",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "77dba65430024d01eb1591c130be2bce665a5f912be506cdbf09f767358afd1c",
+   "dibuat": "2026-11-27T18:57:00+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0120.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 120,
+   "shot": "shot02_full_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "98d527ef75aa23ed8b298a059c3b9ee169f971b56625faf64473e274308ea9e4",
+   "dibuat": "2026-11-27T18:57:03+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0120.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 120,
+   "shot": "shot02_full_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "68c17f59ce6459e3921c919e26c07ca7992b4ea8255cdd97ca12f5818bc6dace",
+   "dibuat": "2026-11-27T18:57:04+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0180.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 180,
+   "shot": "shot03_medium_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "f9b67a82e4d28d4127cb62339cb1a2d3eda92863720ea4169f21b1d64c5a35a3",
+   "dibuat": "2026-11-27T18:57:06+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0180.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 180,
+   "shot": "shot03_medium_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "bb6c69d3347962d264ee98d0b84539996febb703bd245585c012f5221c13ec69",
+   "dibuat": "2026-11-27T18:57:07+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0212.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 212,
+   "shot": "shot04_insert_gerobak.wajan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "d3ff237e748417c5d7d106a7e3fbaa55e361edc5cffd647daf4f1c1500de48f4",
+   "dibuat": "2026-11-27T18:57:09+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0212.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 212,
+   "shot": "shot04_insert_gerobak.wajan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "80bc0484b83c1845d50c5ee7d2bcc92fb3dfe9f734bbb5cb4d37d5c391d023c9",
+   "dibuat": "2026-11-27T18:57:10+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0222.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 222,
+   "shot": "shot04_insert_gerobak.wajan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "2418e9e38473b46a9817d54b431f72dc35348a651691d276711b4d3ee63d7074",
+   "dibuat": "2026-11-27T18:57:12+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0222.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 222,
+   "shot": "shot04_insert_gerobak.wajan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "62f6c636d63877a9a786774860f1f455efc7accb55523a27383a908a15849e3b",
+   "dibuat": "2026-11-27T18:57:12+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0234.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 234,
+   "shot": "shot05_medium_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "dce95d9390c5f48bfc06f5e0c3b2dffc5d7fa6a7dda2fdce04a2afb5681212cf",
+   "dibuat": "2026-11-27T18:57:15+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0234.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 234,
+   "shot": "shot05_medium_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "3191661fa04da23f0d43a65c926e4be6d115695bbff1943dbc9725c7fa875453",
+   "dibuat": "2026-11-27T18:57:16+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0240.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 240,
+   "shot": "shot05_medium_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "23e9d448456d9f693cb2743af536a908c28d5f2dc6963315d1add5fd4634c5ee",
+   "dibuat": "2026-11-27T18:57:17+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0240.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 240,
+   "shot": "shot05_medium_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "f24e598b7aa262a7e5d6c140371b404806f308ad7cceea236a09dba062f4a74e",
+   "dibuat": "2026-11-27T18:57:18+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0250.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 250,
+   "shot": "shot05_medium_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "f3e6ef62b41074039d358bfb4e494d1af43364a51ccb227351855675d57e3dcc",
+   "dibuat": "2026-11-27T18:57:19+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0250.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 250,
+   "shot": "shot05_medium_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "e9a09f6abc92d02fb27e1ecb77a938be51b88b5d437720b57614c376e6c7a319",
+   "dibuat": "2026-11-27T18:57:20+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0282.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 282,
+   "shot": "shot06_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "0e9a0dc148f428647d0ba30a98b891e2d3c09d00aebd8095e51970f637fd7923",
+   "dibuat": "2026-11-27T18:57:22+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0282.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 282,
+   "shot": "shot06_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "975d1601d9bcbe53c82967cc722a073b60c75529857920a9129211bb6d6af542",
+   "dibuat": "2026-11-27T18:57:23+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0330.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 330,
+   "shot": "shot06_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "ce55483747f99bde88d74e510812c98ae9af3dfd57e35cc32e669fee99b134a8",
+   "dibuat": "2026-11-27T18:57:25+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0330.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 330,
+   "shot": "shot06_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "234f44d6fc325a46ace50f98da9639a86e1bed40d7ecdb3999421edcb6b3c6ad",
+   "dibuat": "2026-11-27T18:57:25+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0380.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 380,
+   "shot": "shot06_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "1e41cc147c99a980b94c40e1e9ee803d0fb6c34bbef744a112c4729744a3939b",
+   "dibuat": "2026-11-27T18:57:27+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0380.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 380,
+   "shot": "shot06_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "3b31aa737fbd2b42fb95b0117a6ed143f13ce0382a0925a41ca210e8da3b3085",
+   "dibuat": "2026-11-27T18:57:28+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0477.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 477,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "97898df32a616f8d0604b6b7aa0adb5f349b3a74620e2af9beef41515d20e61f",
+   "dibuat": "2026-11-27T18:57:30+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0477.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 477,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "2c0e33eb9c505adb1f48957ed452787155ddd7e042c9bd0f5c4db43b88c78a2a",
+   "dibuat": "2026-11-27T18:57:31+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0478.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 478,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "b78f5e14303e8c1f4ab3b87ffab12b9e49f2e698f4812cb5aab4989acc454f1d",
+   "dibuat": "2026-11-27T18:57:32+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0478.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 478,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "c11346897cba7940cef0e3135e30fc261d95bbe0713fe09746506e72af2948f8",
+   "dibuat": "2026-11-27T18:57:33+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0479.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 479,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "543175ec40a841ba7def7649397591d64e9293c75a1b044666afc31b5bc6838c",
+   "dibuat": "2026-11-27T18:57:34+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0479.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 479,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "93a756341dbb4b1ec729020a650b4b2fd75e32b0779c90dac2ac844e4b851690",
+   "dibuat": "2026-11-27T18:57:35+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0500.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 500,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "19d0087fed5c483076e406fa34238b03c5ad0424f26d9544ed65b76c5c90f256",
+   "dibuat": "2026-11-27T18:57:36+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0500.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 500,
+   "shot": "shot07_ots_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "33baa8b78ca0d735286d5731ac8523b8e99e40f54e18fa606c0899883b626ec6",
+   "dibuat": "2026-11-27T18:57:37+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0580.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 580,
+   "shot": "shot08_mcu_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "01a885dbff2fa7069ededa5288877be9b2ff66bba04e79528c0df3b68d44c1f7",
+   "dibuat": "2026-11-27T18:57:39+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0580.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 580,
+   "shot": "shot08_mcu_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "dc0251c1e81cf3d7b5f3cff1e8da12ef12e4da339226f8662e709a09cd7442ae",
+   "dibuat": "2026-11-27T18:57:40+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0615.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 615,
+   "shot": "shot09_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "0f2c744f07bdbd959404e470366a219c349734d0c46b01f2ff0e9bf358b78287",
+   "dibuat": "2026-11-27T18:57:42+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0615.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 615,
+   "shot": "shot09_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "7c8cc4624fe6ce9b68eb139fae43715882b34cfff40e9bf60746d0613d535671",
+   "dibuat": "2026-11-27T18:57:43+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0700.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 700,
+   "shot": "shot09_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "3fdb5113c620fa14cf6f366a9db8f3dd8778d951842cfb13547522ae60259942",
+   "dibuat": "2026-11-27T18:57:45+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0700.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 700,
+   "shot": "shot09_mcu_jali",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98",
+     "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.3"
+    ]
+   },
+   "sha256": "b770173273ffd911ca8d985929616511c70146804cfcbb772c303e880082a200",
+   "dibuat": "2026-11-27T18:57:45+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/build/still_raw/f_0760.png",
+   "kind": "still_raw",
+   "build_id": "P4-486e18fc49",
+   "frame": 760,
+   "shot": "shot11_ending_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7
+   },
+   "sha256": "f0434edbbb4e1273f89c201aab9c8e8f439d46cbfa82f70c8a8260760d7ccbb8",
+   "dibuat": "2026-11-27T18:57:48+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/still/f_0760.png",
+   "kind": "still_graded",
+   "build_id": "P4-486e18fc49",
+   "frame": 760,
+   "shot": "shot11_ending_darto",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 20.7,
+    "grading": [
+     "colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "5ac757b67b67767caccc5c5341779ee0e9d6d847831fd9fc799199134006c3e8",
+   "dibuat": "2026-11-27T18:57:49+0700"
+  },
+  {
+   "file": "stories/benchmark_warung/output/benchmark_warung.mp4",
+   "kind": "video",
+   "build_id": "P4-486e18fc49",
+   "frame": null,
+   "shot": null,
+   "settings": {
+    "frames_build_ids": [
+     "P4-486e18fc49"
+    ],
+    "mode": "penuh",
+    "provenance": {
+     "status": "PASS",
+     "chunks": 8
+    }
+   },
+   "sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+   "dibuat": "2026-11-27T19:26:29+0700"
+  }
+ ]
+}

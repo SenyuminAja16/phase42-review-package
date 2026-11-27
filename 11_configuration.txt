@@ -1,0 +1,428 @@
+# Konfigurasi ketiga cerita final Phase 4.2
+
+
+##############################################################################################################
+# Satu Bungkus Lagi  —  stories/benchmark_warung  —  build P4-486e18fc49
+##############################################################################################################
+
+## story.yaml (sha256 f0b98015cace2aab2e081d47cee9de3d87640d56d012869546b098ad6c9fa38a)
+# BENCHMARK visual: warung nasi goreng pinggir jalan, malam setelah hujan.
+# Dipakai untuk mengukur kualitas: rig 2D berlapis, interaksi (duduk, makan, memasak), cahaya praktis hangat
+# vs ambient dingin, aspal basah + genangan, bokeh, grading.
+judul: Satu Bungkus Lagi
+suara: id-ID-ArdiNeural
+kecepatan: "-5%"
+jeda: 0.4
+narasi:
+  - {id: n1, teks: "Jam sebelas malam. Hujan baru saja reda."}
+  - {id: n2, teks: "Cuma gerobak nasi goreng Pak Darto yang masih menyala."}
+  - {id: n3, teks: "Pak, satu lagi ya. Dibungkus, pedas.", nada: "+6Hz"}
+  - {id: n4, teks: "Tumben, Jal. Buat siapa?", nada: "-10Hz", kecepatan: "-10%"}
+  - {id: n5, teks: "Buat istri di rumah, Pak. Hari ini dia ulang tahun.", nada: "+6Hz", jeda: 2.8}   # jeda: penutup menahan kedua tokoh
+
+latar:
+  lokasi: jalan_kota
+  waktu: malam
+  cuaca: habis_hujan          # aspal basah & genangan, udara lembap, tanpa butiran hujan
+  acak: 31
+  nama_toko: [APOTEK, LAUNDRY, FOTOKOPI, BENGKEL, PULSA, SEMBAKO]
+  lampu_kiri: [-9, 14, 28, 42]   # tidak ada tiang tepat di depan warung
+  lampu_hias: false
+  toko_buka: 0.25            # jam 11 malam: kebanyakan toko sudah tutup, papan neon mati
+  terang_neon: 0.5
+  jendela_nyala: 0.2
+  terang_jendela: 0.6
+  umbul_umbul: [16, 30]
+  efek: [ngengat, daun]
+  properti:
+    - {jenis: gerobak_makan, nama: gerobak, posisi: [-5.9, 4.2], tulisan: "NASGOR PAK DARTO", warna: biru}
+    - {jenis: motor, nama: motor, posisi: [-3.25, 6.9], warna: hijau, arah: 15}      # diparkir di belakang: tidak jadi latar depan gelap
+    - {jenis: meja_lipat, posisi: [-4.7, 5.9]}
+    - {jenis: dingklik, posisi: [-4.9, 6.6], warna: biru}
+    - {jenis: aset, id: plastic_crate_01, posisi: [-6.95, 3.55], arah: 8}            # krat minuman (CC0) di belakang penjual
+    - {jenis: aset, id: plastic_crate_01, posisi: [-6.95, 3.55], arah: -4, z: 0.265}
+    - {jenis: aset, id: plastic_crate_01, posisi: [-6.92, 3.98], arah: 80}
+
+tokoh:
+  darto:                       # penjual, berdiri di balik gerobak
+    posisi: [-6.5, 4.57]       # di luar badan gerobak (lolos uji volume tubuh), di depan kompor sisi penjual
+    hadap: gerobak
+    tinggi: 1.85
+    rupa: {kulit: sawo, baju: putih, celemek: merah_tua, handuk: krem, kumis: true, rambut: [cepak, abu]}
+  jali:                        # pembeli ojol, duduk di dingklik sambil makan
+    posisi: [-5.4, 2.85]       # di ujung depan gerobak, sisi pembeli
+    hadap: darto
+    rupa: {kulit: langsat, jaket: ojol, topi: [helm, ojol], celana: hitam}
+
+aksi:
+  - {tokoh: darto, lakukan: masak, dari: 0, sampai: n4, benda: sutil}
+  - {tokoh: jali, lakukan: duduk, dari: 0}
+  - {tokoh: jali, lakukan: makan, dari: 0, sampai: n3, benda: piring}
+  - {tokoh: jali, lakukan: bicara, dari: n3, ekspresi: senyum}
+  - {tokoh: jali, lakukan: pegang, dari: n3, benda: piring}
+  - {tokoh: darto, lakukan: melirik, dari: n3, sampai: n4, arah: kanan}
+  - {tokoh: darto, lakukan: bicara, dari: n4, ekspresi: kaget, lalu: senyum, hadap: jali}
+  - {tokoh: jali, lakukan: bicara, dari: n5, ekspresi: senyum, lalu: senyum}
+  - {tokoh: darto, lakukan: senyum, dari: "n5:ulang"}
+  - {tokoh: jali, lakukan: senyum, dari: "n5:tahun"}
+
+shot:
+  # establishing singkat & rendah -> langsung memperkenalkan gerobak
+  - {mulai: n1, kamera: pembuka, subjek: gerobak}
+  # medium two-shot: gerobak sebagai pusat, penjual & pembeli dalam satu bingkai
+  - {mulai: "n1:hujan", kamera: penuh, subjek: darto, ke_arah: jali, sudut: -35, jarak: 1.3}
+  # medium Darto: ekspresi, tangan, kompor & sebagian gerobak (tanpa tiang di depan wajah)
+  - {mulai: n2, kamera: sedang, subjek: darto, sudut: -10}
+  # detail wajan: nasi, api, uap, ujung sutil mengaduk
+  - {mulai: "n2:Pak", kamera: detail, subjek: gerobak.wajan, tinggi: 0.5, jarak: 1.2, sudut: -25}
+  # interaksi makan: Jali menyuap dari piring
+  - {mulai: "n2:menyala", kamera: sedang, subjek: jali, jarak: 0.95, sudut: 40}
+  # MCU Jali (shot), lalu OTS lewat bahu Jali ke Darto (reverse), MCU Darto
+  - {mulai: n3, kamera: sedang_dekat, subjek: jali, sudut: 40}
+  - {mulai: n4, kamera: lewat_bahu, subjek: jali, ke_arah: darto}
+  - {mulai: "n4:buat", kamera: sedang_dekat, subjek: darto, sudut: 15}
+  - {mulai: n5, kamera: sedang_dekat, subjek: jali, sudut: 40}
+  - {mulai: "n5:hari", kamera: dekat, subjek: jali, gerak: maju, sudut: 40}
+  # penutup: tahan pada kedua tokoh, lalu kamera menjauh pelan
+  - {mulai: "n5:tahun", kamera: penutup, subjek: darto, ke_arah: jali, tahan: 0.65, sudut: -35, jarak: 1.3}
+
+musik: {suasana: haru, volume: 0.07}
+suara_latar: [kota, jangkrik]
+efek_suara:
+  - {jenis: langkah, saat: 0, durasi: 0.1, volume: 0.0}
+
+
+## manifest.inputs
+{
+ "git_commit": null,
+ "source_hash": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+ "source_files": 40,
+ "story_hash": "f0b98015cace2aab2e081d47cee9de3d87640d56d012869546b098ad6c9fa38a",
+ "timeline_hash": "fa644a1dde67af8058419a91987a38223dc3beda7b3d67b78551f8d747f6fde0",
+ "characters": {
+  "darto": {
+   "chars_version": 20,
+   "spec_hash": "8a51ff11cb32fe6e",
+   "rig_hash": "b7c7ba4e4acc1d59",
+   "n_files": 122
+  },
+  "jali": {
+   "chars_version": 20,
+   "spec_hash": "6bdb4680585c85eb",
+   "rig_hash": "8d164cb4dcfd0c98",
+   "n_files": 122
+  }
+ },
+ "asset_manifest_hash": "57c42af21291f3fd43060fdfeaca3b68e7ceea60a5c5c0f354ec85e695e2a443",
+ "plan_hash": "e9404257cac68ec596685fe5b4619f82748799dd167f2c67a8f3b1737cd1f304",
+ "tools_hash": "ca7a2f4b349c804da4cd308579a734e529c3c9243fef58e4bdbd621edfccd0c4"
+}
+
+## pengaturan render & keluaran (manifest.outputs, unik)
+- still_raw: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 20.7, "engine": "EEVEE", "glare": "scene", "resolution": [1080, 1920], "samples": 64}
+- still_graded: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 20.7, "engine": "EEVEE", "glare": "scene", "grading": ["colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.03:gamma=0.98", "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'", "unsharp=5:5:0.35:5:5:0.0", "vignette=0.18"], "resolution": [1080, 1920], "samples": 64}
+- still_graded: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 20.7, "engine": "EEVEE", "glare": "scene", "grading": ["colorbalance=rs=-0.035:gs=-0.007:bs=0.049:rh=0.042:gh=0.014:bh=-0.035,eq=saturation=1.1:brightness=0.0:contrast=1.05:gamma=0.98", "curves=all='0/0.025 0.1/0.115 0.5/0.5 1/1'", "unsharp=5:5:0.35:5:5:0.0", "vignette=0.3"], "resolution": [1080, 1920], "samples": 64}
+- video: {"frames_build_ids": ["P4-486e18fc49"], "mode": "penuh", "provenance": {"chunks": 8, "status": "PASS"}}
+
+## daftar shot (plan.json)
+- shot 1: f1-74 establishing subjek=gerobak ke_arah=None
+- shot 2: f75-158 full subjek=darto ke_arah=jali
+- shot 3: f159-198 medium subjek=darto ke_arah=None
+- shot 4: f199-225 insert subjek=gerobak.wajan ke_arah=None
+- shot 5: f226-281 medium subjek=jali ke_arah=None
+- shot 6: f282-457 mcu subjek=jali ke_arah=None
+- shot 7: f458-540 ots subjek=jali ke_arah=darto
+- shot 8: f541-611 mcu subjek=darto ke_arah=None
+- shot 9: f612-702 mcu subjek=jali ke_arah=None
+- shot 10: f703-731 closeup subjek=jali ke_arah=None
+- shot 11: f732-860 ending subjek=darto ke_arah=jali
+
+## koreksi grading per shot (grade_auto.json, build ini)
+- shot 1: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0004 -> graded 0.0002
+- shot 2: override {}  hitam raw 0.0 -> graded 0.0052
+- shot 3: override {}  hitam raw 0.0 -> graded 0.0
+- shot 4: override {}  hitam raw 0.0 -> graded 0.0
+- shot 5: override {}  hitam raw 0.0 -> graded 0.0095
+- shot 6: override {}  hitam raw 0.0 -> graded 0.0
+- shot 7: override {}  hitam raw 0.0 -> graded 0.0023
+- shot 8: override {}  hitam raw 0.0 -> graded 0.0005
+- shot 9: override {}  hitam raw 0.0 -> graded 0.0
+- shot 10: override {}  hitam raw 0.0 -> graded 0.0008
+- shot 11: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0002 -> graded 0.0001
+
+## diff story.yaml Phase 4.1 (backup) -> Phase 4.2
+(tidak ada perubahan)
+
+
+##############################################################################################################
+# Teh Sore untuk Ibu  —  stories/_uji_phase4_rumah  —  build P4-2d0645d14d
+##############################################################################################################
+
+## story.yaml (sha256 5f9f48049b7799f58b08e0373a3d45c835e1a07358478b3d78d0bd590071f0c6)
+# UJI GENERALISASI PHASE 4: lingkungan, tokoh, cahaya dan cerita BERBEDA dari benchmark warung.
+#  - interior rumah (dalam_rumah), siang hari (bukan malam)
+#  - tokoh berbeda: Bu Sri (hijab, dewasa) duduk di KURSI (jangkar dunia 'kursi.duduk', bukan dingklik bawaan)
+#                   Dimas (anak, tinggi 1.25 m, proporsi & pakaian berbeda)
+#  - aksi: ambil (dari meja), serahkan (ke tokoh lain), minum (Grip Profile 'gelas' = wrap), taruh (ke meja)
+#  - dialog bersebelahan antar tokoh (n3 -> n4 tanpa jeda panjang) -> uji timing dialog A1
+# Tidak ada parameter khusus di engine untuk cerita ini.
+judul: Teh Sore untuk Ibu
+suara: id-ID-ArdiNeural
+jeda: 0.3
+narasi:
+  - {id: n1, teks: "Sore itu, Bu Sri duduk di ruang tamu."}
+  - {id: n2, teks: "Dimas mengambil segelas teh dari meja."}
+  - {id: n3, teks: "Ini, Bu. Tehnya masih hangat.", suara: id-ID-GadisNeural, nada: "+25Hz", jeda: 0.05}
+  - {id: n4, teks: "Wah, terima kasih, Nak.", suara: id-ID-GadisNeural, nada: "-4Hz"}
+  - {id: n5, teks: "Bu Sri meminum tehnya, lalu menaruh gelas di meja."}
+
+latar:
+  lokasi: dalam_rumah
+  waktu: siang
+  isi: kosong
+  acak: 7
+  properti:
+    - {jenis: kursi, nama: kursi, posisi: [-2.3, 1.3], arah: 90}
+    - {jenis: meja, nama: meja, posisi: [-2.05, 0.88], ukuran: [0.4, 0.4], tinggi: 0.6, isi: false}
+    - {jenis: sofa, posisi: [-3.6, 2.6], arah: 180}
+    # Phase 4.2-C (dekorasi, terdokumentasi): penataan ruang tamu keluarga — bufet pajangan di dinding belakang,
+    # meja tamu bertoples di depan sofa, karpet, tas sekolah anak. Jenis umum dari kit (bukan kode khusus cerita).
+    - {jenis: bufet, posisi: [-0.55, 4.72], arah: 90, muka: -1, lebar: 1.5}
+    - {jenis: meja, posisi: [-2.75, 2.6], ukuran: [1.0, 0.5], tinggi: 0.42, isi: false, toples: true}
+    - {jenis: karpet, posisi: [-2.9, 2.6], warna: [120, 40, 40]}
+    - {jenis: tas_sekolah, posisi: [-3.05, 3.75], arah: 20}
+    - {jenis: tv, posisi: [3.85, 1.5]}
+    - {jenis: pot_tanaman, posisi: [3.6, 4.4]}
+
+tokoh:
+  sri:
+    posisi: [-2.3, 1.3]
+    rupa: {kulit: langsat, hijab: pink, baju: krem}
+  dimas:
+    posisi: [-1.6, 1.2]
+    tinggi: 1.4
+    hadap: sri
+    rupa: {kulit: sawo, baju: kuning, celana: biru, rambut: [cepak, hitam]}
+
+aksi:
+  - {tokoh: sri, lakukan: duduk, dari: 0, kursi: kursi.duduk}
+  - {tokoh: dimas, lakukan: ambil, dari: n2, benda: teh, tempat: [-1.89, 0.91, 0.625]}
+  - {tokoh: dimas, lakukan: bicara, dari: n3, ekspresi: senyum, hadap: sri}
+  - {tokoh: dimas, lakukan: serahkan, dari: "n3:masih", benda: teh, ke: sri}
+  - {tokoh: sri, lakukan: bicara, dari: n4, ekspresi: senyum, lalu: senyum, hadap: dimas}
+  - {tokoh: sri, lakukan: minum, dari: n5, sampai: "n5:lalu", benda: teh}
+  - {tokoh: sri, lakukan: taruh, dari: "n5:menaruh", benda: teh, tempat: [-1.98, 0.99, 0.625]}   # Phase 4.2: digeser 14 cm (jangkauan IK 2D bergantung sudut kamera baru; tetap di atas meja)
+
+shot:
+  - {mulai: n1, kamera: pembuka, subjek: sri}
+  - {mulai: n2, kamera: sedang, subjek: dimas, sudut: 40}
+  - {mulai: n3, kamera: penuh, subjek: dimas, sudut: 40}
+  - {mulai: n4, kamera: dekat, subjek: sri}
+  - {mulai: n5, kamera: sedang, subjek: sri}
+  - {mulai: "n5:menaruh", kamera: lebar, subjek: sri}
+
+musik:
+  suasana: ceria
+  volume: 0.06
+
+
+## manifest.inputs
+{
+ "git_commit": null,
+ "source_hash": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+ "source_files": 40,
+ "story_hash": "5f9f48049b7799f58b08e0373a3d45c835e1a07358478b3d78d0bd590071f0c6",
+ "timeline_hash": "9c0f6d2b6ec9a496f3faea0b8c4f5c5e1448dd5eeee8d91d0062cc14ca01fa57",
+ "characters": {
+  "sri": {
+   "chars_version": 20,
+   "spec_hash": "3374c7dbea3a3ee4",
+   "rig_hash": "0284e3c027f8c950",
+   "n_files": 122
+  },
+  "dimas": {
+   "chars_version": 20,
+   "spec_hash": "81e0e08a3427fc1d",
+   "rig_hash": "92d4f0e276fdea57",
+   "n_files": 122
+  }
+ },
+ "asset_manifest_hash": "57c42af21291f3fd43060fdfeaca3b68e7ceea60a5c5c0f354ec85e695e2a443",
+ "plan_hash": "4cbd2f35b1d682f85d7717ac3f5cd2cbd74d90d94a23c9c7bce77e7c86afcf83",
+ "tools_hash": "ca7a2f4b349c804da4cd308579a734e529c3c9243fef58e4bdbd621edfccd0c4"
+}
+
+## pengaturan render & keluaran (manifest.outputs, unik)
+- still_raw: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 4.5, "engine": "EEVEE", "glare": "scene", "resolution": [1080, 1920], "samples": 64}
+- still_graded: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 4.5, "engine": "EEVEE", "glare": "scene", "grading": ["colorbalance=rs=-0.014:gs=0.000:bs=0.021:rh=0.021:gh=0.007:bh=-0.021,eq=saturation=1.08:brightness=0.0:contrast=1.05:gamma=0.98", "unsharp=5:5:0.35:5:5:0.0", "vignette=0.45"], "resolution": [1080, 1920], "samples": 64}
+- still_graded: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 4.5, "engine": "EEVEE", "glare": "scene", "grading": ["colorbalance=rs=-0.014:gs=0.000:bs=0.021:rh=0.021:gh=0.007:bh=-0.021,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98", "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'", "unsharp=5:5:0.35:5:5:0.0", "vignette=0.18"], "resolution": [1080, 1920], "samples": 64}
+- video: {"frames_build_ids": ["P4-2d0645d14d"], "mode": "penuh", "provenance": {"chunks": 6, "status": "PASS"}}
+
+## daftar shot (plan.json)
+- shot 1: f1-114 establishing subjek=sri ke_arah=None
+- shot 2: f115-219 medium subjek=dimas ke_arah=None
+- shot 3: f220-365 full subjek=dimas ke_arah=None
+- shot 4: f366-482 closeup subjek=sri ke_arah=None
+- shot 5: f483-544 medium subjek=sri ke_arah=None
+- shot 6: f545-616 wide subjek=sri ke_arah=None
+
+## koreksi grading per shot (grade_auto.json, build ini)
+- shot 1: override {}  hitam raw 0.0212 -> graded 0.033
+- shot 2: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0732 -> graded 0.0112
+- shot 3: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0739 -> graded 0.0125
+- shot 4: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.1104 -> graded 0.0088
+- shot 5: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0669 -> graded 0.0107
+- shot 6: override {}  hitam raw 0.0243 -> graded 0.0344
+
+## diff story.yaml Phase 4.1 (backup) -> Phase 4.2
+--- phase41/story.yaml
++++ phase42/story.yaml
+@@ -24,6 +24,12 @@
+     - {jenis: kursi, nama: kursi, posisi: [-2.3, 1.3], arah: 90}
+     - {jenis: meja, nama: meja, posisi: [-2.05, 0.88], ukuran: [0.4, 0.4], tinggi: 0.6, isi: false}
+     - {jenis: sofa, posisi: [-3.6, 2.6], arah: 180}
++    # Phase 4.2-C (dekorasi, terdokumentasi): penataan ruang tamu keluarga — bufet pajangan di dinding belakang,
++    # meja tamu bertoples di depan sofa, karpet, tas sekolah anak. Jenis umum dari kit (bukan kode khusus cerita).
++    - {jenis: bufet, posisi: [-0.55, 4.72], arah: 90, muka: -1, lebar: 1.5}
++    - {jenis: meja, posisi: [-2.75, 2.6], ukuran: [1.0, 0.5], tinggi: 0.42, isi: false, toples: true}
++    - {jenis: karpet, posisi: [-2.9, 2.6], warna: [120, 40, 40]}
++    - {jenis: tas_sekolah, posisi: [-3.05, 3.75], arah: 20}
+     - {jenis: tv, posisi: [3.85, 1.5]}
+     - {jenis: pot_tanaman, posisi: [3.6, 4.4]}
+ 
+@@ -44,7 +50,7 @@
+   - {tokoh: dimas, lakukan: serahkan, dari: "n3:masih", benda: teh, ke: sri}
+   - {tokoh: sri, lakukan: bicara, dari: n4, ekspresi: senyum, lalu: senyum, hadap: dimas}
+   - {tokoh: sri, lakukan: minum, dari: n5, sampai: "n5:lalu", benda: teh}
+-  - {tokoh: sri, lakukan: taruh, dari: "n5:menaruh", benda: teh, tempat: [-2.12, 0.99, 0.625]}
++  - {tokoh: sri, lakukan: taruh, dari: "n5:menaruh", benda: teh, tempat: [-1.98, 0.99, 0.625]}   # Phase 4.2: digeser 14 cm (jangkauan IK 2D bergantung sudut kamera baru; tetap di atas meja)
+ 
+ shot:
+   - {mulai: n1, kamera: pembuka, subjek: sri}
+
+
+##############################################################################################################
+# Kopi Sore (cerita ke-3, baru)  —  stories/uji3_kopi_sore  —  build P4-b1767c3b5e
+##############################################################################################################
+
+## story.yaml (sha256 2b97cf450cdb820e5d2c2c46ce7e3d7a25262446dcbbcb8db91174d914b1928b)
+# UJI GENERALISASI KE-3 (Phase 4.2-D): cerita kecil BARU di lingkungan luar yang SUDAH ADA (gang_kampung), sore hari.
+#  - tokoh berbeda dari benchmark & cerita ke-2: Pak Harjo (tua, peci, batik cokelat, kulit gelap), Wulan (muda,
+#    rambut panjang) — proporsi & siluet berbeda
+#  - primitif yang dipakai ulang (tanpa kode baru): makan (piring + sendok), pegang piring satu tangan,
+#    ambil dari meja, serahkan (berdiri -> duduk, gang sempit 3,6 m: tabrakan dunia relevan), minum
+#  - komposisi kamera dari solver umum (Phase 4.2-C); tidak ada parameter khusus engine untuk cerita ini
+judul: Kopi Sore di Gang
+suara: id-ID-ArdiNeural
+jeda: 0.3
+narasi:
+  - {id: n1, teks: "Sore itu, Pak Harjo makan nasi uduk di bangku depan rumahnya."}
+  - {id: n2, teks: "Wulan, tetangganya, membawakan secangkir kopi dari meja."}
+  - {id: n3, teks: "Kopinya, Pak. Masih hangat.", suara: id-ID-GadisNeural, nada: "+15Hz", jeda: 0.05}
+  - {id: n4, teks: "Wah, pas sekali. Terima kasih, Wulan."}
+  - {id: n5, teks: "Pak Harjo menyeruput kopinya pelan-pelan, menikmati sore di gang."}
+
+latar:
+  lokasi: gang_kampung
+  waktu: senja
+  cuaca: cerah
+  acak: 11
+  properti:
+    - {jenis: bangku, nama: bangku, posisi: [-1.45, 3.0], arah: 0}
+    - {jenis: meja_lipat, nama: meja_kopi, posisi: [-1.4, 4.55]}
+    - {jenis: pot_tanaman, posisi: [-1.6, 1.6]}
+    - {jenis: sepeda, posisi: [1.45, 5.6]}
+
+tokoh:
+  harjo:
+    posisi: [-1.45, 3.0]
+    hadap: wulan
+    tinggi: 1.68
+    rupa: {kulit: gelap, baju: [130, 82, 40], celana: [60, 58, 52], topi: peci, kumis: true, umur: tua}
+  wulan:
+    posisi: [-1.0, 4.45]          # mulai di samping meja kopi, lalu berjalan ke Harjo (bawa sambil jalan)
+    hadap: meja_kopi
+    tinggi: 1.58
+    rupa: {kulit: langsat, rambut: [panjang, hitam], baju: [70, 130, 110], celana: [50, 52, 80]}
+
+aksi:
+  - {tokoh: harjo, lakukan: duduk, dari: 0, kursi: bangku.duduk1}
+  - {tokoh: harjo, lakukan: makan, dari: 0, sampai: n2, benda: piring}
+  - {tokoh: harjo, lakukan: pegang, dari: n2, benda: piring}
+  - {tokoh: wulan, lakukan: ambil, dari: n2, benda: kopi, tempat: meja_kopi.meja}
+  - {tokoh: wulan, lakukan: jalan, dari: "n2:kopi", sampai: n3, ke: [-1.05, 3.25]}
+  - {tokoh: wulan, lakukan: hadap, dari: "n2:kopi", hadap: harjo}       # berbalik ke Harjo saat mulai berjalan
+  - {tokoh: wulan, lakukan: bicara, dari: n3, ekspresi: senyum, hadap: harjo}
+  - {tokoh: wulan, lakukan: serahkan, dari: "n3:Masih", benda: kopi, ke: harjo}
+  - {tokoh: harjo, lakukan: bicara, dari: n4, ekspresi: senyum, lalu: senyum, hadap: wulan}
+  - {tokoh: harjo, lakukan: minum, dari: n5, sampai: "n5:menikmati", benda: kopi}
+  - {tokoh: wulan, lakukan: senyum, dari: "n5:menikmati"}
+
+shot:
+  # gang sempit: aksi berlangsung SEPANJANG dinding (sumbu y) -> two-shot dari sisi tengah gang melihat keduanya
+  # (profil/3/4), wajah tidak saling menutupi; serah-terima di dalam bingkai (keterlihatan aksi)
+  - {mulai: n1, kamera: pembuka, subjek: harjo}
+  - {mulai: "n1:nasi", kamera: sedang, subjek: harjo, sudut: 30}
+  - {mulai: n2, kamera: penuh, subjek: wulan, ke_arah: harjo, sudut: 10}
+  - {mulai: n3, kamera: sedang, subjek: wulan, ke_arah: harjo, sudut: 10}
+  - {mulai: n4, kamera: sedang_dekat, subjek: harjo, sudut: 20}
+  - {mulai: n5, kamera: sedang, subjek: harjo, sudut: 30}
+  - {mulai: "n5:menikmati", kamera: penutup, subjek: harjo, ke_arah: wulan, tahan: 0.6, sudut: 10}
+
+musik:
+  suasana: ceria       # Phase 4.2: "tenang" tidak dikenal mesin audio (gagal di langkah audio sesudah render)
+  volume: 0.06
+
+
+## manifest.inputs
+{
+ "git_commit": null,
+ "source_hash": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+ "source_files": 40,
+ "story_hash": "2b97cf450cdb820e5d2c2c46ce7e3d7a25262446dcbbcb8db91174d914b1928b",
+ "timeline_hash": "49de9fb3063e19c61ec55e965386b6d3b3230fa9f932f2331886f0da9e424777",
+ "characters": {
+  "harjo": {
+   "chars_version": 20,
+   "spec_hash": "404fa6111aa339ed",
+   "rig_hash": "0ec7981d9a6e9926",
+   "n_files": 122
+  },
+  "wulan": {
+   "chars_version": 20,
+   "spec_hash": "c195a7eabe6ac4cb",
+   "rig_hash": "a92454be8cd620f2",
+   "n_files": 122
+  }
+ },
+ "asset_manifest_hash": "57c42af21291f3fd43060fdfeaca3b68e7ceea60a5c5c0f354ec85e695e2a443",
+ "plan_hash": "20f559d22d9d4f460767e51d47afe3b08de163840909c13726b5ffdb78ef93a3",
+ "tools_hash": "ca7a2f4b349c804da4cd308579a734e529c3c9243fef58e4bdbd621edfccd0c4"
+}
+
+## pengaturan render & keluaran (manifest.outputs, unik)
+- still_raw: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 10.4, "engine": "EEVEE", "glare": "scene", "resolution": [1080, 1920], "samples": 64}
+- still_graded: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 10.4, "engine": "EEVEE", "glare": "scene", "grading": ["colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.05:gamma=0.98", "unsharp=5:5:0.35:5:5:0.0", "vignette=0.45"], "resolution": [1080, 1920], "samples": 64}
+- still_graded: {"alpha_tokoh": "scene", "colab": false, "detik_per_still_rata2": 10.4, "engine": "EEVEE", "glare": "scene", "grading": ["colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98", "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'", "unsharp=5:5:0.35:5:5:0.0", "vignette=0.18"], "resolution": [1080, 1920], "samples": 64}
+- video: {"frames_build_ids": ["P4-b1767c3b5e"], "mode": "penuh", "provenance": {"chunks": 7, "status": "PASS"}}
+
+## daftar shot (plan.json)
+- shot 1: f1-60 establishing subjek=harjo ke_arah=None
+- shot 2: f61-145 medium subjek=harjo ke_arah=None
+- shot 3: f146-302 full subjek=wulan ke_arah=harjo
+- shot 4: f303-441 medium subjek=wulan ke_arah=harjo
+- shot 5: f442-604 mcu subjek=harjo ke_arah=None
+- shot 6: f605-675 medium subjek=harjo ke_arah=None
+- shot 7: f676-750 ending subjek=harjo ke_arah=wulan
+
+## koreksi grading per shot (grade_auto.json, build ini)
+- shot 1: override {}  hitam raw 0.01 -> graded 0.0247
+- shot 2: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0173 -> graded 0.0011
+- shot 3: override {}  hitam raw 0.0185 -> graded 0.0374
+- shot 4: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0536 -> graded 0.0048
+- shot 5: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.1023 -> graded 0.0135
+- shot 6: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0848 -> graded 0.0076
+- shot 7: override {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037}  hitam raw 0.0357 -> graded 0.0026
+
+## diff story.yaml Phase 4.1 (backup) -> Phase 4.2
+(cerita baru di 4.2 — tidak ada versi 4.1)

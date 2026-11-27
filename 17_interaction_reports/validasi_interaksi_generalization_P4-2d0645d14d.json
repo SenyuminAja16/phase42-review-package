@@ -1,0 +1,381 @@
+{
+ "frame": [
+  1,
+  616,
+  1
+ ],
+ "ringkasan": {
+  "jangkar_selisih_tinggi_cm": {
+   "min": 0.0,
+   "maks": 1.5459,
+   "rata2": 0.057,
+   "n": 616
+  },
+  "jangkar_selisih_datar_cm": {
+   "min": 0.0,
+   "maks": 4.68,
+   "rata2": 1.8348,
+   "n": 616
+  },
+  "wajah_terhalang_shot1": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 22
+  },
+  "wajah_terhalang_shot2": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 21
+  },
+  "kedalaman_min_benda_m": {
+   "min": 0.035,
+   "maks": 0.4739,
+   "rata2": 0.0694,
+   "n": 430
+  },
+  "jarak_tangan_ke_benda_px": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 430
+  },
+  "lompatan_layar_benda_px": {
+   "min": 0.0131,
+   "maks": 52.4015,
+   "rata2": 2.7486,
+   "n": 425
+  },
+  "wajah_terhalang_shot3": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 30
+  },
+  "wajah_terhalang_shot4": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 23
+  },
+  "wajah_terhalang_shot5": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 12
+  },
+  "wajah_terhalang_shot6": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 15
+  }
+ },
+ "jumlah_pelanggaran": {},
+ "pelanggaran": {},
+ "lompatan_benda_di_potongan_kamera_m": {
+  "benda_teh_dimas_0": [
+   [
+    220,
+    0.0055
+   ],
+   [
+    366,
+    0.1969
+   ],
+   [
+    483,
+    0.0388
+   ],
+   [
+    545,
+    0.0343
+   ]
+  ]
+ },
+ "ik_meleset": 0,
+ "status": {
+  "lapisan:lapisan+lapisan_belakang": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 430
+  },
+  "melayang:melayang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 430
+  },
+  "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 430
+  },
+  "lapisan:lengan_tersembunyi_saat_memegang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 430
+  },
+  "sutil:sutil_di_luar_wajan": {
+   "status": "NOT_APPLICABLE",
+   "kategori": "geometri",
+   "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+  },
+  "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 616
+  },
+  "tembus:tembus_tubuh": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 124
+  },
+  "wajah:wajah_terhalang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 123
+  },
+  "pandang:pandang_ke_kamera_saat_masak": {
+   "status": "NOT_APPLICABLE",
+   "kategori": "performa",
+   "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+  },
+  "efek_wajah:efek_menutupi_wajah": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 123
+  },
+  "temporal:lompatan_benda": {
+   "status": "PASS",
+   "kategori": "temporal",
+   "pelanggaran": 0,
+   "sampel": 425
+  },
+  "rencana_mulut:dialog_tanpa_gerak_mulut": {
+   "status": "PASS",
+   "kategori": "rencana",
+   "pelanggaran": 0,
+   "sampel": 2
+  },
+  "kedip:emosi_tanpa_kedip": {
+   "status": "PASS",
+   "kategori": "rencana",
+   "pelanggaran": 0,
+   "sampel": 2
+  },
+  "orientasi_genggam:teh_dimas_0": {
+   "status": "PASS",
+   "toleransi_derajat": 25,
+   "p95": 20.2,
+   "maks": 20.2,
+   "median": 11.9,
+   "di_atas_toleransi": 0,
+   "sampel": 430,
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:teh_dimas_0": {
+   "status": "PASS",
+   "skala_min_profil": 1.0,
+   "skala_min_terukur": 1.0,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 430,
+   "kategori": "genggam"
+  },
+  "tekuk_pergelangan:teh_dimas_0": {
+   "status": "PASS",
+   "nyaman_derajat": 30.0,
+   "batas_derajat": 45.0,
+   "p95": 18.6,
+   "maks": 43.8,
+   "di_atas_batas": 0,
+   "sampel": 430,
+   "kategori": "genggam"
+  },
+  "inversi_genggam:teh_dimas_0": {
+   "status": "PASS",
+   "frame": [],
+   "jumlah": 0,
+   "kategori": "genggam"
+  },
+  "kontak_mulut:teh_dimas_0": {
+   "status": "PASS",
+   "rasio_maks_thd_lebar": 0.003,
+   "batas_rasio": 0.25,
+   "frame_di_atas": [],
+   "sampel": 14,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:teh_dimas_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:teh_dimas_0": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:teh_dimas_0": {
+   "status": "PASS",
+   "maks": 43.8,
+   "batas_derajat": 45.0,
+   "batas_keras_derajat": 60.0,
+   "sampel": 20,
+   "kategori": "genggam"
+  },
+  "serah_terima": {
+   "status": "PASS",
+   "serah": [
+    {
+     "benda": "teh_dimas_0",
+     "frame": 325,
+     "pemberi": "dimas",
+     "penerima": "sri",
+     "titik": [
+      -2.078,
+      0.887,
+      0.747
+     ],
+     "residual_pemberi_px": 0.0,
+     "jarak_bebas_titik_m": 0.0621,
+     "jarak_bebas_lintasan_m": 0.0039,
+     "proxy_terdekat": "daun_meja",
+     "jumlah_proxy": 56,
+     "status_tabrakan": "mepet",
+     "residual_penerima_px": 0.0,
+     "status_jangkauan": "ok",
+     "pindah_tangan": true,
+     "diagnosa": {
+      "tangan_pemberi_lain_px": [
+       65.9,
+       68.3
+      ],
+      "titik_lain": [
+       -1.975,
+       0.859,
+       0.788
+      ],
+      "tampak": [
+       "q",
+       -1,
+       "front",
+       1
+      ]
+     },
+     "diagnosa_tabrakan": [
+      {
+       "tanpa_uji_tabrakan": {
+        "titik": [
+         -2.078,
+         0.887,
+         0.747
+        ],
+        "residual_px": [
+         0.0,
+         0.0
+        ],
+        "jarak_bebas_titik_m": 0.0621,
+        "jarak_bebas_lintasan_m": 0.0039
+       }
+      },
+      {
+       "tanpa_uji_tabrakan": {
+        "titik": [
+         -1.975,
+         0.859,
+         0.788
+        ],
+        "residual_px": [
+         65.9,
+         68.3
+        ],
+        "jarak_bebas_titik_m": 0.1028,
+        "jarak_bebas_lintasan_m": 0.0365
+       }
+      }
+     ],
+     "lompatan_m": 0.0077,
+     "residual_maks_m": 0.0,
+     "status": "PASS",
+     "alasan": []
+    }
+   ],
+   "toleransi": {
+    "px": 6.0,
+    "lompatan_m": 0.02,
+    "residual_m": 0.02
+   },
+   "kategori": "genggam"
+  },
+  "serah_terima_tabrakan": {
+   "status": "WARN",
+   "serah": [
+    {
+     "benda": "teh_dimas_0",
+     "frame": 325,
+     "jarak_bebas_titik_m": 0.0621,
+     "jarak_bebas_lintasan_m": 0.0039,
+     "proxy_terdekat": "daun_meja",
+     "status_tabrakan": "mepet"
+    }
+   ],
+   "kategori": "genggam"
+  },
+  "cabang_siku": {
+   "status": "PASS",
+   "kejadian": [],
+   "jumlah": 0,
+   "kategori": "temporal"
+  },
+  "transisi_kepemilikan": {
+   "status": "PASS",
+   "gagal": [],
+   "sampel": 7,
+   "lompatan_maks_m": 0.0083,
+   "toleransi": {
+    "lompatan_m": 0.02,
+    "px": 6.0
+   },
+   "kategori": "temporal"
+  },
+  "render_crush": {
+   "status": "NOT_TESTED",
+   "kategori": "render",
+   "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+  },
+  "render_alpha": {
+   "status": "NOT_TESTED",
+   "kategori": "render",
+   "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+  },
+  "audio_sinkron": {
+   "status": "NOT_TESTED",
+   "kategori": "render",
+   "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+  }
+ },
+ "status_ringkas": {
+  "PASS": 21,
+  "WARN": 1,
+  "FAIL": 0,
+  "NOT_TESTED": 3,
+  "NOT_APPLICABLE": 3
+ },
+ "efek_jaga_wajah_build": null,
+ "build_id": "P4-2d0645d14d",
+ "catatan": "PASS validator bukan bukti visual: lihat still diagnostik dengan build_id yang sama."
+}

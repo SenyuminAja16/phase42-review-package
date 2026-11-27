@@ -1,0 +1,26 @@
+== percobaan 1 15:14 GPU=G4,L4,A100 sesi=anim2d_b
+== Kopi Sore di Gang ==
+[render]
+  750 frame perlu dirender (build P4-64c0d0abdf)
+  render 750 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (0c5066f........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (385393b........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (06ef096........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 2 15:21 GPU=G4,L4,A100 sesi=anim2d_b
+== Kopi Sore di Gang ==
+[render]
+  750 frame perlu dirender (build P4-64c0d0abdf)
+  render 750 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (8fb5e33........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (c91ba73........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (ae6afb1........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal

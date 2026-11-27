@@ -1,0 +1,823 @@
+{
+ "build_id": "P4-2d0645d14d",
+ "shots": [
+  {
+   "shot": 1,
+   "kamera": "establishing",
+   "subjek": "sri",
+   "awal": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [],
+    "arah_wajah_thd_kamera_derajat": 0.0
+   },
+   "pilih": {
+    "yaw_derajat": 0,
+    "naik_m": 0.0,
+    "geser_m": 0.0
+   },
+   "akhir": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [],
+    "arah_wajah_thd_kamera_derajat": 0.0
+   }
+  },
+  {
+   "shot": 2,
+   "kamera": "medium",
+   "subjek": "dimas",
+   "awal": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.369,
+     0.418,
+     0.481
+    ],
+    "arah_wajah_thd_kamera_derajat": 64.0
+   },
+   "pilih": {
+    "yaw_derajat": 0,
+    "naik_m": 0.0,
+    "geser_m": 0.0
+   },
+   "akhir": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.369,
+     0.418,
+     0.481
+    ],
+    "arah_wajah_thd_kamera_derajat": 64.0
+   }
+  },
+  {
+   "shot": 3,
+   "kamera": "full",
+   "subjek": "dimas",
+   "awal": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.223,
+     0.246,
+     0.272
+    ],
+    "arah_wajah_thd_kamera_derajat": 70.9
+   },
+   "pilih": {
+    "yaw_derajat": 0,
+    "naik_m": 0.0,
+    "geser_m": 0.0
+   },
+   "akhir": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.223,
+     0.246,
+     0.272
+    ],
+    "arah_wajah_thd_kamera_derajat": 70.9
+   }
+  },
+  {
+   "shot": 4,
+   "kamera": "closeup",
+   "subjek": "sri",
+   "awal": {
+    "wajah_terhalang": 0.54,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [
+     "dimas"
+    ],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.859,
+     0.972,
+     1.12
+    ],
+    "arah_wajah_thd_kamera_derajat": 24.0
+   },
+   "pilih": {
+    "yaw_derajat": -25,
+    "naik_m": 0.0,
+    "geser_m": 0.0
+   },
+   "akhir": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.859,
+     0.972,
+     1.12
+    ],
+    "arah_wajah_thd_kamera_derajat": 49.0
+   }
+  },
+  {
+   "shot": 5,
+   "kamera": "medium",
+   "subjek": "sri",
+   "awal": {
+    "wajah_terhalang": 0.54,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [
+     "dimas"
+    ],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.461,
+     0.522,
+     0.602
+    ],
+    "arah_wajah_thd_kamera_derajat": 24.0
+   },
+   "pilih": {
+    "yaw_derajat": -30,
+    "naik_m": 0.0,
+    "geser_m": 0.0
+   },
+   "akhir": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.461,
+     0.522,
+     0.602
+    ],
+    "arah_wajah_thd_kamera_derajat": 54.0
+   }
+  },
+  {
+   "shot": 6,
+   "kamera": "wide",
+   "subjek": "sri",
+   "awal": {
+    "wajah_terhalang": 0.22,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [
+     "dimas"
+    ],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.123,
+     0.128,
+     0.133
+    ],
+    "arah_wajah_thd_kamera_derajat": 29.4
+   },
+   "pilih": {
+    "yaw_derajat": -25,
+    "naik_m": 0.0,
+    "geser_m": 0.0
+   },
+   "akhir": {
+    "wajah_terhalang": 0.0,
+    "kepala_depan_lebar": 0.0,
+    "penghalang": [
+     "dimas"
+    ],
+    "papan_terpotong": 0.0,
+    "wajah_di_pita_subtitle": false,
+    "ruang_depan_penalti": 0.0,
+    "cakupan_kepala_ndc": [
+     0.123,
+     0.128,
+     0.133
+    ],
+    "arah_wajah_thd_kamera_derajat": 54.4
+   }
+  }
+ ],
+ "komposisi": [
+  {
+   "shot": 1,
+   "kamera": "establishing",
+   "frame": 1,
+   "awal": {
+    "hr_ndc": 0.104,
+    "tinggi": 0.101,
+    "pusat_y": -0.144,
+    "kepala_y": -0.043,
+    "mata_y": -0.108,
+    "x": [
+     -0.631,
+     -0.46
+    ],
+    "kosong_atas": 0.521,
+    "kosong_bawah": 0.378
+   },
+   "akhir": {
+    "hr_ndc": 0.214,
+    "tinggi": 0.224,
+    "pusat_y": -0.235,
+    "kepala_y": -0.011,
+    "mata_y": -0.157,
+    "x": [
+     -0.498,
+     -0.2
+    ],
+    "kosong_atas": 0.506,
+    "kosong_bawah": 0.27
+   },
+   "koreksi": {
+    "lensa": [
+     24,
+     24
+    ],
+    "geser_bidik_m": 2.581,
+    "dolly_maju_m": 5.436
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 0.73,
+   "pita": {
+    "tinggi": [
+     0.2,
+     0.6
+    ],
+    "pusat_y": [
+     -0.24,
+     0.05
+    ]
+   }
+  },
+  {
+   "shot": 1,
+   "kamera": "establishing",
+   "frame": 114,
+   "awal": {
+    "hr_ndc": 0.211,
+    "tinggi": 0.214,
+    "pusat_y": -0.138,
+    "kepala_y": 0.076,
+    "mata_y": -0.06,
+    "x": [
+     0.0,
+     0.346
+    ],
+    "kosong_atas": 0.462,
+    "kosong_bawah": 0.324
+   },
+   "akhir": {
+    "hr_ndc": 0.334,
+    "tinggi": 0.346,
+    "pusat_y": -0.225,
+    "kepala_y": 0.121,
+    "mata_y": -0.097,
+    "x": [
+     -0.044,
+     0.525
+    ],
+    "kosong_atas": 0.439,
+    "kosong_bawah": 0.214
+   },
+   "koreksi": {
+    "lensa": [
+     28,
+     28
+    ],
+    "geser_bidik_m": 0.053,
+    "dolly_maju_m": 1.969
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.237,
+   "pita": {
+    "tinggi": [
+     0.34,
+     0.6
+    ],
+    "pusat_y": [
+     -0.24,
+     0.05
+    ]
+   }
+  },
+  {
+   "shot": 2,
+   "kamera": "medium",
+   "frame": 115,
+   "awal": {
+    "hr_ndc": 0.369,
+    "tinggi": 0.279,
+    "pusat_y": -0.07,
+    "kepala_y": 0.209,
+    "mata_y": 0.002,
+    "x": [
+     -0.0
+    ],
+    "kosong_atas": 0.395,
+    "kosong_bawah": 0.325
+   },
+   "akhir": {
+    "hr_ndc": 0.419,
+    "tinggi": 0.318,
+    "pusat_y": 0.279,
+    "kepala_y": 0.597,
+    "mata_y": 0.35,
+    "x": [
+     0.459
+    ],
+    "kosong_atas": 0.202,
+    "kosong_bawah": 0.48
+   },
+   "koreksi": {
+    "lensa": [
+     40,
+     30.7
+    ],
+    "geser_bidik_m": 0.617,
+    "dolly_maju_m": 1.051
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.709,
+   "pita": {
+    "tinggi": [
+     0.4,
+     0.78
+    ],
+    "kepala_y": [
+     0.58,
+     0.86
+    ]
+   }
+  },
+  {
+   "shot": 2,
+   "kamera": "medium",
+   "frame": 219,
+   "awal": {
+    "hr_ndc": 0.481,
+    "tinggi": 0.364,
+    "pusat_y": -0.092,
+    "kepala_y": 0.272,
+    "mata_y": 0.002,
+    "x": [
+     0.0
+    ],
+    "kosong_atas": 0.364,
+    "kosong_bawah": 0.272
+   },
+   "akhir": {
+    "hr_ndc": 0.419,
+    "tinggi": 0.318,
+    "pusat_y": 0.279,
+    "kepala_y": 0.597,
+    "mata_y": 0.35,
+    "x": [
+     0.459
+    ],
+    "kosong_atas": 0.202,
+    "kosong_bawah": 0.48
+   },
+   "koreksi": {
+    "lensa": [
+     40,
+     30.72
+    ],
+    "geser_bidik_m": 0.617,
+    "dolly_maju_m": 0.238
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.71,
+   "pita": {
+    "tinggi": [
+     0.4,
+     0.78
+    ],
+    "kepala_y": [
+     0.58,
+     0.86
+    ]
+   }
+  },
+  {
+   "shot": 3,
+   "kamera": "full",
+   "frame": 220,
+   "awal": {
+    "hr_ndc": 0.223,
+    "tinggi": 0.234,
+    "pusat_y": 0.02,
+    "kepala_y": 0.254,
+    "mata_y": 0.127,
+    "x": [
+     0.0
+    ],
+    "kosong_atas": 0.373,
+    "kosong_bawah": 0.393
+   },
+   "akhir": {
+    "hr_ndc": 0.41,
+    "tinggi": 0.427,
+    "pusat_y": 0.13,
+    "kepala_y": 0.556,
+    "mata_y": 0.317,
+    "x": [
+     0.455
+    ],
+    "kosong_atas": 0.222,
+    "kosong_bawah": 0.352
+   },
+   "koreksi": {
+    "lensa": [
+     35,
+     34.6
+    ],
+    "geser_bidik_m": 0.383,
+    "dolly_maju_m": 2.286
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.71,
+   "pita": {
+    "tinggi": [
+     0.55,
+     0.82
+    ],
+    "kepala_y": [
+     0.55,
+     0.84
+    ]
+   }
+  },
+  {
+   "shot": 3,
+   "kamera": "full",
+   "frame": 365,
+   "awal": {
+    "hr_ndc": 0.272,
+    "tinggi": 0.282,
+    "pusat_y": 0.026,
+    "kepala_y": 0.309,
+    "mata_y": 0.154,
+    "x": [
+     -0.0
+    ],
+    "kosong_atas": 0.346,
+    "kosong_bawah": 0.372
+   },
+   "akhir": {
+    "hr_ndc": 0.411,
+    "tinggi": 0.422,
+    "pusat_y": 0.137,
+    "kepala_y": 0.559,
+    "mata_y": 0.316,
+    "x": [
+     0.456
+    ],
+    "kosong_atas": 0.22,
+    "kosong_bawah": 0.357
+   },
+   "koreksi": {
+    "lensa": [
+     35,
+     28.13
+    ],
+    "geser_bidik_m": 0.386,
+    "dolly_maju_m": 1.886
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.703,
+   "pita": {
+    "tinggi": [
+     0.55,
+     0.82
+    ],
+    "kepala_y": [
+     0.55,
+     0.84
+    ]
+   }
+  },
+  {
+   "shot": 4,
+   "kamera": "closeup",
+   "frame": 366,
+   "awal": {
+    "hr_ndc": 0.859,
+    "tinggi": 0.721,
+    "pusat_y": -0.291,
+    "kepala_y": 0.43,
+    "mata_y": -0.055,
+    "x": [
+     -0.0
+    ],
+    "kosong_atas": 0.285,
+    "kosong_bawah": -0.006
+   },
+   "akhir": {
+    "hr_ndc": 0.861,
+    "tinggi": 0.712,
+    "pusat_y": -0.036,
+    "kepala_y": 0.676,
+    "mata_y": 0.18,
+    "x": [
+     -0.0
+    ],
+    "kosong_atas": 0.162,
+    "kosong_bawah": 0.126
+   },
+   "koreksi": {
+    "lensa": [
+     45,
+     45
+    ],
+    "geser_bidik_m": 0.197,
+    "dolly_maju_m": 0.0
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.718,
+   "pita": {
+    "mata_y": [
+     0.18,
+     0.42
+    ]
+   }
+  },
+  {
+   "shot": 4,
+   "kamera": "closeup",
+   "frame": 482,
+   "awal": {
+    "hr_ndc": 1.12,
+    "tinggi": 0.936,
+    "pusat_y": -0.374,
+    "kepala_y": 0.562,
+    "mata_y": -0.072,
+    "x": [
+     0.0
+    ],
+    "kosong_atas": 0.219,
+    "kosong_bawah": -0.155
+   },
+   "akhir": {
+    "hr_ndc": 0.863,
+    "tinggi": 0.705,
+    "pusat_y": -0.019,
+    "kepala_y": 0.686,
+    "mata_y": 0.179,
+    "x": [
+     0.0
+    ],
+    "kosong_atas": 0.157,
+    "kosong_bawah": 0.138
+   },
+   "koreksi": {
+    "lensa": [
+     45,
+     34.56
+    ],
+    "geser_bidik_m": 0.197,
+    "dolly_maju_m": 0.0
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.72,
+   "pita": {
+    "mata_y": [
+     0.18,
+     0.42
+    ]
+   }
+  },
+  {
+   "shot": 5,
+   "kamera": "medium",
+   "frame": 483,
+   "awal": {
+    "hr_ndc": 0.461,
+    "tinggi": 0.362,
+    "pusat_y": -0.197,
+    "kepala_y": 0.166,
+    "mata_y": -0.093,
+    "x": [
+     0.0
+    ],
+    "kosong_atas": 0.417,
+    "kosong_bawah": 0.221
+   },
+   "akhir": {
+    "hr_ndc": 0.482,
+    "tinggi": 0.375,
+    "pusat_y": 0.214,
+    "kepala_y": 0.59,
+    "mata_y": 0.309,
+    "x": [
+     -0.387
+    ],
+    "kosong_atas": 0.205,
+    "kosong_bawah": 0.42
+   },
+   "koreksi": {
+    "lensa": [
+     40,
+     37.28
+    ],
+    "geser_bidik_m": 0.706,
+    "dolly_maju_m": 0.328
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.717,
+   "pita": {
+    "tinggi": [
+     0.4,
+     0.78
+    ],
+    "kepala_y": [
+     0.58,
+     0.86
+    ]
+   }
+  },
+  {
+   "shot": 5,
+   "kamera": "medium",
+   "frame": 544,
+   "awal": {
+    "hr_ndc": 0.602,
+    "tinggi": 0.473,
+    "pusat_y": -0.257,
+    "kepala_y": 0.216,
+    "mata_y": -0.122,
+    "x": [
+     0.0
+    ],
+    "kosong_atas": 0.392,
+    "kosong_bawah": 0.135
+   },
+   "akhir": {
+    "hr_ndc": 0.479,
+    "tinggi": 0.372,
+    "pusat_y": 0.221,
+    "kepala_y": 0.594,
+    "mata_y": 0.311,
+    "x": [
+     -0.393
+    ],
+    "kosong_atas": 0.203,
+    "kosong_bawah": 0.424
+   },
+   "koreksi": {
+    "lensa": [
+     40,
+     31.14
+    ],
+    "geser_bidik_m": 0.721,
+    "dolly_maju_m": 0.0
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.715,
+   "pita": {
+    "tinggi": [
+     0.4,
+     0.78
+    ],
+    "kepala_y": [
+     0.58,
+     0.86
+    ]
+   }
+  },
+  {
+   "shot": 6,
+   "kamera": "wide",
+   "frame": 545,
+   "awal": {
+    "hr_ndc": 0.123,
+    "tinggi": 0.122,
+    "pusat_y": -0.076,
+    "kepala_y": 0.046,
+    "mata_y": -0.028,
+    "x": [
+     -0.0,
+     0.184
+    ],
+    "kosong_atas": 0.477,
+    "kosong_bawah": 0.401
+   },
+   "akhir": {
+    "hr_ndc": 0.29,
+    "tinggi": 0.3,
+    "pusat_y": -0.192,
+    "kepala_y": 0.108,
+    "mata_y": -0.068,
+    "x": [
+     -0.0,
+     0.455
+    ],
+    "kosong_atas": 0.446,
+    "kosong_bawah": 0.254
+   },
+   "koreksi": {
+    "lensa": [
+     24,
+     31.13
+    ],
+    "geser_bidik_m": 0.0,
+    "dolly_maju_m": 3.526
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 1.036,
+   "pita": {
+    "tinggi": [
+     0.3,
+     0.55
+    ],
+    "pusat_y": [
+     -0.24,
+     0.05
+    ]
+   }
+  },
+  {
+   "shot": 6,
+   "kamera": "wide",
+   "frame": 616,
+   "awal": {
+    "hr_ndc": 0.133,
+    "tinggi": 0.132,
+    "pusat_y": -0.083,
+    "kepala_y": 0.05,
+    "mata_y": -0.03,
+    "x": [
+     0.0,
+     0.184
+    ],
+    "kosong_atas": 0.475,
+    "kosong_bawah": 0.393
+   },
+   "akhir": {
+    "hr_ndc": 0.285,
+    "tinggi": 0.3,
+    "pusat_y": -0.194,
+    "kepala_y": 0.106,
+    "mata_y": -0.066,
+    "x": [
+     0.0,
+     0.419
+    ],
+    "kosong_atas": 0.447,
+    "kosong_bawah": 0.253
+   },
+   "koreksi": {
+    "lensa": [
+     24,
+     28.32
+    ],
+    "geser_bidik_m": 0.0,
+    "dolly_maju_m": 3.268
+   },
+   "override_cerita": false,
+   "lebar_total_ndc": 0.989,
+   "pita": {
+    "tinggi": [
+     0.3,
+     0.55
+    ],
+    "pusat_y": [
+     -0.24,
+     0.05
+    ]
+   }
+  }
+ ]
+}

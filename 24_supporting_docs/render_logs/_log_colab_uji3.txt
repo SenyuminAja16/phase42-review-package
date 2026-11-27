@@ -1,0 +1,64 @@
+== percobaan 1 17:01 GPU=G4,L4,A100 sesi=anim2d (lanjutan)
+== Kopi Sore di Gang ==
+[render]
+  750 frame perlu dirender (build P4-3b9aa5db79)
+  render 750 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (17.3 MB)
+    [colab] 120/750 frame, 1.9 dtk/frame, sisa ~20 menit
+    [colab] 240/750 frame, 1.5 dtk/frame, sisa ~13 menit
+    [colab] 360/750 frame, 1.4 dtk/frame, sisa ~9 menit
+    [colab] 480/750 frame, 1.3 dtk/frame, sisa ~6 menit
+    [colab] 600/750 frame, 1.2 dtk/frame, sisa ~3 menit
+    [colab] 720/750 frame, 1.2 dtk/frame, sisa ~1 menit
+    [colab] 750/750 frame, 1.2 dtk/frame, sisa ~0 menit
+[audio]
+
+KESALAHAN: musik suasana 'tenang' tidak dikenal. Pilihan: haru, ceria, tegang, misteri, tidak
+EXIT GAGAL_LAIN
+== percobaan 1 17:52 GPU=G4,L4,A100 sesi=anim2d (lanjutan2)
+== Kopi Sore di Gang ==
+[render]
+  750 frame perlu dirender (build P4-888954b55c)
+  render 750 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (17.3 MB)
+    [colab] 120/750 frame, 1.6 dtk/frame, sisa ~17 menit
+    [colab] 240/750 frame, 1.3 dtk/frame, sisa ~11 menit
+    [colab] 360/750 frame, 1.3 dtk/frame, sisa ~8 menit
+    [colab] 480/750 frame, 1.2 dtk/frame, sisa ~6 menit
+    [colab] 600/750 frame, 1.2 dtk/frame, sisa ~3 menit
+    [colab] 720/750 frame, 1.1 dtk/frame, sisa ~1 menit
+    [colab] 750/750 frame, 1.1 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'ceria', 2 efek suara
+[subtitle]
+  subtitle: 19 potongan
+[video]
+  provenance frame 1-750: PASS (7 potongan bermetadata)
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/uji3_kopi_sore/output/uji3_kopi_sore.mp4
+selesai dalam 15.6 menit
+EXIT 0
+== percobaan 1 19:26 GPU=G4,L4,A100 sesi=anim2d (lanjutan4)
+== Kopi Sore di Gang ==
+[render]
+  750 frame perlu dirender (build P4-b1767c3b5e)
+  render 750 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (17.3 MB)
+    [colab] 120/750 frame, 1.9 dtk/frame, sisa ~20 menit
+    [colab] 240/750 frame, 1.6 dtk/frame, sisa ~14 menit
+    [colab] 360/750 frame, 1.6 dtk/frame, sisa ~10 menit
+    [colab] 480/750 frame, 1.5 dtk/frame, sisa ~7 menit
+    [colab] 600/750 frame, 1.4 dtk/frame, sisa ~4 menit
+    [colab] 720/750 frame, 1.4 dtk/frame, sisa ~1 menit
+    [colab] 750/750 frame, 1.4 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'ceria', 2 efek suara
+[subtitle]
+  subtitle: 19 potongan
+[video]
+  provenance frame 1-750: PASS (7 potongan bermetadata)
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/uji3_kopi_sore/output/uji3_kopi_sore.mp4
+selesai dalam 18.5 menit
+EXIT 0

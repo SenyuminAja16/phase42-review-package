@@ -1,0 +1,74 @@
+{
+ "cerita": "uji3_kopi_sore",
+ "build_id": "P4-b1767c3b5e",
+ "ringkas": {
+  "WARN": 1,
+  "PASS": 3
+ },
+ "cek": {
+  "komposisi_pita": {
+   "status": "WARN",
+   "kunci_diuji": 15,
+   "di_luar_pita": [
+    {
+     "shot": 2,
+     "frame": 61,
+     "metrik": "tinggi",
+     "nilai": 0.399,
+     "pita": [
+      0.4,
+      0.78
+     ],
+     "status": "WARN"
+    },
+    {
+     "shot": 3,
+     "frame": 146,
+     "metrik": "tinggi",
+     "nilai": 0.304,
+     "pita": [
+      0.55,
+      0.82
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.63 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 3,
+     "frame": 302,
+     "metrik": "tinggi",
+     "nilai": 0.366,
+     "pita": [
+      0.55,
+      0.82
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.72 NDC, termasuk tokoh lain di bingkai)"
+    }
+   ]
+  },
+  "wajah_subjek": {
+   "status": "PASS",
+   "shot_diuji": 4,
+   "masalah": []
+  },
+  "aksi_dalam_shot": {
+   "status": "PASS",
+   "aksi": [
+    {
+     "frame": 398,
+     "benda": "kopi_wulan_2",
+     "shot": 4,
+     "kamera": "medium",
+     "status": "PASS"
+    }
+   ],
+   "catatan": "heuristik berbasis daftar shot; bukti visual = still/klip"
+  },
+  "suapan_dalam_shot": {
+   "status": "PASS",
+   "shot_diuji": 2,
+   "tanpa_kontak": []
+  }
+ }
+}

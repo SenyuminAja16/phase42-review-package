@@ -1,0 +1,120 @@
+== percobaan 1 16:03 GPU=G4,L4,A100 sesi=anim2d_b
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-da5e095e8a)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (efcca55........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (dacd49a........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (6d43948........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 2 16:10 GPU=G4,L4,A100 sesi=anim2d_b
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-da5e095e8a)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (b4fc56c........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (f0b4a8f........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (26b802a........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 1 16:51 GPU=G4,L4,A100 sesi=anim2d
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-da5e095e8a)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (18.3 MB)
+    [colab] 120/616 frame, 1.0 dtk/frame, sisa ~8 menit
+    [colab] 240/616 frame, 0.9 dtk/frame, sisa ~5 menit
+    [colab] 360/616 frame, 0.8 dtk/frame, sisa ~4 menit
+    [colab] 480/616 frame, 0.8 dtk/frame, sisa ~2 menit
+    [colab] 600/616 frame, 0.8 dtk/frame, sisa ~0 menit
+    [colab] 616/616 frame, 0.8 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'ceria', 1 efek suara
+[subtitle]
+  subtitle: 15 potongan
+[video]
+  provenance frame 1-616: PASS (6 potongan bermetadata)
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4
+selesai dalam 9.9 menit
+EXIT 0
+== percobaan 1 18:07 GPU=G4,L4,A100 sesi=anim2d (lanjutan2)
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-92a110fd6f)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (18.3 MB)
+    [colab] 120/616 frame, 1.2 dtk/frame, sisa ~10 menit
+    [colab] 240/616 frame, 1.1 dtk/frame, sisa ~7 menit
+    [colab] 360/616 frame, 1.0 dtk/frame, sisa ~4 menit
+    [colab] 480/616 frame, 1.0 dtk/frame, sisa ~2 menit
+    [colab] 600/616 frame, 1.0 dtk/frame, sisa ~0 menit
+    [colab] 616/616 frame, 1.1 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'ceria', 1 efek suara
+[subtitle]
+  subtitle: 15 potongan
+[video]
+  provenance frame 1-616: PASS (6 potongan bermetadata)
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4
+selesai dalam 12.1 menit
+== percobaan 1 19:45 GPU=G4,L4,A100 sesi=anim2d (lanjutan4)
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-2d0645d14d)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (18.3 MB)
+== 19:55 sesi anim2d dipangkas server (pruned 19:46) saat unggah; render generalisasi diulang
+== percobaan 1 19:55 GPU=G4,L4,A100 sesi=anim2d
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-2d0645d14d)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (c08fd0d........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (a53c009........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (0b3d0f2........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 2 20:02 GPU=G4,L4,A100 sesi=anim2d
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-2d0645d14d)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (724ff91........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (7d5de5c........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] siap: Hardware: A100
+  [colab] unggah adegan (18.3 MB)
+    [colab] potongan 1-120 bermasalah (timeout 240 dtk); coba ambil hasil
+    [colab] 120/616 frame, 9.8 dtk/frame, sisa ~81 menit
+    [colab] 240/616 frame, 6.6 dtk/frame, sisa ~42 menit
+    [colab] 360/616 frame, 5.4 dtk/frame, sisa ~23 menit
+    [colab] 480/616 frame, 4.6 dtk/frame, sisa ~10 menit
+    [colab] 600/616 frame, 4.4 dtk/frame, sisa ~1 menit
+    [colab] 616/616 frame, 4.3 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'ceria', 1 efek suara
+[subtitle]
+  subtitle: 15 potongan
+[video]
+  provenance frame 1-616: PASS (6 potongan bermetadata)
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4
+selesai dalam 47.4 menit
+EXIT 0
+  [colab] sesi 'anim2d' dihentikan
+SESI_DIHENTIKAN 20:50

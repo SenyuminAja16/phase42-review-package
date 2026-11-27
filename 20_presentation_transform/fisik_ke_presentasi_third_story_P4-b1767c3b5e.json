@@ -1,0 +1,235 @@
+{
+ "build_id": "P4-b1767c3b5e",
+ "catatan": "fisik → presentasi: skala benda (harus konstan), geser presentasi/blocking (dibatasi geser_maks profil), lompatan posisi benda di potongan kamera (DICATAT, tanpa ambang lolos/gagal), transisi kepemilikan",
+ "lompatan_benda_di_potongan_kamera_m": {
+  "benda_piring_harjo_0": [
+   [
+    61,
+    1.2183
+   ],
+   [
+    146,
+    0.1697
+   ],
+   [
+    303,
+    0.0511
+   ],
+   [
+    442,
+    0.6586
+   ],
+   [
+    605,
+    0.1774
+   ],
+   [
+    676,
+    0.1683
+   ]
+  ],
+  "benda_sendok_harjo_1": [
+   [
+    61,
+    1.2026
+   ]
+  ],
+  "benda_kopi_wulan_2": [
+   [
+    303,
+    0.0041
+   ],
+   [
+    442,
+    0.4987
+   ],
+   [
+    605,
+    0.1371
+   ],
+   [
+    676,
+    0.1057
+   ]
+  ]
+ },
+ "lompatan_layar_benda_px_dalam_shot": {
+  "min": 0.0043,
+  "maks": 31.9956,
+  "rata2": 2.1306,
+  "n": 1287
+ },
+ "transisi_kepemilikan": [
+  {
+   "benda": "sendok_harjo_1",
+   "frame": 118,
+   "dari": "hand:harjo",
+   "ke": "place:harjo",
+   "lompatan_m": 0.0004,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "sendok_harjo_1",
+   "frame": 132,
+   "dari": "place:harjo",
+   "ke": "on:None",
+   "lompatan_m": 0.0002,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "kopi_wulan_2",
+   "frame": 162,
+   "dari": "world:None",
+   "ke": "carry:wulan",
+   "lompatan_m": 0.0,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "kopi_wulan_2",
+   "frame": 174,
+   "dari": "carry:wulan",
+   "ke": "hand:wulan",
+   "lompatan_m": 0.0067,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "kopi_wulan_2",
+   "frame": 384,
+   "dari": "hand:wulan",
+   "ke": "carry:wulan",
+   "lompatan_m": 0.0002,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "kopi_wulan_2",
+   "frame": 398,
+   "dari": "carry:wulan",
+   "ke": "carry:harjo",
+   "lompatan_m": 0.0106,
+   "residual_maks_m": 0.001,
+   "residual_maks_px": 1.2
+  },
+  {
+   "benda": "kopi_wulan_2",
+   "frame": 410,
+   "dari": "carry:harjo",
+   "ke": "hand:harjo",
+   "lompatan_m": 0.0008,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  }
+ ],
+ "validator": {
+  "temporal:lompatan_benda": {
+   "status": "PASS",
+   "kategori": "temporal",
+   "pelanggaran": 0,
+   "sampel": 1287
+  },
+  "skala_fisik_benda:piring_harjo_0": {
+   "status": "PASS",
+   "skala_min_profil": 1.0,
+   "skala_min_terukur": 1.0,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 711,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:piring_harjo_0": {
+   "status": "PASS",
+   "maks_m": 0.0,
+   "batas_m": 0.04,
+   "sampel": 0,
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:sendok_harjo_1": {
+   "status": "PASS",
+   "skala_min_profil": 0.9,
+   "skala_min_terukur": 0.9918,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 78,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:sendok_harjo_1": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:kopi_wulan_2": {
+   "status": "PASS",
+   "skala_min_profil": 1.0,
+   "skala_min_terukur": 1.0,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 512,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:kopi_wulan_2": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  }
+ },
+ "per_benda": {
+  "piring_harjo_0": {
+   "skala_presentasi_min_max": [
+    1.0,
+    1.0
+   ],
+   "geser_blocking_presentasi_maks_m": 0.0,
+   "geser_maks_profil_m": 0.04,
+   "frame_geser_di_atas_batas": [],
+   "geser_presentasi_per_frame": {},
+   "skala_min_profil": 1.0
+  },
+  "sendok_harjo_1": {
+   "skala_presentasi_min_max": [
+    0.9918,
+    1.0134
+   ],
+   "geser_blocking_presentasi_maks_m": 0.0,
+   "geser_maks_profil_m": null,
+   "frame_geser_di_atas_batas": [],
+   "geser_presentasi_per_frame": {},
+   "skala_min_profil": 0.9
+  },
+  "kopi_wulan_2": {
+   "skala_presentasi_min_max": [
+    1.0,
+    1.0
+   ],
+   "geser_blocking_presentasi_maks_m": 0.0002,
+   "geser_maks_profil_m": null,
+   "frame_geser_di_atas_batas": [],
+   "geser_presentasi_per_frame": {
+    "399": [
+     0.0002,
+     "q"
+    ],
+    "400": [
+     0.0002,
+     "q"
+    ],
+    "403": [
+     0.0002,
+     "q"
+    ],
+    "404": [
+     0.0,
+     "q"
+    ],
+    "407": [
+     0.0001,
+     "q"
+    ]
+   },
+   "skala_min_profil": 1.0
+  }
+ }
+}

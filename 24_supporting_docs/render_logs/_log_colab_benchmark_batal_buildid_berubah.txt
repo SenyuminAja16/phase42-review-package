@@ -1,0 +1,14 @@
+== percobaan 1 15:45 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-2d9ee5687a)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (78ad93e........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (195ec63........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] kernel tidak merespons -> restart kernel
+  [colab] siap: Hardware: A100
+  [colab] unggah adegan (49.0 MB)
+    [colab] 120/860 frame, 5.7 dtk/frame, sisa ~71 menit

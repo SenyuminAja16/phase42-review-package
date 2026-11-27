@@ -1,0 +1,6720 @@
+{
+ "catatan": "status validator final per cerita. File validasi.json / validasi_interaksi.json di build/ berasal dari build LAMA (4.1 atau perantara) dan tidak dipakai; hanya validasi_p42.json (build final) dan validasi_kamera.json.",
+ "status_yang_dipakai": [
+  "PASS",
+  "WARN",
+  "FAIL",
+  "NOT_TESTED",
+  "NOT_APPLICABLE"
+ ],
+ "benchmark": {
+  "build_id": "P4-486e18fc49",
+  "interaksi": {
+   "frame": [
+    1,
+    860,
+    1
+   ],
+   "ringkasan": {
+    "kedalaman_min_benda_m": {
+     "min": 0.0344,
+     "maks": 0.3811,
+     "rata2": 0.0917,
+     "n": 902
+    },
+    "jarak_tangan_ke_benda_px": {
+     "min": 0.0,
+     "maks": 0.9514,
+     "rata2": 0.035,
+     "n": 902
+    },
+    "kedalaman_maks_benda_belakang_m": {
+     "min": -0.3474,
+     "maks": -0.0447,
+     "rata2": -0.2648,
+     "n": 231
+    },
+    "sutil_jarak_ke_pusat_wajan_m": {
+     "min": 0.0455,
+     "maks": 0.066,
+     "rata2": 0.0578,
+     "n": 860
+    },
+    "dingklik_kedalaman_maks_m": {
+     "min": -0.0492,
+     "maks": -0.0405,
+     "rata2": -0.0439,
+     "n": 860
+    },
+    "dudukan_selisih_fisik_cm": {
+     "min": 0.0,
+     "maks": 1.5812,
+     "rata2": 0.0887,
+     "n": 860
+    },
+    "dudukan_selisih_kanvas_px": {
+     "min": 0.0012,
+     "maks": 13.9898,
+     "rata2": 1.3374,
+     "n": 639
+    },
+    "pandang_ke_bawah_saat_masak": {
+     "min": 1.0,
+     "maks": 1.0,
+     "rata2": 1.0,
+     "n": 225
+    },
+    "lompatan_layar_benda_px": {
+     "min": 0.0073,
+     "maks": 43.8864,
+     "rata2": 3.2378,
+     "n": 890
+    },
+    "wajah_terhalang_shot2": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 17
+    },
+    "wajah_terhalang_shot3": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 8
+    },
+    "wajah_terhalang_shot5": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 11
+    },
+    "wajah_terhalang_shot6": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 35
+    },
+    "wajah_terhalang_shot8": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 14
+    },
+    "wajah_terhalang_shot9": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 18
+    },
+    "wajah_terhalang_shot10": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 6
+    },
+    "wajah_terhalang_shot11": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 26
+    }
+   },
+   "jumlah_pelanggaran": {},
+   "pelanggaran": {},
+   "lompatan_benda_di_potongan_kamera_m": {
+    "benda_sutil_darto_0": [
+     [
+      75,
+      0.068
+     ],
+     [
+      159,
+      0.1293
+     ],
+     [
+      199,
+      0.1316
+     ],
+     [
+      226,
+      0.0593
+     ],
+     [
+      282,
+      0.0667
+     ]
+    ],
+    "benda_piring_jali_1": [
+     [
+      75,
+      0.4619
+     ],
+     [
+      159,
+      0.1108
+     ],
+     [
+      199,
+      0.3685
+     ],
+     [
+      226,
+      0.2214
+     ],
+     [
+      282,
+      0.0017
+     ],
+     [
+      458,
+      0.3649
+     ],
+     [
+      541,
+      0.4561
+     ],
+     [
+      612,
+      0.0744
+     ],
+     [
+      703,
+      0.0058
+     ],
+     [
+      732,
+      0.3475
+     ]
+    ],
+    "benda_sendok_jali_2": [
+     [
+      75,
+      0.4525
+     ],
+     [
+      159,
+      0.113
+     ],
+     [
+      199,
+      0.1925
+     ],
+     [
+      226,
+      0.1695
+     ]
+    ]
+   },
+   "ik_meleset": 0,
+   "status": {
+    "lapisan:lapisan+lapisan_belakang": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 1133
+    },
+    "melayang:melayang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 902
+    },
+    "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 902
+    },
+    "lapisan:lengan_tersembunyi_saat_memegang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 1133
+    },
+    "sutil:sutil_di_luar_wajan": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 860
+    },
+    "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 860
+    },
+    "tembus:tembus_tubuh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 174
+    },
+    "wajah:wajah_terhalang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 135
+    },
+    "pandang:pandang_ke_kamera_saat_masak": {
+     "status": "PASS",
+     "kategori": "performa",
+     "pelanggaran": 0,
+     "sampel": 225
+    },
+    "efek_wajah:efek_menutupi_wajah": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 152
+    },
+    "temporal:lompatan_benda": {
+     "status": "PASS",
+     "kategori": "temporal",
+     "pelanggaran": 0,
+     "sampel": 890
+    },
+    "rencana_mulut:dialog_tanpa_gerak_mulut": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 3
+    },
+    "kedip:emosi_tanpa_kedip": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "orientasi_genggam:sutil_darto_0": {
+     "status": "PASS",
+     "toleransi_derajat": 10,
+     "p95": 8.2,
+     "maks": 8.3,
+     "median": 5.6,
+     "di_atas_toleransi": 0,
+     "sampel": 225,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:sutil_darto_0": {
+     "status": "PASS",
+     "skala_min_profil": 0.9,
+     "skala_min_terukur": 0.9941,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 225,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:sutil_darto_0": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 25.5,
+     "maks": 35.9,
+     "di_atas_batas": 0,
+     "sampel": 225,
+     "kategori": "genggam"
+    },
+    "inversi_genggam:sutil_darto_0": {
+     "status": "PASS",
+     "frame": [],
+     "jumlah": 0,
+     "kategori": "genggam"
+    },
+    "kontak_mulut:sutil_darto_0": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada fase kontak mulut yang terlihat",
+     "kategori": "genggam"
+    },
+    "geser_presentasi:sutil_darto_0": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "profil tanpa geser_maks",
+     "kategori": "genggam"
+    },
+    "tabrakan_dunia:sutil_darto_0": {
+     "status": "PASS",
+     "toleransi_tembus_m": 0.005,
+     "tembus": [],
+     "sentuh": [],
+     "mepet_frame": 0,
+     "terdalam_m": 0.0,
+     "kategori": "genggam"
+    },
+    "pergelangan_fase_kontak:sutil_darto_0": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada fase kontak kritis",
+     "kategori": "genggam"
+    },
+    "orientasi_genggam:piring_jali_1": {
+     "status": "PASS",
+     "toleransi_derajat": 20,
+     "p95": 10.0,
+     "maks": 13.8,
+     "median": 3.0,
+     "di_atas_toleransi": 0,
+     "sampel": 565,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:piring_jali_1": {
+     "status": "PASS",
+     "skala_min_profil": 1.0,
+     "skala_min_terukur": 1.0,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 565,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:piring_jali_1": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 0.0,
+     "maks": 0.0,
+     "di_atas_batas": 0,
+     "sampel": 565,
+     "kategori": "genggam"
+    },
+    "inversi_genggam:piring_jali_1": {
+     "status": "PASS",
+     "frame": [],
+     "jumlah": 0,
+     "kategori": "genggam"
+    },
+    "kontak_mulut:piring_jali_1": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada fase kontak mulut yang terlihat",
+     "kategori": "genggam"
+    },
+    "geser_presentasi:piring_jali_1": {
+     "status": "PASS",
+     "maks_m": 0.0,
+     "batas_m": 0.04,
+     "sampel": 0,
+     "kategori": "genggam"
+    },
+    "tabrakan_dunia:piring_jali_1": {
+     "status": "PASS",
+     "toleransi_tembus_m": 0.005,
+     "tembus": [],
+     "sentuh": [],
+     "mepet_frame": 6,
+     "terdalam_m": 0.0041,
+     "kategori": "genggam"
+    },
+    "pergelangan_fase_kontak:piring_jali_1": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada fase kontak kritis",
+     "kategori": "genggam"
+    },
+    "orientasi_genggam:sendok_jali_2": {
+     "status": "PASS",
+     "toleransi_derajat": 10,
+     "p95": 8.2,
+     "maks": 8.2,
+     "median": 5.2,
+     "di_atas_toleransi": 0,
+     "sampel": 112,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:sendok_jali_2": {
+     "status": "PASS",
+     "skala_min_profil": 0.9,
+     "skala_min_terukur": 0.993,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 112,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:sendok_jali_2": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 7.8,
+     "maks": 26.7,
+     "di_atas_batas": 0,
+     "sampel": 112,
+     "kategori": "genggam"
+    },
+    "inversi_genggam:sendok_jali_2": {
+     "status": "PASS",
+     "frame": [],
+     "jumlah": 0,
+     "kategori": "genggam"
+    },
+    "kontak_mulut:sendok_jali_2": {
+     "status": "PASS",
+     "rasio_maks_thd_lebar": 0.0,
+     "batas_rasio": 0.25,
+     "frame_di_atas": [],
+     "sampel": 13,
+     "kategori": "genggam"
+    },
+    "geser_presentasi:sendok_jali_2": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "profil tanpa geser_maks",
+     "kategori": "genggam"
+    },
+    "tabrakan_dunia:sendok_jali_2": {
+     "status": "PASS",
+     "toleransi_tembus_m": 0.005,
+     "tembus": [],
+     "sentuh": [],
+     "mepet_frame": 0,
+     "terdalam_m": 0.0,
+     "kategori": "genggam"
+    },
+    "pergelangan_fase_kontak:sendok_jali_2": {
+     "status": "PASS",
+     "maks": 5.6,
+     "batas_derajat": 45.0,
+     "batas_keras_derajat": 60.0,
+     "sampel": 22,
+     "kategori": "genggam"
+    },
+    "serah_terima": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada serah-terima",
+     "kategori": "genggam"
+    },
+    "serah_terima_tabrakan": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada serah-terima",
+     "kategori": "genggam"
+    },
+    "cabang_siku": {
+     "status": "PASS",
+     "kejadian": [],
+     "jumlah": 0,
+     "kategori": "temporal"
+    },
+    "transisi_kepemilikan": {
+     "status": "PASS",
+     "gagal": [],
+     "sampel": 3,
+     "lompatan_maks_m": 0.0002,
+     "toleransi": {
+      "lompatan_m": 0.02,
+      "px": 6.0
+     },
+     "kategori": "temporal"
+    },
+    "render_crush": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "render_alpha": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "audio_sinkron": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    }
+   },
+   "status_ringkas": {
+    "PASS": 33,
+    "WARN": 0,
+    "FAIL": 0,
+    "NOT_TESTED": 3,
+    "NOT_APPLICABLE": 8
+   },
+   "efek_jaga_wajah_build": {
+    "uap": {
+     "objek": 10,
+     "frame_dipudarkan": 1541
+    },
+    "daun_jatuh": {
+     "objek": 45,
+     "frame_dipudarkan": 15
+    }
+   },
+   "build_id": "P4-486e18fc49",
+   "catatan": "PASS validator bukan bukti visual: lihat still diagnostik dengan build_id yang sama."
+  },
+  "kamera": {
+   "cerita": "benchmark_warung",
+   "build_id": "P4-486e18fc49",
+   "ringkas": {
+    "WARN": 1,
+    "PASS": 2,
+    "NOT_APPLICABLE": 1
+   },
+   "cek": {
+    "komposisi_pita": {
+     "status": "WARN",
+     "kunci_diuji": 19,
+     "di_luar_pita": [
+      {
+       "shot": 2,
+       "frame": 75,
+       "metrik": "tinggi",
+       "nilai": 0.287,
+       "pita": [
+        0.55,
+        0.82
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.62 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 2,
+       "frame": 158,
+       "metrik": "tinggi",
+       "nilai": 0.286,
+       "pita": [
+        0.55,
+        0.82
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.61 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 5,
+       "frame": 226,
+       "metrik": "tinggi",
+       "nilai": 0.399,
+       "pita": [
+        0.4,
+        0.78
+       ],
+       "status": "WARN"
+      },
+      {
+       "shot": 10,
+       "frame": 731,
+       "metrik": "mata_y",
+       "nilai": 0.179,
+       "pita": [
+        0.18,
+        0.42
+       ],
+       "status": "WARN"
+      }
+     ]
+    },
+    "wajah_subjek": {
+     "status": "PASS",
+     "shot_diuji": 6,
+     "masalah": []
+    },
+    "aksi_dalam_shot": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada aksi dua tokoh"
+    },
+    "suapan_dalam_shot": {
+     "status": "PASS",
+     "shot_diuji": 2,
+     "tanpa_kontak": []
+    }
+   }
+  },
+  "sebidang_zfighting": {
+   "tol_m": 0.0008,
+   "jumlah_pasangan": 277,
+   "pasangan": [
+    {
+     "objek": [
+      "jendela_jauh.050",
+      "jendela_jauh.086"
+     ],
+     "luas_m2": 0.1414
+    },
+    {
+     "objek": [
+      "bodi.003",
+      "bodi.009"
+     ],
+     "luas_m2": 0.1331
+    },
+    {
+     "objek": [
+      "jendela_jauh.201",
+      "jendela_jauh.202"
+     ],
+     "luas_m2": 0.1016
+    },
+    {
+     "objek": [
+      "jari_roda.002",
+      "jari_roda.008"
+     ],
+     "luas_m2": 0.0864
+    },
+    {
+     "objek": [
+      "jari_roda.003",
+      "jari_roda.007"
+     ],
+     "luas_m2": 0.0864
+    },
+    {
+     "objek": [
+      "jari_roda.012",
+      "jari_roda.018"
+     ],
+     "luas_m2": 0.0864
+    },
+    {
+     "objek": [
+      "jari_roda.013",
+      "jari_roda.017"
+     ],
+     "luas_m2": 0.0864
+    },
+    {
+     "objek": [
+      "jendela_jauh.017",
+      "jendela_jauh.024"
+     ],
+     "luas_m2": 0.0818
+    },
+    {
+     "objek": [
+      "jari_roda.002",
+      "jari_roda.003"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jari_roda.002",
+      "jari_roda.007"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jari_roda.003",
+      "jari_roda.008"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jari_roda.007",
+      "jari_roda.008"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jari_roda.012",
+      "jari_roda.013"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jari_roda.012",
+      "jari_roda.017"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jari_roda.013",
+      "jari_roda.018"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jari_roda.017",
+      "jari_roda.018"
+     ],
+     "luas_m2": 0.0634
+    },
+    {
+     "objek": [
+      "jendela_jauh.049",
+      "jendela_jauh.079"
+     ],
+     "luas_m2": 0.0544
+    },
+    {
+     "objek": [
+      "jari_roda.001",
+      "jari_roda.009"
+     ],
+     "luas_m2": 0.0544
+    },
+    {
+     "objek": [
+      "jari_roda.004",
+      "jari_roda.006"
+     ],
+     "luas_m2": 0.0544
+    },
+    {
+     "objek": [
+      "jari_roda.011",
+      "jari_roda.019"
+     ],
+     "luas_m2": 0.0544
+    },
+    {
+     "objek": [
+      "jari_roda.014",
+      "jari_roda.016"
+     ],
+     "luas_m2": 0.0544
+    },
+    {
+     "objek": [
+      "jendela_jauh.062",
+      "jendela_jauh.067"
+     ],
+     "luas_m2": 0.0539
+    },
+    {
+     "objek": [
+      "jari_roda.001",
+      "jari_roda.002"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.001",
+      "jari_roda.008"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.002",
+      "jari_roda.009"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.003",
+      "jari_roda.004"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.003",
+      "jari_roda.006"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.004",
+      "jari_roda.007"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.006",
+      "jari_roda.007"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.008",
+      "jari_roda.009"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.011",
+      "jari_roda.012"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.011",
+      "jari_roda.018"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.012",
+      "jari_roda.019"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.013",
+      "jari_roda.014"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.013",
+      "jari_roda.016"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.014",
+      "jari_roda.017"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.016",
+      "jari_roda.017"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jari_roda.018",
+      "jari_roda.019"
+     ],
+     "luas_m2": 0.0465
+    },
+    {
+     "objek": [
+      "jendela_jauh.003",
+      "jendela_jauh.013"
+     ],
+     "luas_m2": 0.0385
+    },
+    {
+     "objek": [
+      "jari_roda.001",
+      "jari_roda.003"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.001",
+      "jari_roda.007"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.002",
+      "jari_roda.004"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.002",
+      "jari_roda.006"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.003",
+      "jari_roda.009"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.004",
+      "jari_roda.008"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.006",
+      "jari_roda.008"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.007",
+      "jari_roda.009"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.011",
+      "jari_roda.013"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.011",
+      "jari_roda.017"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.012",
+      "jari_roda.014"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.012",
+      "jari_roda.016"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.013",
+      "jari_roda.019"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.014",
+      "jari_roda.018"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.016",
+      "jari_roda.018"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jari_roda.017",
+      "jari_roda.019"
+     ],
+     "luas_m2": 0.0341
+    },
+    {
+     "objek": [
+      "jendela_jauh.064",
+      "jendela_jauh.076"
+     ],
+     "luas_m2": 0.0308
+    },
+    {
+     "objek": [
+      "jendela_jauh.052",
+      "jendela_jauh.056"
+     ],
+     "luas_m2": 0.0274
+    },
+    {
+     "objek": [
+      "jari_roda.001",
+      "jari_roda.004"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "jari_roda.001",
+      "jari_roda.006"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "jari_roda.004",
+      "jari_roda.009"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "jari_roda.006",
+      "jari_roda.009"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "jari_roda.011",
+      "jari_roda.014"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "jari_roda.011",
+      "jari_roda.016"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "jari_roda.014",
+      "jari_roda.019"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "jari_roda.016",
+      "jari_roda.019"
+     ],
+     "luas_m2": 0.0184
+    },
+    {
+     "objek": [
+      "kanstin.114",
+      "trotoar"
+     ],
+     "luas_m2": 0.0104
+    },
+    {
+     "objek": [
+      "kanstin.229",
+      "trotoar.001"
+     ],
+     "luas_m2": 0.0104
+    },
+    {
+     "objek": [
+      "kanstin",
+      "trotoar"
+     ],
+     "luas_m2": 0.0104
+    },
+    {
+     "objek": [
+      "kanstin.115",
+      "trotoar.001"
+     ],
+     "luas_m2": 0.0104
+    },
+    {
+     "objek": [
+      "jendela_jauh.201",
+      "jendela_jauh.203"
+     ],
+     "luas_m2": 0.0093
+    },
+    {
+     "objek": [
+      "lis_fasad",
+      "pilaster"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad",
+      "pilaster.001"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.001",
+      "pilaster.002"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.001",
+      "pilaster.003"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.002",
+      "pilaster.002"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.002",
+      "pilaster.003"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.003",
+      "pilaster.004"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.003",
+      "pilaster.005"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.004",
+      "pilaster.004"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.004",
+      "pilaster.005"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.005",
+      "pilaster.006"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.005",
+      "pilaster.007"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.006",
+      "pilaster.006"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.006",
+      "pilaster.007"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.007",
+      "pilaster.008"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.007",
+      "pilaster.009"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.008",
+      "pilaster.010"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.008",
+      "pilaster.011"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.009",
+      "pilaster.012"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.009",
+      "pilaster.013"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.010",
+      "pilaster.012"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.010",
+      "pilaster.013"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.011",
+      "pilaster.014"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.011",
+      "pilaster.015"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.012",
+      "pilaster.014"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.012",
+      "pilaster.015"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.013",
+      "pilaster.016"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.013",
+      "pilaster.017"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.014",
+      "pilaster.016"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.014",
+      "pilaster.017"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.015",
+      "pilaster.016"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.015",
+      "pilaster.017"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.016",
+      "pilaster.018"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.016",
+      "pilaster.019"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.017",
+      "pilaster.020"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.017",
+      "pilaster.021"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.018",
+      "pilaster.020"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.018",
+      "pilaster.021"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.019",
+      "pilaster.022"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.019",
+      "pilaster.023"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.020",
+      "pilaster.022"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.020",
+      "pilaster.023"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.021",
+      "pilaster.022"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.021",
+      "pilaster.023"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.022",
+      "pilaster.024"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.022",
+      "pilaster.025"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.023",
+      "pilaster.026"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.023",
+      "pilaster.027"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.024",
+      "pilaster.028"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.024",
+      "pilaster.029"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.025",
+      "pilaster.030"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.025",
+      "pilaster.031"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.026",
+      "pilaster.032"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.026",
+      "pilaster.033"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.027",
+      "pilaster.034"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.027",
+      "pilaster.035"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.028",
+      "pilaster.034"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.028",
+      "pilaster.035"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.029",
+      "pilaster.036"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.029",
+      "pilaster.037"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.030",
+      "pilaster.036"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.030",
+      "pilaster.037"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.031",
+      "pilaster.038"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.031",
+      "pilaster.039"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.032",
+      "pilaster.038"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.032",
+      "pilaster.039"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.033",
+      "pilaster.040"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.033",
+      "pilaster.041"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.034",
+      "pilaster.042"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.034",
+      "pilaster.043"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.035",
+      "pilaster.042"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.035",
+      "pilaster.043"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.036",
+      "pilaster.044"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.036",
+      "pilaster.045"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.037",
+      "pilaster.046"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.037",
+      "pilaster.047"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.038",
+      "pilaster.048"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.039",
+      "pilaster.048"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.040",
+      "pilaster.048"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.038",
+      "pilaster.049"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.039",
+      "pilaster.049"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.040",
+      "pilaster.049"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.041",
+      "pilaster.050"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.042",
+      "pilaster.050"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.041",
+      "pilaster.051"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.042",
+      "pilaster.051"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.043",
+      "pilaster.052"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.044",
+      "pilaster.052"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.043",
+      "pilaster.053"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.044",
+      "pilaster.053"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.045",
+      "pilaster.054"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.045",
+      "pilaster.055"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.046",
+      "pilaster.056"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.047",
+      "pilaster.056"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.046",
+      "pilaster.057"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.047",
+      "pilaster.057"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.048",
+      "pilaster.058"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.048",
+      "pilaster.059"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.049",
+      "pilaster.060"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.050",
+      "pilaster.060"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.049",
+      "pilaster.061"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.050",
+      "pilaster.061"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.051",
+      "pilaster.062"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.052",
+      "pilaster.062"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.053",
+      "pilaster.062"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.051",
+      "pilaster.063"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.052",
+      "pilaster.063"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.053",
+      "pilaster.063"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.054",
+      "pilaster.064"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.055",
+      "pilaster.064"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.054",
+      "pilaster.065"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.055",
+      "pilaster.065"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.056",
+      "pilaster.066"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.057",
+      "pilaster.066"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.058",
+      "pilaster.066"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.056",
+      "pilaster.067"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.057",
+      "pilaster.067"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.058",
+      "pilaster.067"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.059",
+      "pilaster.068"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.059",
+      "pilaster.069"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.060",
+      "pilaster.070"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.060",
+      "pilaster.071"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.061",
+      "pilaster.072"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.062",
+      "pilaster.072"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.061",
+      "pilaster.073"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.062",
+      "pilaster.073"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.063",
+      "pilaster.074"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.064",
+      "pilaster.074"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.063",
+      "pilaster.075"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.064",
+      "pilaster.075"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.065",
+      "pilaster.076"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.065",
+      "pilaster.077"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.066",
+      "pilaster.078"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.067",
+      "pilaster.078"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.066",
+      "pilaster.079"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.067",
+      "pilaster.079"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.068",
+      "pilaster.080"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.068",
+      "pilaster.081"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.069",
+      "pilaster.082"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.070",
+      "pilaster.082"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.069",
+      "pilaster.083"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.070",
+      "pilaster.083"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.071",
+      "pilaster.084"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.072",
+      "pilaster.084"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.071",
+      "pilaster.085"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "lis_fasad.072",
+      "pilaster.085"
+     ],
+     "luas_m2": 0.0076
+    },
+    {
+     "objek": [
+      "daun_tanah.101",
+      "marka.007"
+     ],
+     "luas_m2": 0.0065
+    },
+    {
+     "objek": [
+      "jendela_jauh",
+      "jendela_jauh.045"
+     ],
+     "luas_m2": 0.0064
+    },
+    {
+     "objek": [
+      "jendela_jauh.004",
+      "jendela_jauh.030"
+     ],
+     "luas_m2": 0.0056
+    },
+    {
+     "objek": [
+      "lis_fasad",
+      "lis_lantai"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.036",
+      "lis_lantai.022"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.001",
+      "lis_lantai.001"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.003",
+      "lis_lantai.002"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.005",
+      "lis_lantai.003"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.007",
+      "lis_lantai.004"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.008",
+      "lis_lantai.005"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.009",
+      "lis_lantai.006"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.011",
+      "lis_lantai.007"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.013",
+      "lis_lantai.008"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.016",
+      "lis_lantai.009"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.017",
+      "lis_lantai.010"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.019",
+      "lis_lantai.011"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.022",
+      "lis_lantai.012"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.023",
+      "lis_lantai.013"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.024",
+      "lis_lantai.014"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.025",
+      "lis_lantai.015"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.026",
+      "lis_lantai.016"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.027",
+      "lis_lantai.017"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.029",
+      "lis_lantai.018"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.031",
+      "lis_lantai.019"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.033",
+      "lis_lantai.020"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.034",
+      "lis_lantai.021"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.037",
+      "lis_lantai.023"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.038",
+      "lis_lantai.024"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.041",
+      "lis_lantai.025"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.043",
+      "lis_lantai.026"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.045",
+      "lis_lantai.027"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.046",
+      "lis_lantai.028"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.048",
+      "lis_lantai.029"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.049",
+      "lis_lantai.030"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.051",
+      "lis_lantai.031"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.054",
+      "lis_lantai.032"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.056",
+      "lis_lantai.033"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.059",
+      "lis_lantai.034"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.060",
+      "lis_lantai.035"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.061",
+      "lis_lantai.036"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.063",
+      "lis_lantai.037"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.065",
+      "lis_lantai.038"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.066",
+      "lis_lantai.039"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.068",
+      "lis_lantai.040"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.069",
+      "lis_lantai.041"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "lis_fasad.071",
+      "lis_lantai.042"
+     ],
+     "luas_m2": 0.004
+    },
+    {
+     "objek": [
+      "daun_tanah.028",
+      "daun_tanah.177"
+     ],
+     "luas_m2": 0.0025
+    },
+    {
+     "objek": [
+      "cabai.001",
+      "cabai.002"
+     ],
+     "luas_m2": 0.0011
+    },
+    {
+     "objek": [
+      "mi.009",
+      "mi.011"
+     ],
+     "luas_m2": 0.001
+    },
+    {
+     "objek": [
+      "sawi.010",
+      "sosis.010"
+     ],
+     "luas_m2": 0.001
+    },
+    {
+     "objek": [
+      "daun_tanah.035",
+      "daun_tanah.204"
+     ],
+     "luas_m2": 0.0009
+    },
+    {
+     "objek": [
+      "sawi.001",
+      "sawi.003"
+     ],
+     "luas_m2": 0.0009
+    },
+    {
+     "objek": [
+      "sawi",
+      "sawi.005"
+     ],
+     "luas_m2": 0.0008
+    },
+    {
+     "objek": [
+      "sawi.003",
+      "sosis.005"
+     ],
+     "luas_m2": 0.0007
+    },
+    {
+     "objek": [
+      "sosis",
+      "sosis.004"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "sosis.001",
+      "sosis.004"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "cabai.002",
+      "cabai.004"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "timun",
+      "timun.001"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "timun.001",
+      "timun.002"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "mi.006",
+      "mi.008"
+     ],
+     "luas_m2": 0.0005
+    },
+    {
+     "objek": [
+      "cabai.009",
+      "sosis.007"
+     ],
+     "luas_m2": 0.0005
+    }
+   ],
+   "catatan": "diukur pada scene.blend build final (scripts/dev/cek_sebidang.py); sisa pasangan tidak diperbaiki"
+  }
+ },
+ "generalization": {
+  "build_id": "P4-2d0645d14d",
+  "interaksi": {
+   "frame": [
+    1,
+    616,
+    1
+   ],
+   "ringkasan": {
+    "jangkar_selisih_tinggi_cm": {
+     "min": 0.0,
+     "maks": 1.5459,
+     "rata2": 0.057,
+     "n": 616
+    },
+    "jangkar_selisih_datar_cm": {
+     "min": 0.0,
+     "maks": 4.68,
+     "rata2": 1.8348,
+     "n": 616
+    },
+    "wajah_terhalang_shot1": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 22
+    },
+    "wajah_terhalang_shot2": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 21
+    },
+    "kedalaman_min_benda_m": {
+     "min": 0.035,
+     "maks": 0.4739,
+     "rata2": 0.0694,
+     "n": 430
+    },
+    "jarak_tangan_ke_benda_px": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 430
+    },
+    "lompatan_layar_benda_px": {
+     "min": 0.0131,
+     "maks": 52.4015,
+     "rata2": 2.7486,
+     "n": 425
+    },
+    "wajah_terhalang_shot3": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 30
+    },
+    "wajah_terhalang_shot4": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 23
+    },
+    "wajah_terhalang_shot5": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 12
+    },
+    "wajah_terhalang_shot6": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 15
+    }
+   },
+   "jumlah_pelanggaran": {},
+   "pelanggaran": {},
+   "lompatan_benda_di_potongan_kamera_m": {
+    "benda_teh_dimas_0": [
+     [
+      220,
+      0.0055
+     ],
+     [
+      366,
+      0.1969
+     ],
+     [
+      483,
+      0.0388
+     ],
+     [
+      545,
+      0.0343
+     ]
+    ]
+   },
+   "ik_meleset": 0,
+   "status": {
+    "lapisan:lapisan+lapisan_belakang": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "melayang:melayang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "lapisan:lengan_tersembunyi_saat_memegang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "sutil:sutil_di_luar_wajan": {
+     "status": "NOT_APPLICABLE",
+     "kategori": "geometri",
+     "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+    },
+    "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 616
+    },
+    "tembus:tembus_tubuh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 124
+    },
+    "wajah:wajah_terhalang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 123
+    },
+    "pandang:pandang_ke_kamera_saat_masak": {
+     "status": "NOT_APPLICABLE",
+     "kategori": "performa",
+     "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+    },
+    "efek_wajah:efek_menutupi_wajah": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 123
+    },
+    "temporal:lompatan_benda": {
+     "status": "PASS",
+     "kategori": "temporal",
+     "pelanggaran": 0,
+     "sampel": 425
+    },
+    "rencana_mulut:dialog_tanpa_gerak_mulut": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "kedip:emosi_tanpa_kedip": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "orientasi_genggam:teh_dimas_0": {
+     "status": "PASS",
+     "toleransi_derajat": 25,
+     "p95": 20.2,
+     "maks": 20.2,
+     "median": 11.9,
+     "di_atas_toleransi": 0,
+     "sampel": 430,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:teh_dimas_0": {
+     "status": "PASS",
+     "skala_min_profil": 1.0,
+     "skala_min_terukur": 1.0,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 430,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:teh_dimas_0": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 18.6,
+     "maks": 43.8,
+     "di_atas_batas": 0,
+     "sampel": 430,
+     "kategori": "genggam"
+    },
+    "inversi_genggam:teh_dimas_0": {
+     "status": "PASS",
+     "frame": [],
+     "jumlah": 0,
+     "kategori": "genggam"
+    },
+    "kontak_mulut:teh_dimas_0": {
+     "status": "PASS",
+     "rasio_maks_thd_lebar": 0.003,
+     "batas_rasio": 0.25,
+     "frame_di_atas": [],
+     "sampel": 14,
+     "kategori": "genggam"
+    },
+    "geser_presentasi:teh_dimas_0": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "profil tanpa geser_maks",
+     "kategori": "genggam"
+    },
+    "tabrakan_dunia:teh_dimas_0": {
+     "status": "PASS",
+     "toleransi_tembus_m": 0.005,
+     "tembus": [],
+     "sentuh": [],
+     "mepet_frame": 0,
+     "terdalam_m": 0.0,
+     "kategori": "genggam"
+    },
+    "pergelangan_fase_kontak:teh_dimas_0": {
+     "status": "PASS",
+     "maks": 43.8,
+     "batas_derajat": 45.0,
+     "batas_keras_derajat": 60.0,
+     "sampel": 20,
+     "kategori": "genggam"
+    },
+    "serah_terima": {
+     "status": "PASS",
+     "serah": [
+      {
+       "benda": "teh_dimas_0",
+       "frame": 325,
+       "pemberi": "dimas",
+       "penerima": "sri",
+       "titik": [
+        -2.078,
+        0.887,
+        0.747
+       ],
+       "residual_pemberi_px": 0.0,
+       "jarak_bebas_titik_m": 0.0621,
+       "jarak_bebas_lintasan_m": 0.0039,
+       "proxy_terdekat": "daun_meja",
+       "jumlah_proxy": 56,
+       "status_tabrakan": "mepet",
+       "residual_penerima_px": 0.0,
+       "status_jangkauan": "ok",
+       "pindah_tangan": true,
+       "diagnosa": {
+        "tangan_pemberi_lain_px": [
+         65.9,
+         68.3
+        ],
+        "titik_lain": [
+         -1.975,
+         0.859,
+         0.788
+        ],
+        "tampak": [
+         "q",
+         -1,
+         "front",
+         1
+        ]
+       },
+       "diagnosa_tabrakan": [
+        {
+         "tanpa_uji_tabrakan": {
+          "titik": [
+           -2.078,
+           0.887,
+           0.747
+          ],
+          "residual_px": [
+           0.0,
+           0.0
+          ],
+          "jarak_bebas_titik_m": 0.0621,
+          "jarak_bebas_lintasan_m": 0.0039
+         }
+        },
+        {
+         "tanpa_uji_tabrakan": {
+          "titik": [
+           -1.975,
+           0.859,
+           0.788
+          ],
+          "residual_px": [
+           65.9,
+           68.3
+          ],
+          "jarak_bebas_titik_m": 0.1028,
+          "jarak_bebas_lintasan_m": 0.0365
+         }
+        }
+       ],
+       "lompatan_m": 0.0077,
+       "residual_maks_m": 0.0,
+       "status": "PASS",
+       "alasan": []
+      }
+     ],
+     "toleransi": {
+      "px": 6.0,
+      "lompatan_m": 0.02,
+      "residual_m": 0.02
+     },
+     "kategori": "genggam"
+    },
+    "serah_terima_tabrakan": {
+     "status": "WARN",
+     "serah": [
+      {
+       "benda": "teh_dimas_0",
+       "frame": 325,
+       "jarak_bebas_titik_m": 0.0621,
+       "jarak_bebas_lintasan_m": 0.0039,
+       "proxy_terdekat": "daun_meja",
+       "status_tabrakan": "mepet"
+      }
+     ],
+     "kategori": "genggam"
+    },
+    "cabang_siku": {
+     "status": "PASS",
+     "kejadian": [],
+     "jumlah": 0,
+     "kategori": "temporal"
+    },
+    "transisi_kepemilikan": {
+     "status": "PASS",
+     "gagal": [],
+     "sampel": 7,
+     "lompatan_maks_m": 0.0083,
+     "toleransi": {
+      "lompatan_m": 0.02,
+      "px": 6.0
+     },
+     "kategori": "temporal"
+    },
+    "render_crush": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "render_alpha": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "audio_sinkron": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    }
+   },
+   "status_ringkas": {
+    "PASS": 21,
+    "WARN": 1,
+    "FAIL": 0,
+    "NOT_TESTED": 3,
+    "NOT_APPLICABLE": 3
+   },
+   "efek_jaga_wajah_build": null,
+   "build_id": "P4-2d0645d14d",
+   "catatan": "PASS validator bukan bukti visual: lihat still diagnostik dengan build_id yang sama."
+  },
+  "kamera": {
+   "cerita": "_uji_phase4_rumah",
+   "build_id": "P4-2d0645d14d",
+   "ringkas": {
+    "WARN": 1,
+    "PASS": 3
+   },
+   "cek": {
+    "komposisi_pita": {
+     "status": "WARN",
+     "kunci_diuji": 12,
+     "di_luar_pita": [
+      {
+       "shot": 2,
+       "frame": 115,
+       "metrik": "tinggi",
+       "nilai": 0.318,
+       "pita": [
+        0.4,
+        0.78
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.71 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 2,
+       "frame": 219,
+       "metrik": "tinggi",
+       "nilai": 0.318,
+       "pita": [
+        0.4,
+        0.78
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.71 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 3,
+       "frame": 220,
+       "metrik": "tinggi",
+       "nilai": 0.427,
+       "pita": [
+        0.55,
+        0.82
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.71 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 3,
+       "frame": 365,
+       "metrik": "tinggi",
+       "nilai": 0.422,
+       "pita": [
+        0.55,
+        0.82
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.70 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 4,
+       "frame": 482,
+       "metrik": "mata_y",
+       "nilai": 0.179,
+       "pita": [
+        0.18,
+        0.42
+       ],
+       "status": "WARN"
+      },
+      {
+       "shot": 5,
+       "frame": 483,
+       "metrik": "tinggi",
+       "nilai": 0.375,
+       "pita": [
+        0.4,
+        0.78
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.72 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 5,
+       "frame": 544,
+       "metrik": "tinggi",
+       "nilai": 0.372,
+       "pita": [
+        0.4,
+        0.78
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.72 NDC, termasuk tokoh lain di bingkai)"
+      }
+     ]
+    },
+    "wajah_subjek": {
+     "status": "PASS",
+     "shot_diuji": 3,
+     "masalah": []
+    },
+    "aksi_dalam_shot": {
+     "status": "PASS",
+     "aksi": [
+      {
+       "frame": 325,
+       "benda": "teh_dimas_0",
+       "shot": 3,
+       "kamera": "full",
+       "status": "PASS"
+      }
+     ],
+     "catatan": "heuristik berbasis daftar shot; bukti visual = still/klip"
+    },
+    "suapan_dalam_shot": {
+     "status": "PASS",
+     "shot_diuji": 1,
+     "tanpa_kontak": []
+    }
+   }
+  },
+  "sebidang_zfighting": {
+   "tol_m": 0.0008,
+   "jumlah_pasangan": 31,
+   "pasangan": [
+    {
+     "objek": [
+      "bayangan_dimas",
+      "bayangan_sri"
+     ],
+     "luas_m2": 0.1524
+    },
+    {
+     "objek": [
+      "plafon_turun",
+      "tepi_plafon_turun"
+     ],
+     "luas_m2": 0.0879
+    },
+    {
+     "objek": [
+      "plafon_turun",
+      "tepi_plafon_turun.001"
+     ],
+     "luas_m2": 0.0879
+    },
+    {
+     "objek": [
+      "kaca.001",
+      "poster.001"
+     ],
+     "luas_m2": 0.0843
+    },
+    {
+     "objek": [
+      "plafon_turun",
+      "tepi_plafon_turun.002"
+     ],
+     "luas_m2": 0.0802
+    },
+    {
+     "objek": [
+      "plafon_turun",
+      "tepi_plafon_turun.003"
+     ],
+     "luas_m2": 0.0802
+    },
+    {
+     "objek": [
+      "kaca",
+      "poster"
+     ],
+     "luas_m2": 0.061
+    },
+    {
+     "objek": [
+      "lis_plafon",
+      "lis_plafon.002"
+     ],
+     "luas_m2": 0.0047
+    },
+    {
+     "objek": [
+      "lis_plafon.001",
+      "lis_plafon.002"
+     ],
+     "luas_m2": 0.0047
+    },
+    {
+     "objek": [
+      "plint",
+      "plint_b"
+     ],
+     "luas_m2": 0.0022
+    },
+    {
+     "objek": [
+      "plint.001",
+      "plint_b.001"
+     ],
+     "luas_m2": 0.0022
+    },
+    {
+     "objek": [
+      "dinding_samping_bawah",
+      "plint"
+     ],
+     "luas_m2": 0.0015
+    },
+    {
+     "objek": [
+      "dinding_samping_bawah.001",
+      "plint.001"
+     ],
+     "luas_m2": 0.0015
+    },
+    {
+     "objek": [
+      "pelapis_bawah",
+      "plint"
+     ],
+     "luas_m2": 0.0015
+    },
+    {
+     "objek": [
+      "pelapis_bawah.001",
+      "plint.001"
+     ],
+     "luas_m2": 0.0015
+    },
+    {
+     "objek": [
+      "kusen.002",
+      "lis_belakang.001"
+     ],
+     "luas_m2": 0.0013
+    },
+    {
+     "objek": [
+      "kusen.003",
+      "lis_belakang.001"
+     ],
+     "luas_m2": 0.0013
+    },
+    {
+     "objek": [
+      "kusen.004",
+      "kusen.005"
+     ],
+     "luas_m2": 0.0012
+    },
+    {
+     "objek": [
+      "kusen.004",
+      "lis_belakang.001"
+     ],
+     "luas_m2": 0.001
+    },
+    {
+     "objek": [
+      "lis_belakang",
+      "lis_samping"
+     ],
+     "luas_m2": 0.0008
+    },
+    {
+     "objek": [
+      "lis_belakang.001",
+      "lis_samping.001"
+     ],
+     "luas_m2": 0.0008
+    },
+    {
+     "objek": [
+      "kusen_pintu",
+      "kusen_pintu.001"
+     ],
+     "luas_m2": 0.0008
+    },
+    {
+     "objek": [
+      "kusen_pintu",
+      "kusen_pintu.002"
+     ],
+     "luas_m2": 0.0008
+    },
+    {
+     "objek": [
+      "kusen",
+      "kusen.002"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "kusen",
+      "kusen.003"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "kusen",
+      "kusen.004"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "kusen.001",
+      "kusen.002"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "kusen.001",
+      "kusen.003"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "kusen.001",
+      "kusen.004"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "kusen.002",
+      "kusen.005"
+     ],
+     "luas_m2": 0.0005
+    },
+    {
+     "objek": [
+      "kusen.003",
+      "kusen.005"
+     ],
+     "luas_m2": 0.0005
+    }
+   ],
+   "catatan": "diukur pada scene.blend build final (scripts/dev/cek_sebidang.py); sisa pasangan tidak diperbaiki"
+  }
+ },
+ "third_story": {
+  "build_id": "P4-b1767c3b5e",
+  "interaksi": {
+   "frame": [
+    1,
+    750,
+    1
+   ],
+   "ringkasan": {
+    "kedalaman_maks_benda_belakang_m": {
+     "min": -1.1976,
+     "maks": -0.0479,
+     "rata2": -0.4738,
+     "n": 155
+    },
+    "jangkar_selisih_tinggi_cm": {
+     "min": 0.0004,
+     "maks": 1.6785,
+     "rata2": 0.0589,
+     "n": 750
+    },
+    "jangkar_selisih_datar_cm": {
+     "min": 0.0,
+     "maks": 4.4928,
+     "rata2": 4.0963,
+     "n": 750
+    },
+    "kedalaman_min_benda_m": {
+     "min": 0.0317,
+     "maks": 0.6439,
+     "rata2": 0.0444,
+     "n": 1301
+    },
+    "jarak_tangan_ke_benda_px": {
+     "min": 0.0,
+     "maks": 7.2839,
+     "rata2": 0.0298,
+     "n": 1301
+    },
+    "wajah_terhalang_shot1": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 5
+    },
+    "lompatan_layar_benda_px": {
+     "min": 0.0043,
+     "maks": 31.9956,
+     "rata2": 2.1306,
+     "n": 1287
+    },
+    "wajah_terhalang_shot2": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 17
+    },
+    "wajah_terhalang_shot3": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 13
+    },
+    "wajah_terhalang_shot4": {
+     "min": 0.0,
+     "maks": 0.1111,
+     "rata2": 0.0397,
+     "n": 28
+    },
+    "wajah_terhalang_shot5": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 32
+    },
+    "wajah_terhalang_shot6": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 15
+    },
+    "wajah_terhalang_shot7": {
+     "min": 0.0,
+     "maks": 0.0,
+     "rata2": 0.0,
+     "n": 15
+    }
+   },
+   "jumlah_pelanggaran": {
+    "tembus_tubuh": 1
+   },
+   "pelanggaran": {
+    "tembus_tubuh": [
+     [
+      260,
+      "wulan",
+      "kaki.020",
+      6
+     ]
+    ]
+   },
+   "lompatan_benda_di_potongan_kamera_m": {
+    "benda_piring_harjo_0": [
+     [
+      61,
+      1.2183
+     ],
+     [
+      146,
+      0.1697
+     ],
+     [
+      303,
+      0.0511
+     ],
+     [
+      442,
+      0.6586
+     ],
+     [
+      605,
+      0.1774
+     ],
+     [
+      676,
+      0.1683
+     ]
+    ],
+    "benda_sendok_harjo_1": [
+     [
+      61,
+      1.2026
+     ]
+    ],
+    "benda_kopi_wulan_2": [
+     [
+      303,
+      0.0041
+     ],
+     [
+      442,
+      0.4987
+     ],
+     [
+      605,
+      0.1371
+     ],
+     [
+      676,
+      0.1057
+     ]
+    ]
+   },
+   "ik_meleset": 7,
+   "status": {
+    "lapisan:lapisan+lapisan_belakang": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 1456
+    },
+    "melayang:melayang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 1301
+    },
+    "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 1301
+    },
+    "lapisan:lengan_tersembunyi_saat_memegang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 1456
+    },
+    "sutil:sutil_di_luar_wajan": {
+     "status": "NOT_APPLICABLE",
+     "kategori": "geometri",
+     "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+    },
+    "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 750
+    },
+    "tembus:tembus_tubuh": {
+     "status": "WARN",
+     "kategori": "geometri",
+     "pelanggaran": 1,
+     "sampel": 152
+    },
+    "wajah:wajah_terhalang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 125
+    },
+    "pandang:pandang_ke_kamera_saat_masak": {
+     "status": "NOT_APPLICABLE",
+     "kategori": "performa",
+     "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+    },
+    "efek_wajah:efek_menutupi_wajah": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 150
+    },
+    "temporal:lompatan_benda": {
+     "status": "PASS",
+     "kategori": "temporal",
+     "pelanggaran": 0,
+     "sampel": 1287
+    },
+    "rencana_mulut:dialog_tanpa_gerak_mulut": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "kedip:emosi_tanpa_kedip": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "orientasi_genggam:piring_harjo_0": {
+     "status": "PASS",
+     "toleransi_derajat": 20,
+     "p95": 12.1,
+     "maks": 17.8,
+     "median": 5.3,
+     "di_atas_toleransi": 0,
+     "sampel": 711,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:piring_harjo_0": {
+     "status": "PASS",
+     "skala_min_profil": 1.0,
+     "skala_min_terukur": 1.0,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 711,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:piring_harjo_0": {
+     "status": "WARN",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 0.0,
+     "maks": 59.7,
+     "di_atas_batas": 1,
+     "sampel": 711,
+     "kategori": "genggam"
+    },
+    "inversi_genggam:piring_harjo_0": {
+     "status": "PASS",
+     "frame": [],
+     "jumlah": 0,
+     "kategori": "genggam"
+    },
+    "kontak_mulut:piring_harjo_0": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada fase kontak mulut yang terlihat",
+     "kategori": "genggam"
+    },
+    "geser_presentasi:piring_harjo_0": {
+     "status": "PASS",
+     "maks_m": 0.0,
+     "batas_m": 0.04,
+     "sampel": 0,
+     "kategori": "genggam"
+    },
+    "tabrakan_dunia:piring_harjo_0": {
+     "status": "PASS",
+     "toleransi_tembus_m": 0.005,
+     "tembus": [],
+     "sentuh": [],
+     "mepet_frame": 0,
+     "terdalam_m": 0.0,
+     "kategori": "genggam"
+    },
+    "pergelangan_fase_kontak:piring_harjo_0": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada fase kontak kritis",
+     "kategori": "genggam"
+    },
+    "orientasi_genggam:sendok_harjo_1": {
+     "status": "PASS",
+     "toleransi_derajat": 10,
+     "p95": 8.2,
+     "maks": 8.2,
+     "median": 5.8,
+     "di_atas_toleransi": 0,
+     "sampel": 78,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:sendok_harjo_1": {
+     "status": "PASS",
+     "skala_min_profil": 0.9,
+     "skala_min_terukur": 0.9918,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 78,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:sendok_harjo_1": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 22.2,
+     "maks": 29.4,
+     "di_atas_batas": 0,
+     "sampel": 78,
+     "kategori": "genggam"
+    },
+    "inversi_genggam:sendok_harjo_1": {
+     "status": "PASS",
+     "frame": [],
+     "jumlah": 0,
+     "kategori": "genggam"
+    },
+    "kontak_mulut:sendok_harjo_1": {
+     "status": "PASS",
+     "rasio_maks_thd_lebar": 0.0,
+     "batas_rasio": 0.25,
+     "frame_di_atas": [],
+     "sampel": 6,
+     "kategori": "genggam"
+    },
+    "geser_presentasi:sendok_harjo_1": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "profil tanpa geser_maks",
+     "kategori": "genggam"
+    },
+    "tabrakan_dunia:sendok_harjo_1": {
+     "status": "PASS",
+     "toleransi_tembus_m": 0.005,
+     "tembus": [],
+     "sentuh": [],
+     "mepet_frame": 0,
+     "terdalam_m": 0.0,
+     "kategori": "genggam"
+    },
+    "pergelangan_fase_kontak:sendok_harjo_1": {
+     "status": "PASS",
+     "maks": 19.4,
+     "batas_derajat": 45.0,
+     "batas_keras_derajat": 60.0,
+     "sampel": 10,
+     "kategori": "genggam"
+    },
+    "orientasi_genggam:kopi_wulan_2": {
+     "status": "PASS",
+     "toleransi_derajat": 25,
+     "p95": 20.2,
+     "maks": 20.2,
+     "median": 20.1,
+     "di_atas_toleransi": 0,
+     "sampel": 512,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:kopi_wulan_2": {
+     "status": "PASS",
+     "skala_min_profil": 1.0,
+     "skala_min_terukur": 1.0,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 512,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:kopi_wulan_2": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 32.8,
+     "maks": 34.1,
+     "di_atas_batas": 0,
+     "sampel": 512,
+     "kategori": "genggam"
+    },
+    "inversi_genggam:kopi_wulan_2": {
+     "status": "PASS",
+     "frame": [],
+     "jumlah": 0,
+     "kategori": "genggam"
+    },
+    "kontak_mulut:kopi_wulan_2": {
+     "status": "PASS",
+     "rasio_maks_thd_lebar": 0.019,
+     "batas_rasio": 0.25,
+     "frame_di_atas": [],
+     "sampel": 19,
+     "kategori": "genggam"
+    },
+    "geser_presentasi:kopi_wulan_2": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "profil tanpa geser_maks",
+     "kategori": "genggam"
+    },
+    "tabrakan_dunia:kopi_wulan_2": {
+     "status": "PASS",
+     "toleransi_tembus_m": 0.005,
+     "tembus": [],
+     "sentuh": [],
+     "mepet_frame": 0,
+     "terdalam_m": 0.0,
+     "kategori": "genggam"
+    },
+    "pergelangan_fase_kontak:kopi_wulan_2": {
+     "status": "PASS",
+     "maks": 0.0,
+     "batas_derajat": 45.0,
+     "batas_keras_derajat": 60.0,
+     "sampel": 27,
+     "kategori": "genggam"
+    },
+    "serah_terima": {
+     "status": "PASS",
+     "serah": [
+      {
+       "benda": "kopi_wulan_2",
+       "frame": 398,
+       "pemberi": "wulan",
+       "penerima": "harjo",
+       "titik": [
+        -0.825,
+        2.554,
+        0.837
+       ],
+       "residual_pemberi_px": 0.0,
+       "jarak_bebas_titik_m": 0.49,
+       "jarak_bebas_lintasan_m": 0.3932,
+       "proxy_terdekat": "dudukan",
+       "jumlah_proxy": 49,
+       "status_tabrakan": "ok",
+       "residual_penerima_px": 0.0,
+       "status_jangkauan": "ok",
+       "pindah_tangan": false,
+       "diagnosa": {
+        "tangan_pemberi_lain_px": [
+         49.4,
+         53.2
+        ],
+        "titik_lain": [
+         -0.789,
+         2.593,
+         0.829
+        ],
+        "tampak": [
+         "q",
+         -1,
+         "q",
+         1
+        ]
+       },
+       "diagnosa_tabrakan": [
+        {
+         "tanpa_uji_tabrakan": {
+          "titik": [
+           -0.825,
+           2.554,
+           0.837
+          ],
+          "residual_px": [
+           0.0,
+           0.0
+          ],
+          "jarak_bebas_titik_m": 0.49,
+          "jarak_bebas_lintasan_m": 0.3932
+         }
+        },
+        {
+         "tanpa_uji_tabrakan": {
+          "titik": [
+           -0.789,
+           2.593,
+           0.829
+          ],
+          "residual_px": [
+           49.4,
+           53.2
+          ],
+          "jarak_bebas_titik_m": 0.5145,
+          "jarak_bebas_lintasan_m": 0.417
+         }
+        }
+       ],
+       "lompatan_m": 0.0106,
+       "residual_maks_m": 0.001,
+       "status": "PASS",
+       "alasan": []
+      }
+     ],
+     "toleransi": {
+      "px": 6.0,
+      "lompatan_m": 0.02,
+      "residual_m": 0.02
+     },
+     "kategori": "genggam"
+    },
+    "serah_terima_tabrakan": {
+     "status": "PASS",
+     "serah": [
+      {
+       "benda": "kopi_wulan_2",
+       "frame": 398,
+       "jarak_bebas_titik_m": 0.49,
+       "jarak_bebas_lintasan_m": 0.3932,
+       "proxy_terdekat": "dudukan",
+       "status_tabrakan": "ok"
+      }
+     ],
+     "kategori": "genggam"
+    },
+    "cabang_siku": {
+     "status": "PASS",
+     "kejadian": [],
+     "jumlah": 0,
+     "kategori": "temporal"
+    },
+    "transisi_kepemilikan": {
+     "status": "PASS",
+     "gagal": [],
+     "sampel": 7,
+     "lompatan_maks_m": 0.0106,
+     "toleransi": {
+      "lompatan_m": 0.02,
+      "px": 6.0
+     },
+     "kategori": "temporal"
+    },
+    "render_crush": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "render_alpha": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "audio_sinkron": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    }
+   },
+   "status_ringkas": {
+    "PASS": 33,
+    "WARN": 2,
+    "FAIL": 0,
+    "NOT_TESTED": 3,
+    "NOT_APPLICABLE": 6
+   },
+   "efek_jaga_wajah_build": {
+    "daun_jatuh": {
+     "objek": 45,
+     "frame_dipudarkan": 19
+    }
+   },
+   "build_id": "P4-b1767c3b5e",
+   "catatan": "PASS validator bukan bukti visual: lihat still diagnostik dengan build_id yang sama."
+  },
+  "kamera": {
+   "cerita": "uji3_kopi_sore",
+   "build_id": "P4-b1767c3b5e",
+   "ringkas": {
+    "WARN": 1,
+    "PASS": 3
+   },
+   "cek": {
+    "komposisi_pita": {
+     "status": "WARN",
+     "kunci_diuji": 15,
+     "di_luar_pita": [
+      {
+       "shot": 2,
+       "frame": 61,
+       "metrik": "tinggi",
+       "nilai": 0.399,
+       "pita": [
+        0.4,
+        0.78
+       ],
+       "status": "WARN"
+      },
+      {
+       "shot": 3,
+       "frame": 146,
+       "metrik": "tinggi",
+       "nilai": 0.304,
+       "pita": [
+        0.55,
+        0.82
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.63 NDC, termasuk tokoh lain di bingkai)"
+      },
+      {
+       "shot": 3,
+       "frame": 302,
+       "metrik": "tinggi",
+       "nilai": 0.366,
+       "pita": [
+        0.55,
+        0.82
+       ],
+       "status": "WARN",
+       "alasan": "dibatasi_lebar_kelompok (lebar 1.72 NDC, termasuk tokoh lain di bingkai)"
+      }
+     ]
+    },
+    "wajah_subjek": {
+     "status": "PASS",
+     "shot_diuji": 4,
+     "masalah": []
+    },
+    "aksi_dalam_shot": {
+     "status": "PASS",
+     "aksi": [
+      {
+       "frame": 398,
+       "benda": "kopi_wulan_2",
+       "shot": 4,
+       "kamera": "medium",
+       "status": "PASS"
+      }
+     ],
+     "catatan": "heuristik berbasis daftar shot; bukti visual = still/klip"
+    },
+    "suapan_dalam_shot": {
+     "status": "PASS",
+     "shot_diuji": 2,
+     "tanpa_kontak": []
+    }
+   }
+  },
+  "sebidang_zfighting": {
+   "tol_m": 0.0008,
+   "jumlah_pasangan": 325,
+   "pasangan": [
+    {
+     "objek": [
+      "bayangan_harjo",
+      "bayangan_wulan"
+     ],
+     "luas_m2": 0.2109
+    },
+    {
+     "objek": [
+      "kaca",
+      "poster"
+     ],
+     "luas_m2": 0.1077
+    },
+    {
+     "objek": [
+      "kaca.003",
+      "poster.002"
+     ],
+     "luas_m2": 0.1034
+    },
+    {
+     "objek": [
+      "kaca.051",
+      "poster.016"
+     ],
+     "luas_m2": 0.094
+    },
+    {
+     "objek": [
+      "kaca.044",
+      "poster.014"
+     ],
+     "luas_m2": 0.0811
+    },
+    {
+     "objek": [
+      "kaca.001",
+      "poster.001"
+     ],
+     "luas_m2": 0.0643
+    },
+    {
+     "objek": [
+      "kaca.004",
+      "poster.003"
+     ],
+     "luas_m2": 0.0627
+    },
+    {
+     "objek": [
+      "kaca.063",
+      "poster.022"
+     ],
+     "luas_m2": 0.0611
+    },
+    {
+     "objek": [
+      "kaca.016",
+      "poster.009"
+     ],
+     "luas_m2": 0.061
+    },
+    {
+     "objek": [
+      "kaca.008",
+      "poster.005"
+     ],
+     "luas_m2": 0.0542
+    },
+    {
+     "objek": [
+      "kaca.012",
+      "poster.007"
+     ],
+     "luas_m2": 0.0528
+    },
+    {
+     "objek": [
+      "ban",
+      "rangka"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.001",
+      "rangka"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.002",
+      "rangka.001"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.003",
+      "rangka.001"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.004",
+      "rangka.002"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.005",
+      "rangka.002"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.006",
+      "rangka.003"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.007",
+      "rangka.003"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.008",
+      "rangka.004"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.009",
+      "rangka.004"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.010",
+      "rangka.005"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.011",
+      "rangka.005"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.012",
+      "rangka.006"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.013",
+      "rangka.006"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.014",
+      "rangka.007"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.015",
+      "rangka.007"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.016",
+      "rangka.008"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.017",
+      "rangka.008"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.018",
+      "rangka.009"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.019",
+      "rangka.009"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.020",
+      "rangka.010"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.021",
+      "rangka.010"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.022",
+      "rangka.011"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.023",
+      "rangka.011"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.028",
+      "rangka.012"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "ban.029",
+      "rangka.012"
+     ],
+     "luas_m2": 0.0469
+    },
+    {
+     "objek": [
+      "kaca.013",
+      "poster.008"
+     ],
+     "luas_m2": 0.0358
+    },
+    {
+     "objek": [
+      "kaca.022",
+      "poster.010"
+     ],
+     "luas_m2": 0.032
+    },
+    {
+     "objek": [
+      "kaca.055",
+      "poster.018"
+     ],
+     "luas_m2": 0.0293
+    },
+    {
+     "objek": [
+      "kaca.057",
+      "poster.019"
+     ],
+     "luas_m2": 0.018
+    },
+    {
+     "objek": [
+      "listplang.041",
+      "listplang.042"
+     ],
+     "luas_m2": 0.0175
+    },
+    {
+     "objek": [
+      "listplang.045",
+      "listplang.046"
+     ],
+     "luas_m2": 0.0175
+    },
+    {
+     "objek": [
+      "listplang.031",
+      "listplang.032"
+     ],
+     "luas_m2": 0.0168
+    },
+    {
+     "objek": [
+      "listplang.014",
+      "listplang.015"
+     ],
+     "luas_m2": 0.0159
+    },
+    {
+     "objek": [
+      "listplang.024",
+      "listplang.025"
+     ],
+     "luas_m2": 0.0155
+    },
+    {
+     "objek": [
+      "listplang.012",
+      "listplang.013"
+     ],
+     "luas_m2": 0.0153
+    },
+    {
+     "objek": [
+      "listplang.030",
+      "listplang.031"
+     ],
+     "luas_m2": 0.0141
+    },
+    {
+     "objek": [
+      "listplang.020",
+      "listplang.021"
+     ],
+     "luas_m2": 0.0139
+    },
+    {
+     "objek": [
+      "listplang.039",
+      "listplang.040"
+     ],
+     "luas_m2": 0.0135
+    },
+    {
+     "objek": [
+      "listplang.015",
+      "listplang.016"
+     ],
+     "luas_m2": 0.0113
+    },
+    {
+     "objek": [
+      "listplang.035",
+      "listplang.036"
+     ],
+     "luas_m2": 0.0106
+    },
+    {
+     "objek": [
+      "listplang.028",
+      "listplang.029"
+     ],
+     "luas_m2": 0.0101
+    },
+    {
+     "objek": [
+      "listplang.008",
+      "listplang.009"
+     ],
+     "luas_m2": 0.0092
+    },
+    {
+     "objek": [
+      "listplang.033",
+      "listplang.034"
+     ],
+     "luas_m2": 0.0073
+    },
+    {
+     "objek": [
+      "daun_tanah.046",
+      "daun_tanah.195"
+     ],
+     "luas_m2": 0.0069
+    },
+    {
+     "objek": [
+      "daun_tanah.042",
+      "daun_tanah.125"
+     ],
+     "luas_m2": 0.0063
+    },
+    {
+     "objek": [
+      "listplang.029",
+      "listplang.030"
+     ],
+     "luas_m2": 0.0054
+    },
+    {
+     "objek": [
+      "sandal",
+      "sandal.001"
+     ],
+     "luas_m2": 0.0053
+    },
+    {
+     "objek": [
+      "daun_tanah.010",
+      "daun_tanah.105"
+     ],
+     "luas_m2": 0.0052
+    },
+    {
+     "objek": [
+      "listplang.009",
+      "listplang.010"
+     ],
+     "luas_m2": 0.0046
+    },
+    {
+     "objek": [
+      "listplang.003",
+      "listplang.004"
+     ],
+     "luas_m2": 0.0041
+    },
+    {
+     "objek": [
+      "daun_tanah.011",
+      "daun_tanah.212"
+     ],
+     "luas_m2": 0.0039
+    },
+    {
+     "objek": [
+      "jeruji.001",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.002",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.003",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.004",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.005",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.006",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.007",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.008",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.009",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.010",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.011",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.012",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.013",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.014",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.015",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.016",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.017",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.018",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.019",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.020",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.021",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.022",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.023",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.024",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.025",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.026",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.027",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.028",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.029",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.030",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.031",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.032",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.033",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.034",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.035",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.036",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.037",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.038",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.039",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.040",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.041",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.042",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.043",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.044",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.045",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.046",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.047",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.048",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.049",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.050",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.051",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.052",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.053",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.054",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.055",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.056",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.057",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.058",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.059",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.060",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.061",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.062",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.063",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.064",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.065",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.066",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.067",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.068",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.069",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.070",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.071",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.072",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.073",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.074",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.075",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.076",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.077",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.078",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.079",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.080",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.081",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.082",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.083",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.084",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.085",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.086",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.087",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.088",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.089",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.090",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.091",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.092",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.093",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.094",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.095",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.096",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.097",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.098",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.099",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.100",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.101",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.102",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.103",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.104",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.105",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.106",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.107",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.108",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.109",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.110",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.111",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.112",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.113",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.114",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.115",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.116",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.117",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.118",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.119",
+      "selokan"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.121",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.122",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.123",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.124",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.125",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.126",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.127",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.128",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.129",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.130",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.131",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.132",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.133",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.134",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.135",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.136",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.137",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.138",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.139",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.140",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.141",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.142",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.143",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.144",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.145",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.146",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.147",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.148",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.149",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.150",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.151",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.152",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.153",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.154",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.155",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.156",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.157",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.158",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.159",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.160",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.161",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.162",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.163",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.164",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.165",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.166",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.167",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.168",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.169",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.170",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.171",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.172",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.173",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.174",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.175",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.176",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.177",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.178",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.179",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.180",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.181",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.182",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.183",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.184",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.185",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.186",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.187",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.188",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.189",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.190",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.191",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.192",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.193",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.194",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.195",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.196",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.197",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.198",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.199",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.200",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.201",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.202",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.203",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.204",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.205",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.206",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.207",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.208",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.209",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.210",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.211",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.212",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.213",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.214",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.215",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.216",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.217",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.218",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.219",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.220",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.221",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.222",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.223",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.224",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.225",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.226",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.227",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.228",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.229",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.230",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.231",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.232",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.233",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.234",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.235",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.236",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.237",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.238",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "jeruji.239",
+      "selokan.001"
+     ],
+     "luas_m2": 0.0038
+    },
+    {
+     "objek": [
+      "kaca.052",
+      "poster.017"
+     ],
+     "luas_m2": 0.0036
+    },
+    {
+     "objek": [
+      "rangka",
+      "tiang_jok"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.001",
+      "tiang_jok.001"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.002",
+      "tiang_jok.002"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.003",
+      "tiang_jok.003"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.004",
+      "tiang_jok.004"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.005",
+      "tiang_jok.005"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.006",
+      "tiang_jok.006"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.007",
+      "tiang_jok.007"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.008",
+      "tiang_jok.008"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.009",
+      "tiang_jok.009"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.010",
+      "tiang_jok.010"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.011",
+      "tiang_jok.011"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "rangka.012",
+      "tiang_jok.012"
+     ],
+     "luas_m2": 0.0034
+    },
+    {
+     "objek": [
+      "listplang.034",
+      "listplang.035"
+     ],
+     "luas_m2": 0.0033
+    },
+    {
+     "objek": [
+      "daun_tanah.023",
+      "daun_tanah.136"
+     ],
+     "luas_m2": 0.0028
+    },
+    {
+     "objek": [
+      "daun_tanah.092",
+      "daun_tanah.214"
+     ],
+     "luas_m2": 0.0022
+    },
+    {
+     "objek": [
+      "daun_tanah.180",
+      "daun_tanah.214"
+     ],
+     "luas_m2": 0.0019
+    },
+    {
+     "objek": [
+      "daun_tanah.069",
+      "daun_tanah.186"
+     ],
+     "luas_m2": 0.0017
+    },
+    {
+     "objek": [
+      "daun_tanah.027",
+      "daun_tanah.090"
+     ],
+     "luas_m2": 0.0011
+    },
+    {
+     "objek": [
+      "listplang.042",
+      "listplang.043"
+     ],
+     "luas_m2": 0.0009
+    },
+    {
+     "objek": [
+      "timun",
+      "timun.001"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "timun.001",
+      "timun.002"
+     ],
+     "luas_m2": 0.0006
+    },
+    {
+     "objek": [
+      "daun_tanah.077",
+      "daun_tanah.156"
+     ],
+     "luas_m2": 0.0005
+    }
+   ],
+   "catatan": "diukur pada scene.blend build final (scripts/dev/cek_sebidang.py); sisa pasangan tidak diperbaiki"
+  }
+ },
+ "pembanding_phase41_validator_lama": {
+  "benchmark": {
+   "build_id": "P4-4b69684991",
+   "status_ringkas": {
+    "PASS": 22,
+    "WARN": 1,
+    "FAIL": 0,
+    "NOT_TESTED": 3,
+    "NOT_APPLICABLE": 1
+   },
+   "status": {
+    "lapisan:lapisan+lapisan_belakang": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 1133
+    },
+    "melayang:melayang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 902
+    },
+    "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+     "status": "WARN",
+     "kategori": "layar",
+     "pelanggaran": 9,
+     "sampel": 902
+    },
+    "lapisan:lengan_tersembunyi_saat_memegang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 1133
+    },
+    "sutil:sutil_di_luar_wajan": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 860
+    },
+    "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 860
+    },
+    "tembus:tembus_tubuh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 174
+    },
+    "wajah:wajah_terhalang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 135
+    },
+    "pandang:pandang_ke_kamera_saat_masak": {
+     "status": "PASS",
+     "kategori": "performa",
+     "pelanggaran": 0,
+     "sampel": 225
+    },
+    "efek_wajah:efek_menutupi_wajah": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 152
+    },
+    "temporal:lompatan_benda": {
+     "status": "PASS",
+     "kategori": "temporal",
+     "pelanggaran": 0,
+     "sampel": 890
+    },
+    "rencana_mulut:dialog_tanpa_gerak_mulut": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 3
+    },
+    "kedip:emosi_tanpa_kedip": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "orientasi_genggam:sutil_darto_0": {
+     "status": "PASS",
+     "toleransi_derajat": 10,
+     "p95": 0.2,
+     "maks": 0.7,
+     "median": 0.2,
+     "di_atas_toleransi": 0,
+     "sampel": 225,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:sutil_darto_0": {
+     "status": "PASS",
+     "skala_min_profil": 0.9,
+     "skala_min_terukur": 1.0,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 225,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:sutil_darto_0": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 28.1,
+     "maks": 33.0,
+     "di_atas_batas": 0,
+     "sampel": 225,
+     "kategori": "genggam"
+    },
+    "orientasi_genggam:piring_jali_1": {
+     "status": "PASS",
+     "toleransi_derajat": 20,
+     "p95": 0.2,
+     "maks": 0.3,
+     "median": 0.2,
+     "di_atas_toleransi": 0,
+     "sampel": 565,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:piring_jali_1": {
+     "status": "PASS",
+     "skala_min_profil": 1.0,
+     "skala_min_terukur": 1.0,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 565,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:piring_jali_1": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 25.2,
+     "maks": 33.7,
+     "di_atas_batas": 0,
+     "sampel": 565,
+     "kategori": "genggam"
+    },
+    "orientasi_genggam:sendok_jali_2": {
+     "status": "PASS",
+     "toleransi_derajat": 10,
+     "p95": 0.2,
+     "maks": 0.3,
+     "median": 0.2,
+     "di_atas_toleransi": 0,
+     "sampel": 112,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:sendok_jali_2": {
+     "status": "PASS",
+     "skala_min_profil": 0.9,
+     "skala_min_terukur": 0.9706,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 112,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:sendok_jali_2": {
+     "status": "PASS",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 33.2,
+     "maks": 33.5,
+     "di_atas_batas": 0,
+     "sampel": 112,
+     "kategori": "genggam"
+    },
+    "serah_terima": {
+     "status": "NOT_APPLICABLE",
+     "alasan": "tidak ada serah-terima",
+     "kategori": "genggam"
+    },
+    "transisi_kepemilikan": {
+     "status": "PASS",
+     "gagal": [],
+     "sampel": 3,
+     "lompatan_maks_m": 0.0007,
+     "toleransi": {
+      "lompatan_m": 0.02,
+      "px": 6.0
+     },
+     "kategori": "temporal"
+    },
+    "render_crush": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "render_alpha": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "audio_sinkron": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    }
+   },
+   "lompatan_benda_di_potongan_kamera_m": {
+    "benda_sutil_darto_0": [
+     [
+      75,
+      0.2385
+     ],
+     [
+      159,
+      0.2095
+     ],
+     [
+      199,
+      0.1696
+     ],
+     [
+      226,
+      0.1029
+     ],
+     [
+      282,
+      0.2329
+     ]
+    ],
+    "benda_piring_jali_1": [
+     [
+      75,
+      0.4763
+     ],
+     [
+      159,
+      0.1151
+     ],
+     [
+      199,
+      0.3701
+     ],
+     [
+      226,
+      0.2216
+     ],
+     [
+      282,
+      0.0018
+     ],
+     [
+      458,
+      0.3513
+     ],
+     [
+      541,
+      0.4561
+     ],
+     [
+      612,
+      0.0787
+     ],
+     [
+      703,
+      0.0056
+     ],
+     [
+      732,
+      0.3415
+     ]
+    ],
+    "benda_sendok_jali_2": [
+     [
+      75,
+      0.2934
+     ],
+     [
+      159,
+      0.1975
+     ],
+     [
+      199,
+      0.4306
+     ],
+     [
+      226,
+      0.2293
+     ]
+    ]
+   }
+  },
+  "generalization": {
+   "build_id": "P4-21e3aadc90",
+   "status_ringkas": {
+    "PASS": 15,
+    "WARN": 1,
+    "FAIL": 0,
+    "NOT_TESTED": 3,
+    "NOT_APPLICABLE": 2
+   },
+   "status": {
+    "lapisan:lapisan+lapisan_belakang": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "melayang:melayang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "lapisan:lengan_tersembunyi_saat_memegang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 430
+    },
+    "sutil:sutil_di_luar_wajan": {
+     "status": "NOT_APPLICABLE",
+     "kategori": "geometri",
+     "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+    },
+    "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 616
+    },
+    "tembus:tembus_tubuh": {
+     "status": "PASS",
+     "kategori": "geometri",
+     "pelanggaran": 0,
+     "sampel": 124
+    },
+    "wajah:wajah_terhalang": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 123
+    },
+    "pandang:pandang_ke_kamera_saat_masak": {
+     "status": "NOT_APPLICABLE",
+     "kategori": "performa",
+     "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+    },
+    "efek_wajah:efek_menutupi_wajah": {
+     "status": "PASS",
+     "kategori": "layar",
+     "pelanggaran": 0,
+     "sampel": 123
+    },
+    "temporal:lompatan_benda": {
+     "status": "PASS",
+     "kategori": "temporal",
+     "pelanggaran": 0,
+     "sampel": 425
+    },
+    "rencana_mulut:dialog_tanpa_gerak_mulut": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "kedip:emosi_tanpa_kedip": {
+     "status": "PASS",
+     "kategori": "rencana",
+     "pelanggaran": 0,
+     "sampel": 2
+    },
+    "orientasi_genggam:teh_dimas_0": {
+     "status": "PASS",
+     "toleransi_derajat": 25,
+     "p95": 0.3,
+     "maks": 24.2,
+     "median": 0.2,
+     "di_atas_toleransi": 0,
+     "sampel": 430,
+     "kategori": "genggam"
+    },
+    "skala_fisik_benda:teh_dimas_0": {
+     "status": "PASS",
+     "skala_min_profil": 1.0,
+     "skala_min_terukur": 1.0,
+     "frame_di_bawah": [],
+     "jumlah_di_bawah": 0,
+     "sampel": 430,
+     "kategori": "genggam"
+    },
+    "tekuk_pergelangan:teh_dimas_0": {
+     "status": "WARN",
+     "nyaman_derajat": 30.0,
+     "batas_derajat": 45.0,
+     "p95": 37.8,
+     "maks": 74.8,
+     "di_atas_batas": 2,
+     "sampel": 430,
+     "kategori": "genggam"
+    },
+    "serah_terima": {
+     "status": "PASS",
+     "serah": [
+      {
+       "benda": "teh_dimas_0",
+       "frame": 325,
+       "pemberi": "dimas",
+       "penerima": "sri",
+       "titik": [
+        -2.145,
+        0.85,
+        0.746
+       ],
+       "residual_pemberi_px": 0.0,
+       "residual_penerima_px": 0.0,
+       "status_jangkauan": "ok",
+       "pindah_tangan": true,
+       "diagnosa": {
+        "tangan_pemberi_lain_px": [
+         45.4,
+         61.7
+        ],
+        "titik_lain": [
+         -2.028,
+         0.8,
+         0.771
+        ],
+        "tampak": [
+         "q",
+         -1,
+         "front",
+         1
+        ]
+       },
+       "lompatan_m": 0.0085,
+       "residual_maks_m": 0.0,
+       "status": "PASS",
+       "alasan": []
+      }
+     ],
+     "toleransi": {
+      "px": 6.0,
+      "lompatan_m": 0.02,
+      "residual_m": 0.02
+     },
+     "kategori": "genggam"
+    },
+    "transisi_kepemilikan": {
+     "status": "PASS",
+     "gagal": [],
+     "sampel": 7,
+     "lompatan_maks_m": 0.0085,
+     "toleransi": {
+      "lompatan_m": 0.02,
+      "px": 6.0
+     },
+     "kategori": "temporal"
+    },
+    "render_crush": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "render_alpha": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    },
+    "audio_sinkron": {
+     "status": "NOT_TESTED",
+     "kategori": "render",
+     "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+    }
+   },
+   "lompatan_benda_di_potongan_kamera_m": {
+    "benda_teh_dimas_0": [
+     [
+      220,
+      0.0053
+     ],
+     [
+      366,
+      0.1667
+     ],
+     [
+      483,
+      0.0446
+     ],
+     [
+      545,
+      0.0563
+     ]
+    ]
+   }
+  }
+ }
+}

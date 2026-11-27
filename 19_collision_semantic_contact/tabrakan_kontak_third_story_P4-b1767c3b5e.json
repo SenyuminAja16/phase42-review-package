@@ -1,0 +1,3349 @@
+{
+ "build_id": "P4-b1767c3b5e",
+ "catatan": "tabrakan benda vs proxy OBB dunia statis, kontak permukaan ambil/letak (dicatat terpisah, tidak disembunyikan), kontak semantik cekung/bibir ↔ mulut (rasio thd ukuran benda), serah-terima",
+ "validator": {
+  "melayang:melayang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 1301
+  },
+  "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 1301
+  },
+  "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 750
+  },
+  "tembus:tembus_tubuh": {
+   "status": "WARN",
+   "kategori": "geometri",
+   "pelanggaran": 1,
+   "sampel": 152
+  },
+  "kontak_mulut:piring_harjo_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak mulut yang terlihat",
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:piring_harjo_0": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:piring_harjo_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak kritis",
+   "kategori": "genggam"
+  },
+  "kontak_mulut:sendok_harjo_1": {
+   "status": "PASS",
+   "rasio_maks_thd_lebar": 0.0,
+   "batas_rasio": 0.25,
+   "frame_di_atas": [],
+   "sampel": 6,
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:sendok_harjo_1": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:sendok_harjo_1": {
+   "status": "PASS",
+   "maks": 19.4,
+   "batas_derajat": 45.0,
+   "batas_keras_derajat": 60.0,
+   "sampel": 10,
+   "kategori": "genggam"
+  },
+  "kontak_mulut:kopi_wulan_2": {
+   "status": "PASS",
+   "rasio_maks_thd_lebar": 0.019,
+   "batas_rasio": 0.25,
+   "frame_di_atas": [],
+   "sampel": 19,
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:kopi_wulan_2": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:kopi_wulan_2": {
+   "status": "PASS",
+   "maks": 0.0,
+   "batas_derajat": 45.0,
+   "batas_keras_derajat": 60.0,
+   "sampel": 27,
+   "kategori": "genggam"
+  },
+  "serah_terima": {
+   "status": "PASS",
+   "serah": [
+    {
+     "benda": "kopi_wulan_2",
+     "frame": 398,
+     "pemberi": "wulan",
+     "penerima": "harjo",
+     "titik": [
+      -0.825,
+      2.554,
+      0.837
+     ],
+     "residual_pemberi_px": 0.0,
+     "jarak_bebas_titik_m": 0.49,
+     "jarak_bebas_lintasan_m": 0.3932,
+     "proxy_terdekat": "dudukan",
+     "jumlah_proxy": 49,
+     "status_tabrakan": "ok",
+     "residual_penerima_px": 0.0,
+     "status_jangkauan": "ok",
+     "pindah_tangan": false,
+     "diagnosa": {
+      "tangan_pemberi_lain_px": [
+       49.4,
+       53.2
+      ],
+      "titik_lain": [
+       -0.789,
+       2.593,
+       0.829
+      ],
+      "tampak": [
+       "q",
+       -1,
+       "q",
+       1
+      ]
+     },
+     "diagnosa_tabrakan": [
+      {
+       "tanpa_uji_tabrakan": {
+        "titik": [
+         -0.825,
+         2.554,
+         0.837
+        ],
+        "residual_px": [
+         0.0,
+         0.0
+        ],
+        "jarak_bebas_titik_m": 0.49,
+        "jarak_bebas_lintasan_m": 0.3932
+       }
+      },
+      {
+       "tanpa_uji_tabrakan": {
+        "titik": [
+         -0.789,
+         2.593,
+         0.829
+        ],
+        "residual_px": [
+         49.4,
+         53.2
+        ],
+        "jarak_bebas_titik_m": 0.5145,
+        "jarak_bebas_lintasan_m": 0.417
+       }
+      }
+     ],
+     "lompatan_m": 0.0106,
+     "residual_maks_m": 0.001,
+     "status": "PASS",
+     "alasan": []
+    }
+   ],
+   "toleransi": {
+    "px": 6.0,
+    "lompatan_m": 0.02,
+    "residual_m": 0.02
+   },
+   "kategori": "genggam"
+  },
+  "serah_terima_tabrakan": {
+   "status": "PASS",
+   "serah": [
+    {
+     "benda": "kopi_wulan_2",
+     "frame": 398,
+     "jarak_bebas_titik_m": 0.49,
+     "jarak_bebas_lintasan_m": 0.3932,
+     "proxy_terdekat": "dudukan",
+     "status_tabrakan": "ok"
+    }
+   ],
+   "kategori": "genggam"
+  },
+  "cabang_siku": {
+   "status": "PASS",
+   "kejadian": [],
+   "jumlah": 0,
+   "kategori": "temporal"
+  },
+  "transisi_kepemilikan": {
+   "status": "PASS",
+   "gagal": [],
+   "sampel": 7,
+   "lompatan_maks_m": 0.0106,
+   "toleransi": {
+    "lompatan_m": 0.02,
+    "px": 6.0
+   },
+   "kategori": "temporal"
+  }
+ },
+ "blocking_tabrakan": {
+  "daun_meja": 89
+ },
+ "serah_terima": [
+  {
+   "benda": "kopi_wulan_2",
+   "frame": 398,
+   "pemberi": "wulan",
+   "penerima": "harjo",
+   "titik": [
+    -0.825,
+    2.554,
+    0.837
+   ],
+   "residual_pemberi_px": 0.0,
+   "jarak_bebas_titik_m": 0.49,
+   "jarak_bebas_lintasan_m": 0.3932,
+   "proxy_terdekat": "dudukan",
+   "jumlah_proxy": 49,
+   "status_tabrakan": "ok",
+   "residual_penerima_px": 0.0,
+   "status_jangkauan": "ok",
+   "pindah_tangan": false,
+   "diagnosa": {
+    "tangan_pemberi_lain_px": [
+     49.4,
+     53.2
+    ],
+    "titik_lain": [
+     -0.789,
+     2.593,
+     0.829
+    ],
+    "tampak": [
+     "q",
+     -1,
+     "q",
+     1
+    ]
+   },
+   "diagnosa_tabrakan": [
+    {
+     "tanpa_uji_tabrakan": {
+      "titik": [
+       -0.825,
+       2.554,
+       0.837
+      ],
+      "residual_px": [
+       0.0,
+       0.0
+      ],
+      "jarak_bebas_titik_m": 0.49,
+      "jarak_bebas_lintasan_m": 0.3932
+     }
+    },
+    {
+     "tanpa_uji_tabrakan": {
+      "titik": [
+       -0.789,
+       2.593,
+       0.829
+      ],
+      "residual_px": [
+       49.4,
+       53.2
+      ],
+      "jarak_bebas_titik_m": 0.5145,
+      "jarak_bebas_lintasan_m": 0.417
+     }
+    }
+   ],
+   "lompatan_m": 0.0106,
+   "residual_maks_m": 0.001
+  }
+ ],
+ "per_benda": {
+  "piring_harjo_0": {
+   "tabrakan_dunia_per_frame": {},
+   "kontak_permukaan_ambil_letak_per_frame": {},
+   "kontak_mulut_per_frame": {}
+  },
+  "sendok_harjo_1": {
+   "tabrakan_dunia_per_frame": {},
+   "kontak_permukaan_ambil_letak_per_frame": {},
+   "kontak_mulut_per_frame": {
+    "40": [
+     "kembali",
+     59.2,
+     36.7
+    ],
+    "41": [
+     "kembali",
+     77.0,
+     36.7
+    ],
+    "42": [
+     "kembali",
+     97.6,
+     36.7
+    ],
+    "43": [
+     "kembali",
+     120.2,
+     36.7
+    ],
+    "44": [
+     "kembali",
+     144.0,
+     36.7
+    ],
+    "45": [
+     "kembali",
+     167.8,
+     36.7
+    ],
+    "46": [
+     "kembali",
+     189.6,
+     36.7
+    ],
+    "47": [
+     "kembali",
+     207.7,
+     36.7
+    ],
+    "48": [
+     "kembali",
+     220.1,
+     36.7
+    ],
+    "49": [
+     "istirahat",
+     225.0,
+     36.7
+    ],
+    "50": [
+     "istirahat",
+     225.7,
+     36.7
+    ],
+    "51": [
+     "istirahat",
+     226.4,
+     36.7
+    ],
+    "52": [
+     "istirahat",
+     227.0,
+     36.7
+    ],
+    "53": [
+     "istirahat",
+     227.5,
+     36.7
+    ],
+    "54": [
+     "istirahat",
+     228.0,
+     36.7
+    ],
+    "55": [
+     "istirahat",
+     228.4,
+     36.7
+    ],
+    "56": [
+     "istirahat",
+     228.7,
+     36.7
+    ],
+    "57": [
+     "istirahat",
+     229.0,
+     36.7
+    ],
+    "58": [
+     "istirahat",
+     229.2,
+     36.7
+    ],
+    "59": [
+     "istirahat",
+     229.3,
+     36.7
+    ],
+    "60": [
+     "istirahat",
+     229.3,
+     36.7
+    ],
+    "61": [
+     "istirahat",
+     273.3,
+     36.7
+    ],
+    "62": [
+     "istirahat",
+     273.3,
+     36.7
+    ],
+    "63": [
+     "istirahat",
+     273.3,
+     36.7
+    ],
+    "64": [
+     "istirahat",
+     273.3,
+     36.7
+    ],
+    "65": [
+     "sendok",
+     273.3,
+     36.7
+    ],
+    "66": [
+     "sendok",
+     276.8,
+     36.7
+    ],
+    "67": [
+     "sendok",
+     279.9,
+     36.7
+    ],
+    "68": [
+     "sendok",
+     281.6,
+     36.7
+    ],
+    "69": [
+     "sendok",
+     281.2,
+     36.7
+    ],
+    "70": [
+     "sendok",
+     278.9,
+     36.7
+    ],
+    "71": [
+     "sendok",
+     275.5,
+     36.7
+    ],
+    "72": [
+     "angkat",
+     272.3,
+     36.7
+    ],
+    "73": [
+     "angkat",
+     260.0,
+     36.7
+    ],
+    "74": [
+     "angkat",
+     237.4,
+     36.7
+    ],
+    "75": [
+     "angkat",
+     208.2,
+     36.7
+    ],
+    "76": [
+     "angkat",
+     175.5,
+     36.7
+    ],
+    "77": [
+     "angkat",
+     141.8,
+     36.7
+    ],
+    "78": [
+     "angkat",
+     110.2,
+     36.7
+    ],
+    "79": [
+     "angkat",
+     85.1,
+     36.7
+    ],
+    "80": [
+     "angkat",
+     71.1,
+     36.7
+    ],
+    "81": [
+     "dekat_mulut",
+     66.7,
+     36.7
+    ],
+    "82": [
+     "dekat_mulut",
+     50.7,
+     36.7
+    ],
+    "83": [
+     "dekat_mulut",
+     27.7,
+     36.7
+    ],
+    "84": [
+     "dekat_mulut",
+     7.4,
+     36.7
+    ],
+    "85": [
+     "kontak",
+     0.0,
+     36.7
+    ],
+    "86": [
+     "kontak",
+     0.0,
+     36.7
+    ],
+    "87": [
+     "kontak",
+     0.0,
+     36.7
+    ],
+    "88": [
+     "kontak",
+     0.0,
+     36.7
+    ],
+    "89": [
+     "kontak",
+     0.0,
+     36.7
+    ],
+    "90": [
+     "kontak",
+     0.0,
+     36.7
+    ],
+    "91": [
+     "tarik",
+     3.6,
+     36.7
+    ],
+    "92": [
+     "tarik",
+     19.5,
+     36.7
+    ],
+    "93": [
+     "tarik",
+     35.9,
+     36.7
+    ],
+    "94": [
+     "kembali",
+     49.8,
+     36.7
+    ],
+    "95": [
+     "kembali",
+     57.9,
+     36.7
+    ],
+    "96": [
+     "kembali",
+     75.0,
+     36.7
+    ],
+    "97": [
+     "kembali",
+     99.2,
+     36.7
+    ],
+    "98": [
+     "kembali",
+     127.7,
+     36.7
+    ],
+    "99": [
+     "kembali",
+     157.7,
+     36.7
+    ],
+    "100": [
+     "kembali",
+     187.1,
+     36.7
+    ],
+    "101": [
+     "kembali",
+     214.6,
+     36.7
+    ],
+    "102": [
+     "kembali",
+     238.8,
+     36.7
+    ],
+    "103": [
+     "kembali",
+     258.0,
+     36.7
+    ],
+    "104": [
+     "kembali",
+     270.1,
+     36.7
+    ],
+    "105": [
+     "istirahat",
+     273.1,
+     36.7
+    ],
+    "106": [
+     "istirahat",
+     273.1,
+     36.7
+    ],
+    "107": [
+     "istirahat",
+     273.1,
+     36.7
+    ],
+    "108": [
+     "istirahat",
+     273.1,
+     36.7
+    ],
+    "109": [
+     "istirahat",
+     273.1,
+     36.7
+    ],
+    "110": [
+     "istirahat",
+     273.0,
+     36.7
+    ],
+    "111": [
+     "istirahat",
+     273.0,
+     36.7
+    ],
+    "112": [
+     "istirahat",
+     273.0,
+     36.7
+    ],
+    "113": [
+     "istirahat",
+     273.0,
+     36.7
+    ],
+    "114": [
+     "istirahat",
+     273.0,
+     36.7
+    ],
+    "115": [
+     "istirahat",
+     273.0,
+     36.7
+    ],
+    "116": [
+     "istirahat",
+     273.0,
+     36.7
+    ],
+    "117": [
+     "istirahat",
+     273.0,
+     36.7
+    ]
+   }
+  },
+  "kopi_wulan_2": {
+   "tabrakan_dunia_per_frame": {
+    "165": [
+     -0.0309,
+     "gelas_teh.001"
+    ],
+    "166": [
+     -0.005,
+     "daun_meja"
+    ]
+   },
+   "kontak_permukaan_ambil_letak_per_frame": {
+    "164": [
+     -0.0042,
+     "gelas_teh.001"
+    ]
+   },
+   "kontak_mulut_per_frame": {
+    "605": [
+     "angkat",
+     260.3,
+     66.7
+    ],
+    "606": [
+     "angkat",
+     257.8,
+     66.7
+    ],
+    "607": [
+     "angkat",
+     250.7,
+     66.7
+    ],
+    "608": [
+     "angkat",
+     239.7,
+     66.7
+    ],
+    "609": [
+     "angkat",
+     225.5,
+     66.7
+    ],
+    "610": [
+     "angkat",
+     208.9,
+     66.7
+    ],
+    "611": [
+     "angkat",
+     190.9,
+     66.7
+    ],
+    "612": [
+     "angkat",
+     172.6,
+     66.7
+    ],
+    "613": [
+     "angkat",
+     154.9,
+     66.7
+    ],
+    "614": [
+     "angkat",
+     138.5,
+     66.7
+    ],
+    "615": [
+     "angkat",
+     123.6,
+     66.7
+    ],
+    "616": [
+     "angkat",
+     110.0,
+     66.7
+    ],
+    "617": [
+     "angkat",
+     97.8,
+     66.7
+    ],
+    "618": [
+     "angkat",
+     85.7,
+     66.7
+    ],
+    "619": [
+     "angkat",
+     74.2,
+     66.7
+    ],
+    "620": [
+     "angkat",
+     64.8,
+     66.7
+    ],
+    "621": [
+     "angkat",
+     57.8,
+     66.7
+    ],
+    "622": [
+     "angkat",
+     53.7,
+     66.7
+    ],
+    "623": [
+     "dekat_mulut",
+     52.6,
+     66.7
+    ],
+    "624": [
+     "dekat_mulut",
+     49.7,
+     66.7
+    ],
+    "625": [
+     "dekat_mulut",
+     43.7,
+     66.7
+    ],
+    "626": [
+     "dekat_mulut",
+     35.6,
+     66.7
+    ],
+    "627": [
+     "dekat_mulut",
+     25.1,
+     66.7
+    ],
+    "628": [
+     "dekat_mulut",
+     12.9,
+     66.7
+    ],
+    "629": [
+     "dekat_mulut",
+     3.3,
+     66.7
+    ],
+    "630": [
+     "dekat_mulut",
+     1.3,
+     66.7
+    ],
+    "631": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "632": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "633": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "634": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "635": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "636": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "637": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "638": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "639": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "640": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "641": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "642": [
+     "kontak",
+     1.3,
+     66.7
+    ],
+    "643": [
+     "kontak",
+     1.2,
+     66.7
+    ],
+    "644": [
+     "kontak",
+     1.2,
+     66.7
+    ],
+    "645": [
+     "kontak",
+     1.2,
+     66.7
+    ],
+    "646": [
+     "kontak",
+     1.2,
+     66.7
+    ],
+    "647": [
+     "kontak",
+     1.2,
+     66.7
+    ],
+    "648": [
+     "kontak",
+     1.2,
+     66.7
+    ],
+    "649": [
+     "kontak",
+     1.2,
+     66.7
+    ],
+    "650": [
+     "kembali",
+     0.9,
+     66.7
+    ],
+    "651": [
+     "kembali",
+     9.4,
+     66.7
+    ],
+    "652": [
+     "kembali",
+     24.3,
+     66.7
+    ],
+    "653": [
+     "kembali",
+     43.4,
+     66.7
+    ],
+    "654": [
+     "kembali",
+     64.7,
+     66.7
+    ],
+    "655": [
+     "kembali",
+     86.5,
+     66.7
+    ],
+    "656": [
+     "kembali",
+     108.4,
+     66.7
+    ],
+    "657": [
+     "kembali",
+     130.5,
+     66.7
+    ],
+    "658": [
+     "kembali",
+     153.4,
+     66.7
+    ],
+    "659": [
+     "kembali",
+     177.5,
+     66.7
+    ],
+    "660": [
+     "kembali",
+     201.7,
+     66.7
+    ],
+    "661": [
+     "kembali",
+     224.1,
+     66.7
+    ],
+    "662": [
+     "kembali",
+     242.5,
+     66.7
+    ],
+    "663": [
+     "kembali",
+     255.2,
+     66.7
+    ],
+    "664": [
+     "kembali",
+     260.6,
+     66.7
+    ],
+    "665": [
+     "istirahat",
+     260.7,
+     66.7
+    ],
+    "666": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "667": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "668": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "669": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "670": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "671": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "672": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "673": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "674": [
+     "istirahat",
+     260.8,
+     66.7
+    ],
+    "675": [
+     "istirahat",
+     260.8,
+     66.7
+    ]
+   }
+  }
+ },
+ "sebidang_zfighting": {
+  "tol_m": 0.0008,
+  "jumlah": 325,
+  "pasangan": [
+   {
+    "objek": [
+     "bayangan_harjo",
+     "bayangan_wulan"
+    ],
+    "luas_m2": 0.2109
+   },
+   {
+    "objek": [
+     "kaca",
+     "poster"
+    ],
+    "luas_m2": 0.1077
+   },
+   {
+    "objek": [
+     "kaca.003",
+     "poster.002"
+    ],
+    "luas_m2": 0.1034
+   },
+   {
+    "objek": [
+     "kaca.051",
+     "poster.016"
+    ],
+    "luas_m2": 0.094
+   },
+   {
+    "objek": [
+     "kaca.044",
+     "poster.014"
+    ],
+    "luas_m2": 0.0811
+   },
+   {
+    "objek": [
+     "kaca.001",
+     "poster.001"
+    ],
+    "luas_m2": 0.0643
+   },
+   {
+    "objek": [
+     "kaca.004",
+     "poster.003"
+    ],
+    "luas_m2": 0.0627
+   },
+   {
+    "objek": [
+     "kaca.063",
+     "poster.022"
+    ],
+    "luas_m2": 0.0611
+   },
+   {
+    "objek": [
+     "kaca.016",
+     "poster.009"
+    ],
+    "luas_m2": 0.061
+   },
+   {
+    "objek": [
+     "kaca.008",
+     "poster.005"
+    ],
+    "luas_m2": 0.0542
+   },
+   {
+    "objek": [
+     "kaca.012",
+     "poster.007"
+    ],
+    "luas_m2": 0.0528
+   },
+   {
+    "objek": [
+     "ban",
+     "rangka"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.001",
+     "rangka"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.002",
+     "rangka.001"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.003",
+     "rangka.001"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.004",
+     "rangka.002"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.005",
+     "rangka.002"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.006",
+     "rangka.003"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.007",
+     "rangka.003"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.008",
+     "rangka.004"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.009",
+     "rangka.004"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.010",
+     "rangka.005"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.011",
+     "rangka.005"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.012",
+     "rangka.006"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.013",
+     "rangka.006"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.014",
+     "rangka.007"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.015",
+     "rangka.007"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.016",
+     "rangka.008"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.017",
+     "rangka.008"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.018",
+     "rangka.009"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.019",
+     "rangka.009"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.020",
+     "rangka.010"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.021",
+     "rangka.010"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.022",
+     "rangka.011"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.023",
+     "rangka.011"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.028",
+     "rangka.012"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "ban.029",
+     "rangka.012"
+    ],
+    "luas_m2": 0.0469
+   },
+   {
+    "objek": [
+     "kaca.013",
+     "poster.008"
+    ],
+    "luas_m2": 0.0358
+   },
+   {
+    "objek": [
+     "kaca.022",
+     "poster.010"
+    ],
+    "luas_m2": 0.032
+   },
+   {
+    "objek": [
+     "kaca.055",
+     "poster.018"
+    ],
+    "luas_m2": 0.0293
+   },
+   {
+    "objek": [
+     "kaca.057",
+     "poster.019"
+    ],
+    "luas_m2": 0.018
+   },
+   {
+    "objek": [
+     "listplang.041",
+     "listplang.042"
+    ],
+    "luas_m2": 0.0175
+   },
+   {
+    "objek": [
+     "listplang.045",
+     "listplang.046"
+    ],
+    "luas_m2": 0.0175
+   },
+   {
+    "objek": [
+     "listplang.031",
+     "listplang.032"
+    ],
+    "luas_m2": 0.0168
+   },
+   {
+    "objek": [
+     "listplang.014",
+     "listplang.015"
+    ],
+    "luas_m2": 0.0159
+   },
+   {
+    "objek": [
+     "listplang.024",
+     "listplang.025"
+    ],
+    "luas_m2": 0.0155
+   },
+   {
+    "objek": [
+     "listplang.012",
+     "listplang.013"
+    ],
+    "luas_m2": 0.0153
+   },
+   {
+    "objek": [
+     "listplang.030",
+     "listplang.031"
+    ],
+    "luas_m2": 0.0141
+   },
+   {
+    "objek": [
+     "listplang.020",
+     "listplang.021"
+    ],
+    "luas_m2": 0.0139
+   },
+   {
+    "objek": [
+     "listplang.039",
+     "listplang.040"
+    ],
+    "luas_m2": 0.0135
+   },
+   {
+    "objek": [
+     "listplang.015",
+     "listplang.016"
+    ],
+    "luas_m2": 0.0113
+   },
+   {
+    "objek": [
+     "listplang.035",
+     "listplang.036"
+    ],
+    "luas_m2": 0.0106
+   },
+   {
+    "objek": [
+     "listplang.028",
+     "listplang.029"
+    ],
+    "luas_m2": 0.0101
+   },
+   {
+    "objek": [
+     "listplang.008",
+     "listplang.009"
+    ],
+    "luas_m2": 0.0092
+   },
+   {
+    "objek": [
+     "listplang.033",
+     "listplang.034"
+    ],
+    "luas_m2": 0.0073
+   },
+   {
+    "objek": [
+     "daun_tanah.046",
+     "daun_tanah.195"
+    ],
+    "luas_m2": 0.0069
+   },
+   {
+    "objek": [
+     "daun_tanah.042",
+     "daun_tanah.125"
+    ],
+    "luas_m2": 0.0063
+   },
+   {
+    "objek": [
+     "listplang.029",
+     "listplang.030"
+    ],
+    "luas_m2": 0.0054
+   },
+   {
+    "objek": [
+     "sandal",
+     "sandal.001"
+    ],
+    "luas_m2": 0.0053
+   },
+   {
+    "objek": [
+     "daun_tanah.010",
+     "daun_tanah.105"
+    ],
+    "luas_m2": 0.0052
+   },
+   {
+    "objek": [
+     "listplang.009",
+     "listplang.010"
+    ],
+    "luas_m2": 0.0046
+   },
+   {
+    "objek": [
+     "listplang.003",
+     "listplang.004"
+    ],
+    "luas_m2": 0.0041
+   },
+   {
+    "objek": [
+     "daun_tanah.011",
+     "daun_tanah.212"
+    ],
+    "luas_m2": 0.0039
+   },
+   {
+    "objek": [
+     "jeruji.001",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.002",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.003",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.004",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.005",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.006",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.007",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.008",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.009",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.010",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.011",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.012",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.013",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.014",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.015",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.016",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.017",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.018",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.019",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.020",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.021",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.022",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.023",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.024",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.025",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.026",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.027",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.028",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.029",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.030",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.031",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.032",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.033",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.034",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.035",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.036",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.037",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.038",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.039",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.040",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.041",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.042",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.043",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.044",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.045",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.046",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.047",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.048",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.049",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.050",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.051",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.052",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.053",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.054",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.055",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.056",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.057",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.058",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.059",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.060",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.061",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.062",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.063",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.064",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.065",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.066",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.067",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.068",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.069",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.070",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.071",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.072",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.073",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.074",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.075",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.076",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.077",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.078",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.079",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.080",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.081",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.082",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.083",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.084",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.085",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.086",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.087",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.088",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.089",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.090",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.091",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.092",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.093",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.094",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.095",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.096",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.097",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.098",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.099",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.100",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.101",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.102",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.103",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.104",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.105",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.106",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.107",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.108",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.109",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.110",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.111",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.112",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.113",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.114",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.115",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.116",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.117",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.118",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.119",
+     "selokan"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.121",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.122",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.123",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.124",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.125",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.126",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.127",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.128",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.129",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.130",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.131",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.132",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.133",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.134",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.135",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.136",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.137",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.138",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.139",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.140",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.141",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.142",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.143",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.144",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.145",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.146",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.147",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.148",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.149",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.150",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.151",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.152",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.153",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.154",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.155",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.156",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.157",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.158",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.159",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.160",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.161",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.162",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.163",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.164",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.165",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.166",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.167",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.168",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.169",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.170",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.171",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.172",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.173",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.174",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.175",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.176",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.177",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.178",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.179",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.180",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.181",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.182",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.183",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.184",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.185",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.186",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.187",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.188",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.189",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.190",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.191",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.192",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.193",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.194",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.195",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.196",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.197",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.198",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.199",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.200",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.201",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.202",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.203",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.204",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.205",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.206",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.207",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.208",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.209",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.210",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.211",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.212",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.213",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.214",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.215",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.216",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.217",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.218",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.219",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.220",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.221",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.222",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.223",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.224",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.225",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.226",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.227",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.228",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.229",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.230",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.231",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.232",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.233",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.234",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.235",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.236",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.237",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.238",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "jeruji.239",
+     "selokan.001"
+    ],
+    "luas_m2": 0.0038
+   },
+   {
+    "objek": [
+     "kaca.052",
+     "poster.017"
+    ],
+    "luas_m2": 0.0036
+   },
+   {
+    "objek": [
+     "rangka",
+     "tiang_jok"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.001",
+     "tiang_jok.001"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.002",
+     "tiang_jok.002"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.003",
+     "tiang_jok.003"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.004",
+     "tiang_jok.004"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.005",
+     "tiang_jok.005"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.006",
+     "tiang_jok.006"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.007",
+     "tiang_jok.007"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.008",
+     "tiang_jok.008"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.009",
+     "tiang_jok.009"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.010",
+     "tiang_jok.010"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.011",
+     "tiang_jok.011"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "rangka.012",
+     "tiang_jok.012"
+    ],
+    "luas_m2": 0.0034
+   },
+   {
+    "objek": [
+     "listplang.034",
+     "listplang.035"
+    ],
+    "luas_m2": 0.0033
+   },
+   {
+    "objek": [
+     "daun_tanah.023",
+     "daun_tanah.136"
+    ],
+    "luas_m2": 0.0028
+   },
+   {
+    "objek": [
+     "daun_tanah.092",
+     "daun_tanah.214"
+    ],
+    "luas_m2": 0.0022
+   },
+   {
+    "objek": [
+     "daun_tanah.180",
+     "daun_tanah.214"
+    ],
+    "luas_m2": 0.0019
+   },
+   {
+    "objek": [
+     "daun_tanah.069",
+     "daun_tanah.186"
+    ],
+    "luas_m2": 0.0017
+   },
+   {
+    "objek": [
+     "daun_tanah.027",
+     "daun_tanah.090"
+    ],
+    "luas_m2": 0.0011
+   },
+   {
+    "objek": [
+     "listplang.042",
+     "listplang.043"
+    ],
+    "luas_m2": 0.0009
+   },
+   {
+    "objek": [
+     "timun",
+     "timun.001"
+    ],
+    "luas_m2": 0.0006
+   },
+   {
+    "objek": [
+     "timun.001",
+     "timun.002"
+    ],
+    "luas_m2": 0.0006
+   },
+   {
+    "objek": [
+     "daun_tanah.077",
+     "daun_tanah.156"
+    ],
+    "luas_m2": 0.0005
+   }
+  ]
+ }
+}

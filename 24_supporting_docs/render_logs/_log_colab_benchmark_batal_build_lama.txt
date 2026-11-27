@@ -1,0 +1,52 @@
+== percobaan 1 15:03 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-bf6f8f8f48)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (4fc101c........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (f3e7685........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (146ae96........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 2 15:10 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-bf6f8f8f48)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (25035d2........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (92c0b09........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (ac04f91........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 3 15:17 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-bf6f8f8f48)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (6a0582f........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (4f1712d........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (8c8604d........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 4 15:23 GPU=G4,L4,A100 sesi=anim2d
+== Satu Bungkus Lagi ==
+[render]
+  860 frame perlu dirender (build P4-bf6f8f8f48)
+  render 860 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (bfa2514........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (4c457e4........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (ea38223........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal

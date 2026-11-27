@@ -1,0 +1,968 @@
+{
+ "build_id": "P4-b1767c3b5e",
+ "story": "uji3_kopi_sore",
+ "inputs": {
+  "git_commit": null,
+  "source_hash": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+  "source_files": 40,
+  "story_hash": "2b97cf450cdb820e5d2c2c46ce7e3d7a25262446dcbbcb8db91174d914b1928b",
+  "timeline_hash": "49de9fb3063e19c61ec55e965386b6d3b3230fa9f932f2331886f0da9e424777",
+  "characters": {
+   "harjo": {
+    "chars_version": 20,
+    "spec_hash": "404fa6111aa339ed",
+    "rig_hash": "0ec7981d9a6e9926",
+    "n_files": 122
+   },
+   "wulan": {
+    "chars_version": 20,
+    "spec_hash": "c195a7eabe6ac4cb",
+    "rig_hash": "a92454be8cd620f2",
+    "n_files": 122
+   }
+  },
+  "asset_manifest_hash": "57c42af21291f3fd43060fdfeaca3b68e7ceea60a5c5c0f354ec85e695e2a443",
+  "plan_hash": "20f559d22d9d4f460767e51d47afe3b08de163840909c13726b5ffdb78ef93a3",
+  "tools_hash": "ca7a2f4b349c804da4cd308579a734e529c3c9243fef58e4bdbd621edfccd0c4"
+ },
+ "scene_build": {
+  "dimulai": "2026-11-27T18:57:50+0700",
+  "blender": "Blender 4.5.16 LTS (hash 3f6797307da5 built 2026-11-10 01:31:21)",
+  "selesai": "2026-11-27T18:59:37+0700",
+  "durasi_dtk": 106.8,
+  "scene_blend_sha256": "b9467133c80f1354ba43914ad203fa3c611257ef69f8dab3ef7d414848b61f67"
+ },
+ "host": {
+  "python": "3.14.4",
+  "os": "Linux-7.0.0-43-generic-x86_64-with-glibc2.43"
+ },
+ "outputs": [
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0030.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 30,
+   "shot": "shot01_establishing_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "b58373d84577226f936152b1bc150b5a4028302a08284d5c3df02b3b70683d02",
+   "dibuat": "2026-11-27T19:02:56+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0030.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 30,
+   "shot": "shot01_establishing_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.05:gamma=0.98",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.45"
+    ]
+   },
+   "sha256": "9aca75e68f25ca70962160e66d1e3ca98bbcdfd925794ed3caadbeea7d4d6d8a",
+   "dibuat": "2026-11-27T19:02:57+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0088.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 88,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "b3f5179e0c42d980e176f06a9775fe2bcfed6e0378561e2a53c9aa27b1b66128",
+   "dibuat": "2026-11-27T19:03:01+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0088.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 88,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "d81e2f0e674255af90eb5b621634f28f0f729c5746f5b51d3aad29ff6c969708",
+   "dibuat": "2026-11-27T19:03:01+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0100.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 100,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "c2af74e51078f1c78bdda70aa30aceb68002493515ceef900fe5326e37a9a46d",
+   "dibuat": "2026-11-27T19:03:03+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0100.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 100,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "841ac4697f4c81ba9583f308e6775c0cc27d5dea31f0fab30a43b44a1e450890",
+   "dibuat": "2026-11-27T19:03:04+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0140.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 140,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "cbbe585358db74063973ab89b03aed938c7be2cad811d813072192e4d3226fc4",
+   "dibuat": "2026-11-27T19:03:05+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0140.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 140,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "85ff546c162f67bcb11d768a58afb4800b9d7c25ed1b89fc534bb5763ad4e22b",
+   "dibuat": "2026-11-27T19:03:06+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0141.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 141,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "ebe963ad360ea1f2b0659de735c601afd6ebc5db549a2f6972d1b94bce002d32",
+   "dibuat": "2026-11-27T19:03:07+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0141.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 141,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "c380c92ca3697c5f611a632a5738588b20b5fd18f2a9b2c725bb2462f2011a41",
+   "dibuat": "2026-11-27T19:03:08+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0142.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 142,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "a632bdb00f90a7376abb20ef651b9f85c682eed407b77594ac9d9f38ad04b3ba",
+   "dibuat": "2026-11-27T19:03:09+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0142.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 142,
+   "shot": "shot02_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "f0fe0e2749188e29f7b11fbe95c9c6c8b883a526d609815decb41bda2a4cb43b",
+   "dibuat": "2026-11-27T19:03:10+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0165.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 165,
+   "shot": "shot03_full_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "207096c9005985858a4ff46c41e373097b1b3156416e2bc3d020e27704c37c8c",
+   "dibuat": "2026-11-27T19:03:13+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0165.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 165,
+   "shot": "shot03_full_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.05:gamma=0.98",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.45"
+    ]
+   },
+   "sha256": "b4a6d0631a459e73b3f72b1b5257280fd996456ae3bfea89b7d80784cead3c77",
+   "dibuat": "2026-11-27T19:03:13+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0250.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 250,
+   "shot": "shot03_full_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "5167864f4b53361d83f513e02e14a95525bb084d1a29065e8ea2cb268f8b0b31",
+   "dibuat": "2026-11-27T19:03:15+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0250.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 250,
+   "shot": "shot03_full_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.05:gamma=0.98",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.45"
+    ]
+   },
+   "sha256": "01e42e71e2658268cc964749ed5a82ef7aea3d9c83da82b284c271bf55ae9a59",
+   "dibuat": "2026-11-27T19:03:16+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0300.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 300,
+   "shot": "shot03_full_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "a2c4c3a9d1418badc4373d4d840d99ddcb37f88e9c63d60a3e293e3e2406b35d",
+   "dibuat": "2026-11-27T19:03:17+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0300.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 300,
+   "shot": "shot03_full_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.05:gamma=0.98",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.45"
+    ]
+   },
+   "sha256": "cf69b646f7bf712cae44e58d76bdda688dd44825649661d17d09ac434db1eb7d",
+   "dibuat": "2026-11-27T19:03:18+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0330.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 330,
+   "shot": "shot04_medium_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "6edc4974ac8bd8e51b4a9f4cdee04e614e1db3bbede6b2972ac03707f10b3ddb",
+   "dibuat": "2026-11-27T19:03:21+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0330.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 330,
+   "shot": "shot04_medium_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "64ca9654c289094713c5ce77221494a95f79f4ee3dd6c1ed84f454e51d3d6438",
+   "dibuat": "2026-11-27T19:03:22+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0398.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 398,
+   "shot": "shot04_medium_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "098c8daae5967144edd3dec3e3b6e0f75a8c3de77b7c4b0ce1514cbf5f7a0d8c",
+   "dibuat": "2026-11-27T19:03:23+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0398.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 398,
+   "shot": "shot04_medium_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "73039dbaaca6ea5153669c44e7f62bb4498bc96ead79285571e1e18d33f9b7b9",
+   "dibuat": "2026-11-27T19:03:24+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0420.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 420,
+   "shot": "shot04_medium_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "bcff8d66f97fe280c457c7c28a0e3800f49e78afed6e7594ffd18ba3495254ec",
+   "dibuat": "2026-11-27T19:03:25+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0420.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 420,
+   "shot": "shot04_medium_wulan",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "fdddb9638ffad601a64dec02600e28b3adcb833f2e485b8e60a0d17078241e60",
+   "dibuat": "2026-11-27T19:03:26+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0500.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 500,
+   "shot": "shot05_mcu_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "dadd5eb377736b0f4e26d2a8c820c037f0f15bdd722bdff6eedcab07b494373a",
+   "dibuat": "2026-11-27T19:03:29+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0500.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 500,
+   "shot": "shot05_mcu_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "8ae32b919dfa63b88c2ec7bc06d85cffba844a048b45715784e2515848aed4b8",
+   "dibuat": "2026-11-27T19:03:29+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0560.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 560,
+   "shot": "shot05_mcu_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "7d0c8f9a2aab07c0aed2fef25b9b4dda4ea5f4c470322a12e0a66f02e307b2f1",
+   "dibuat": "2026-11-27T19:03:31+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0560.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 560,
+   "shot": "shot05_mcu_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "c9d3cb9cd37836b7d4aaca0a85f644df39e79bb51433c5a02fc26265f22fa7b6",
+   "dibuat": "2026-11-27T19:03:31+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0620.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 620,
+   "shot": "shot06_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "e4036288c01e65ca0c839d6b49eed187bf1a8f09d6b7096af4245deed5099dd1",
+   "dibuat": "2026-11-27T19:03:34+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0620.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 620,
+   "shot": "shot06_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "c3c5a13162104fb9bb035fd7b97c00ff5f7fea25e5ff35a1af125b8e709e75e5",
+   "dibuat": "2026-11-27T19:03:35+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0640.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 640,
+   "shot": "shot06_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "b1b06837d5380ea272b6e4add8f854aa9be247ae27f1ed1553c17cbf7bab4e66",
+   "dibuat": "2026-11-27T19:03:36+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0640.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 640,
+   "shot": "shot06_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "6a63a7924c93d202b0c9259214a5abd96f8ec01b5785434a48a1a0c98298c88e",
+   "dibuat": "2026-11-27T19:03:37+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0660.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 660,
+   "shot": "shot06_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "e671bb2790b0992d479ed679336119804a6bc18c38b7e354bd60c6a4567188ec",
+   "dibuat": "2026-11-27T19:03:38+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0660.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 660,
+   "shot": "shot06_medium_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "22769243657e9bdf6f5ca318cb4a8f0dfc47551d33286310344c8a962cddb0c1",
+   "dibuat": "2026-11-27T19:03:39+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0700.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 700,
+   "shot": "shot07_ending_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "20d3602b67cb30c9b7dc98773890d29a7a31f1f15976e20aa1655c6b8e1c6693",
+   "dibuat": "2026-11-27T19:03:42+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0700.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 700,
+   "shot": "shot07_ending_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "d55384d016e264a22487717aae17e209c06b40dc31451e2f0c68167e21345d54",
+   "dibuat": "2026-11-27T19:03:43+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/build/still_raw/f_0745.png",
+   "kind": "still_raw",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 745,
+   "shot": "shot07_ending_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4
+   },
+   "sha256": "d71001021ba709f26e002c74ba7d282cd055049aa42975646563d44f68ef164a",
+   "dibuat": "2026-11-27T19:03:44+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/still/f_0745.png",
+   "kind": "still_graded",
+   "build_id": "P4-b1767c3b5e",
+   "frame": 745,
+   "shot": "shot07_ending_harjo",
+   "settings": {
+    "engine": "EEVEE",
+    "resolution": [
+     1080,
+     1920
+    ],
+    "samples": 64,
+    "alpha_tokoh": "scene",
+    "glare": "scene",
+    "colab": false,
+    "detik_per_still_rata2": 10.4,
+    "grading": [
+     "colorbalance=rs=-0.014:gs=0.000:bs=0.035:rh=0.049:gh=0.014:bh=-0.042,eq=saturation=1.08:brightness=0.0:contrast=1.03:gamma=0.98",
+     "curves=all='0/0.037 0.1/0.122 0.5/0.5 1/1'",
+     "unsharp=5:5:0.35:5:5:0.0",
+     "vignette=0.18"
+    ]
+   },
+   "sha256": "2ccd30c0092d3b016d8fc4139215dc89d05c3bb7064765e302b891902172ba35",
+   "dibuat": "2026-11-27T19:03:45+0700"
+  },
+  {
+   "file": "stories/uji3_kopi_sore/output/uji3_kopi_sore.mp4",
+   "kind": "video",
+   "build_id": "P4-b1767c3b5e",
+   "frame": null,
+   "shot": null,
+   "settings": {
+    "frames_build_ids": [
+     "P4-b1767c3b5e"
+    ],
+    "mode": "penuh",
+    "provenance": {
+     "status": "PASS",
+     "chunks": 7
+    }
+   },
+   "sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+   "dibuat": "2026-11-27T19:45:03+0700"
+  }
+ ]
+}

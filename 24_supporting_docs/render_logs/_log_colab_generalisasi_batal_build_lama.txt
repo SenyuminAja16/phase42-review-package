@@ -1,0 +1,31 @@
+== percobaan 1 15:03 GPU=G4,L4,A100 sesi=anim2d_b
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-55e36b9ef6)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] siap: Hardware: G4
+  [colab] unggah adegan (18.3 MB)
+    [colab] 120/616 frame, 1.0 dtk/frame, sisa ~9 menit
+    [colab] 240/616 frame, 0.9 dtk/frame, sisa ~6 menit
+    [colab] 360/616 frame, 0.8 dtk/frame, sisa ~4 menit
+    [colab] 480/616 frame, 0.8 dtk/frame, sisa ~2 menit
+    [colab] 600/616 frame, 0.8 dtk/frame, sisa ~0 menit
+    [colab] 616/616 frame, 0.8 dtk/frame, sisa ~0 menit
+[audio]
+  audio: musik 'ceria', 1 efek suara
+[subtitle]
+  subtitle: 15 potongan
+[video]
+  provenance frame 1-616: PASS (6 potongan bermetadata)
+  grading shot 1: hitam RAW 2.1% -> graded 3.3%
+  grading shot 2: hitam RAW 7.5% -> graded 1.1% (koreksi {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037})
+  grading shot 3: hitam RAW 7.4% -> graded 1.2% (koreksi {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037})
+  grading shot 4: hitam RAW 11.1% -> graded 0.9% (koreksi {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037})
+  grading shot 5: hitam RAW 6.9% -> graded 1.1% (koreksi {'vinyet': 0.18, 'kontras': 1.03, 'angkat_hitam': 0.037})
+  grading shot 6: hitam RAW 2.5% -> graded 3.6%
+  VIDEO: /home/ahmad-mafaza-afnani/Documents/2d-animation/stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4
+selesai dalam 10.6 menit
+EXIT 0
+  [colab] sesi 'anim2d_b' dihentikan
+SESI_DIHENTIKAN 15:14

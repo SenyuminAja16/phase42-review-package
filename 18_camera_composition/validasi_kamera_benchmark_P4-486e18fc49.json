@@ -1,0 +1,77 @@
+{
+ "cerita": "benchmark_warung",
+ "build_id": "P4-486e18fc49",
+ "ringkas": {
+  "WARN": 1,
+  "PASS": 2,
+  "NOT_APPLICABLE": 1
+ },
+ "cek": {
+  "komposisi_pita": {
+   "status": "WARN",
+   "kunci_diuji": 19,
+   "di_luar_pita": [
+    {
+     "shot": 2,
+     "frame": 75,
+     "metrik": "tinggi",
+     "nilai": 0.287,
+     "pita": [
+      0.55,
+      0.82
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.62 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 2,
+     "frame": 158,
+     "metrik": "tinggi",
+     "nilai": 0.286,
+     "pita": [
+      0.55,
+      0.82
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.61 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 5,
+     "frame": 226,
+     "metrik": "tinggi",
+     "nilai": 0.399,
+     "pita": [
+      0.4,
+      0.78
+     ],
+     "status": "WARN"
+    },
+    {
+     "shot": 10,
+     "frame": 731,
+     "metrik": "mata_y",
+     "nilai": 0.179,
+     "pita": [
+      0.18,
+      0.42
+     ],
+     "status": "WARN"
+    }
+   ]
+  },
+  "wajah_subjek": {
+   "status": "PASS",
+   "shot_diuji": 6,
+   "masalah": []
+  },
+  "aksi_dalam_shot": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada aksi dua tokoh"
+  },
+  "suapan_dalam_shot": {
+   "status": "PASS",
+   "shot_diuji": 2,
+   "tanpa_kontak": []
+  }
+ }
+}

@@ -1,0 +1,27 @@
+== percobaan 1 15:45 GPU=G4,L4,A100 sesi=anim2d_b
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-56213d5cb4)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (22d8b8a........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (57b684d........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] A100 tidak tersedia (059e027........&variant=GPU&accelerator=A100: Service Unavailable)
+
+KESALAHAN: tidak ada GPU Colab yang tersedia saat ini; coba lagi nanti atau render lokal
+== percobaan 2 15:51 GPU=G4,L4,A100 sesi=anim2d_b
+== Teh Sore untuk Ibu ==
+[render]
+  616 frame perlu dirender (build P4-56213d5cb4)
+  render 616 frame (penuh), sudah ada 0 [GPU Colab]
+  [colab] meminta GPU G4 ...
+  [colab] G4 tidak tersedia (e038cb9........&variant=GPU&accelerator=G4: Service Unavailable)
+  [colab] meminta GPU L4 ...
+  [colab] L4 tidak tersedia (0a11cca........&variant=GPU&accelerator=L4: Service Unavailable)
+  [colab] meminta GPU A100 ...
+  [colab] siap: Hardware: A100
+  [colab] unggah adegan (18.3 MB)
+    [colab] 120/616 frame, 2.5 dtk/frame, sisa ~21 menit
+    [colab] 240/616 frame, 2.0 dtk/frame, sisa ~13 menit

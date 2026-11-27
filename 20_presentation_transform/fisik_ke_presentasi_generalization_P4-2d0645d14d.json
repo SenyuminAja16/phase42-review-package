@@ -1,0 +1,186 @@
+{
+ "build_id": "P4-2d0645d14d",
+ "catatan": "fisik → presentasi: skala benda (harus konstan), geser presentasi/blocking (dibatasi geser_maks profil), lompatan posisi benda di potongan kamera (DICATAT, tanpa ambang lolos/gagal), transisi kepemilikan",
+ "lompatan_benda_di_potongan_kamera_m": {
+  "benda_teh_dimas_0": [
+   [
+    220,
+    0.0055
+   ],
+   [
+    366,
+    0.1969
+   ],
+   [
+    483,
+    0.0388
+   ],
+   [
+    545,
+    0.0343
+   ]
+  ]
+ },
+ "lompatan_layar_benda_px_dalam_shot": {
+  "min": 0.0131,
+  "maks": 52.4015,
+  "rata2": 2.7486,
+  "n": 425
+ },
+ "transisi_kepemilikan": [
+  {
+   "benda": "teh_dimas_0",
+   "frame": 131,
+   "dari": "world:None",
+   "ke": "carry:dimas",
+   "lompatan_m": 0.0,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "teh_dimas_0",
+   "frame": 143,
+   "dari": "carry:dimas",
+   "ke": "hand:dimas",
+   "lompatan_m": 0.0083,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "teh_dimas_0",
+   "frame": 301,
+   "dari": "hand:dimas",
+   "ke": "carry:dimas",
+   "lompatan_m": 0.0001,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "teh_dimas_0",
+   "frame": 325,
+   "dari": "carry:dimas",
+   "ke": "carry:sri",
+   "lompatan_m": 0.0077,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "teh_dimas_0",
+   "frame": 337,
+   "dari": "carry:sri",
+   "ke": "hand:sri",
+   "lompatan_m": 0.0044,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "teh_dimas_0",
+   "frame": 549,
+   "dari": "hand:sri",
+   "ke": "carry:sri",
+   "lompatan_m": 0.0001,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "teh_dimas_0",
+   "frame": 561,
+   "dari": "carry:sri",
+   "ke": "world:None",
+   "lompatan_m": 0.0071,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  }
+ ],
+ "validator": {
+  "temporal:lompatan_benda": {
+   "status": "PASS",
+   "kategori": "temporal",
+   "pelanggaran": 0,
+   "sampel": 425
+  },
+  "skala_fisik_benda:teh_dimas_0": {
+   "status": "PASS",
+   "skala_min_profil": 1.0,
+   "skala_min_terukur": 1.0,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 430,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:teh_dimas_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  }
+ },
+ "per_benda": {
+  "teh_dimas_0": {
+   "skala_presentasi_min_max": [
+    1.0,
+    1.0
+   ],
+   "geser_blocking_presentasi_maks_m": 0.0008,
+   "geser_maks_profil_m": null,
+   "frame_geser_di_atas_batas": [],
+   "geser_presentasi_per_frame": {
+    "327": [
+     0.0002,
+     "front"
+    ],
+    "328": [
+     0.0007,
+     "front"
+    ],
+    "329": [
+     0.0002,
+     "front"
+    ],
+    "330": [
+     0.0008,
+     "front"
+    ],
+    "331": [
+     0.0,
+     "front"
+    ],
+    "332": [
+     0.0007,
+     "front"
+    ],
+    "333": [
+     0.0,
+     "front"
+    ],
+    "334": [
+     0.0005,
+     "front"
+    ]
+   },
+   "skala_min_profil": 1.0
+  }
+ },
+ "pembanding_phase41": {
+  "build_id": "P4-21e3aadc90",
+  "lompatan_benda_di_potongan_kamera_m": {
+   "benda_teh_dimas_0": [
+    [
+     220,
+     0.0053
+    ],
+    [
+     366,
+     0.1667
+    ],
+    [
+     483,
+     0.0446
+    ],
+    [
+     545,
+     0.0563
+    ]
+   ]
+  }
+ }
+}

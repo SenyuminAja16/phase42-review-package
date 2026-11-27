@@ -1,0 +1,3007 @@
+{
+ "build_id": "P4-486e18fc49",
+ "catatan": "tabrakan benda vs proxy OBB dunia statis, kontak permukaan ambil/letak (dicatat terpisah, tidak disembunyikan), kontak semantik cekung/bibir ↔ mulut (rasio thd ukuran benda), serah-terima",
+ "validator": {
+  "melayang:melayang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 902
+  },
+  "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 902
+  },
+  "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 860
+  },
+  "tembus:tembus_tubuh": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 174
+  },
+  "kontak_mulut:sutil_darto_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak mulut yang terlihat",
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:sutil_darto_0": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:sutil_darto_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak kritis",
+   "kategori": "genggam"
+  },
+  "kontak_mulut:piring_jali_1": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak mulut yang terlihat",
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:piring_jali_1": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 6,
+   "terdalam_m": 0.0041,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:piring_jali_1": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak kritis",
+   "kategori": "genggam"
+  },
+  "kontak_mulut:sendok_jali_2": {
+   "status": "PASS",
+   "rasio_maks_thd_lebar": 0.0,
+   "batas_rasio": 0.25,
+   "frame_di_atas": [],
+   "sampel": 13,
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:sendok_jali_2": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:sendok_jali_2": {
+   "status": "PASS",
+   "maks": 5.6,
+   "batas_derajat": 45.0,
+   "batas_keras_derajat": 60.0,
+   "sampel": 22,
+   "kategori": "genggam"
+  },
+  "serah_terima": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada serah-terima",
+   "kategori": "genggam"
+  },
+  "serah_terima_tabrakan": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada serah-terima",
+   "kategori": "genggam"
+  },
+  "cabang_siku": {
+   "status": "PASS",
+   "kejadian": [],
+   "jumlah": 0,
+   "kategori": "temporal"
+  },
+  "transisi_kepemilikan": {
+   "status": "PASS",
+   "gagal": [],
+   "sampel": 3,
+   "lompatan_maks_m": 0.0002,
+   "toleransi": {
+    "lompatan_m": 0.02,
+    "px": 6.0
+   },
+   "kategori": "temporal"
+  }
+ },
+ "blocking_tabrakan": {
+  "meja": 232
+ },
+ "serah_terima": [],
+ "per_benda": {
+  "sutil_darto_0": {
+   "tabrakan_dunia_per_frame": {},
+   "kontak_permukaan_ambil_letak_per_frame": {},
+   "kontak_mulut_per_frame": {}
+  },
+  "piring_jali_1": {
+   "tabrakan_dunia_per_frame": {
+    "373": [
+     0.0041,
+     "meja"
+    ],
+    "374": [
+     0.0044,
+     "meja"
+    ],
+    "375": [
+     0.0047,
+     "meja"
+    ],
+    "376": [
+     0.005,
+     "meja"
+    ],
+    "663": [
+     0.0043,
+     "meja"
+    ],
+    "664": [
+     0.0048,
+     "meja"
+    ]
+   },
+   "kontak_permukaan_ambil_letak_per_frame": {},
+   "kontak_mulut_per_frame": {}
+  },
+  "sendok_jali_2": {
+   "tabrakan_dunia_per_frame": {},
+   "kontak_permukaan_ambil_letak_per_frame": {},
+   "kontak_mulut_per_frame": {
+    "75": [
+     "istirahat",
+     261.2,
+     35.2
+    ],
+    "76": [
+     "istirahat",
+     261.2,
+     35.2
+    ],
+    "77": [
+     "istirahat",
+     261.2,
+     35.2
+    ],
+    "78": [
+     "istirahat",
+     261.2,
+     35.2
+    ],
+    "79": [
+     "istirahat",
+     261.2,
+     35.2
+    ],
+    "80": [
+     "istirahat",
+     261.1,
+     35.2
+    ],
+    "81": [
+     "istirahat",
+     261.1,
+     35.2
+    ],
+    "82": [
+     "istirahat",
+     261.1,
+     35.2
+    ],
+    "83": [
+     "istirahat",
+     261.1,
+     35.2
+    ],
+    "84": [
+     "istirahat",
+     261.1,
+     35.2
+    ],
+    "85": [
+     "sendok",
+     261.1,
+     35.2
+    ],
+    "86": [
+     "sendok",
+     258.0,
+     35.2
+    ],
+    "87": [
+     "sendok",
+     256.3,
+     35.2
+    ],
+    "88": [
+     "sendok",
+     256.0,
+     35.2
+    ],
+    "89": [
+     "sendok",
+     256.8,
+     35.2
+    ],
+    "90": [
+     "sendok",
+     259.0,
+     35.2
+    ],
+    "91": [
+     "angkat",
+     259.2,
+     35.2
+    ],
+    "92": [
+     "angkat",
+     238.9,
+     35.2
+    ],
+    "93": [
+     "angkat",
+     203.4,
+     35.2
+    ],
+    "94": [
+     "angkat",
+     162.2,
+     35.2
+    ],
+    "95": [
+     "angkat",
+     122.5,
+     35.2
+    ],
+    "96": [
+     "angkat",
+     88.7,
+     35.2
+    ],
+    "97": [
+     "angkat",
+     64.7,
+     35.2
+    ],
+    "98": [
+     "angkat",
+     54.6,
+     35.2
+    ],
+    "99": [
+     "dekat_mulut",
+     47.4,
+     35.2
+    ],
+    "100": [
+     "dekat_mulut",
+     28.2,
+     35.2
+    ],
+    "101": [
+     "dekat_mulut",
+     7.9,
+     35.2
+    ],
+    "102": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "103": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "104": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "105": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "106": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "107": [
+     "tarik",
+     2.2,
+     35.2
+    ],
+    "108": [
+     "tarik",
+     16.8,
+     35.2
+    ],
+    "109": [
+     "tarik",
+     30.5,
+     35.2
+    ],
+    "110": [
+     "kembali",
+     41.7,
+     35.2
+    ],
+    "111": [
+     "kembali",
+     52.8,
+     35.2
+    ],
+    "112": [
+     "kembali",
+     73.7,
+     35.2
+    ],
+    "113": [
+     "kembali",
+     102.0,
+     35.2
+    ],
+    "114": [
+     "kembali",
+     134.9,
+     35.2
+    ],
+    "115": [
+     "kembali",
+     170.3,
+     35.2
+    ],
+    "116": [
+     "kembali",
+     205.5,
+     35.2
+    ],
+    "117": [
+     "kembali",
+     235.9,
+     35.2
+    ],
+    "118": [
+     "kembali",
+     255.8,
+     35.2
+    ],
+    "119": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "120": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "121": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "122": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "123": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "124": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "125": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "126": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "127": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "128": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "129": [
+     "istirahat",
+     260.9,
+     35.2
+    ],
+    "130": [
+     "sendok",
+     260.9,
+     35.2
+    ],
+    "131": [
+     "sendok",
+     257.8,
+     35.2
+    ],
+    "132": [
+     "sendok",
+     256.2,
+     35.2
+    ],
+    "133": [
+     "sendok",
+     255.8,
+     35.2
+    ],
+    "134": [
+     "sendok",
+     256.7,
+     35.2
+    ],
+    "135": [
+     "sendok",
+     258.9,
+     35.2
+    ],
+    "136": [
+     "angkat",
+     259.1,
+     35.2
+    ],
+    "137": [
+     "angkat",
+     238.8,
+     35.2
+    ],
+    "138": [
+     "angkat",
+     203.4,
+     35.2
+    ],
+    "139": [
+     "angkat",
+     162.2,
+     35.2
+    ],
+    "140": [
+     "angkat",
+     122.4,
+     35.2
+    ],
+    "141": [
+     "angkat",
+     88.6,
+     35.2
+    ],
+    "142": [
+     "angkat",
+     64.7,
+     35.2
+    ],
+    "143": [
+     "angkat",
+     54.6,
+     35.2
+    ],
+    "144": [
+     "dekat_mulut",
+     47.4,
+     35.2
+    ],
+    "145": [
+     "dekat_mulut",
+     28.2,
+     35.2
+    ],
+    "146": [
+     "dekat_mulut",
+     7.9,
+     35.2
+    ],
+    "147": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "148": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "149": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "150": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "151": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "152": [
+     "tarik",
+     2.2,
+     35.2
+    ],
+    "153": [
+     "tarik",
+     16.8,
+     35.2
+    ],
+    "154": [
+     "tarik",
+     30.5,
+     35.2
+    ],
+    "155": [
+     "kembali",
+     41.7,
+     35.2
+    ],
+    "156": [
+     "kembali",
+     52.8,
+     35.2
+    ],
+    "157": [
+     "kembali",
+     73.6,
+     35.2
+    ],
+    "158": [
+     "kembali",
+     101.9,
+     35.2
+    ],
+    "159": [
+     "kembali",
+     120.1,
+     35.2
+    ],
+    "160": [
+     "kembali",
+     154.2,
+     35.2
+    ],
+    "161": [
+     "kembali",
+     189.4,
+     35.2
+    ],
+    "162": [
+     "kembali",
+     220.5,
+     35.2
+    ],
+    "163": [
+     "kembali",
+     241.2,
+     35.2
+    ],
+    "164": [
+     "istirahat",
+     246.4,
+     35.2
+    ],
+    "165": [
+     "istirahat",
+     246.3,
+     35.2
+    ],
+    "166": [
+     "istirahat",
+     246.2,
+     35.2
+    ],
+    "167": [
+     "istirahat",
+     246.2,
+     35.2
+    ],
+    "168": [
+     "istirahat",
+     246.1,
+     35.2
+    ],
+    "169": [
+     "istirahat",
+     246.0,
+     35.2
+    ],
+    "170": [
+     "istirahat",
+     246.0,
+     35.2
+    ],
+    "171": [
+     "istirahat",
+     245.9,
+     35.2
+    ],
+    "172": [
+     "istirahat",
+     245.8,
+     35.2
+    ],
+    "173": [
+     "istirahat",
+     245.8,
+     35.2
+    ],
+    "174": [
+     "istirahat",
+     245.8,
+     35.2
+    ],
+    "175": [
+     "sendok",
+     245.7,
+     35.2
+    ],
+    "176": [
+     "sendok",
+     241.0,
+     35.2
+    ],
+    "177": [
+     "sendok",
+     238.5,
+     35.2
+    ],
+    "178": [
+     "sendok",
+     238.1,
+     35.2
+    ],
+    "179": [
+     "sendok",
+     239.7,
+     35.2
+    ],
+    "180": [
+     "sendok",
+     243.3,
+     35.2
+    ],
+    "181": [
+     "angkat",
+     242.4,
+     35.2
+    ],
+    "182": [
+     "angkat",
+     218.3,
+     35.2
+    ],
+    "183": [
+     "angkat",
+     180.6,
+     35.2
+    ],
+    "184": [
+     "angkat",
+     140.2,
+     35.2
+    ],
+    "185": [
+     "angkat",
+     104.3,
+     35.2
+    ],
+    "186": [
+     "angkat",
+     75.7,
+     35.2
+    ],
+    "187": [
+     "angkat",
+     57.6,
+     35.2
+    ],
+    "188": [
+     "dekat_mulut",
+     52.4,
+     35.2
+    ],
+    "189": [
+     "dekat_mulut",
+     41.0,
+     35.2
+    ],
+    "190": [
+     "dekat_mulut",
+     20.3,
+     35.2
+    ],
+    "191": [
+     "dekat_mulut",
+     2.9,
+     35.2
+    ],
+    "192": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "193": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "194": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "195": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "196": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "197": [
+     "tarik",
+     8.5,
+     35.2
+    ],
+    "198": [
+     "tarik",
+     25.0,
+     35.2
+    ],
+    "199": [
+     "kembali",
+     61.5,
+     35.2
+    ],
+    "200": [
+     "kembali",
+     77.2,
+     35.2
+    ],
+    "201": [
+     "kembali",
+     112.6,
+     35.2
+    ],
+    "202": [
+     "kembali",
+     161.9,
+     35.2
+    ],
+    "203": [
+     "kembali",
+     216.9,
+     35.2
+    ],
+    "204": [
+     "kembali",
+     268.8,
+     35.2
+    ],
+    "205": [
+     "kembali",
+     311.9,
+     35.2
+    ],
+    "206": [
+     "kembali",
+     344.3,
+     35.2
+    ],
+    "207": [
+     "kembali",
+     365.3,
+     35.2
+    ],
+    "208": [
+     "istirahat",
+     372.8,
+     35.2
+    ],
+    "209": [
+     "istirahat",
+     372.3,
+     35.2
+    ],
+    "210": [
+     "istirahat",
+     371.7,
+     35.2
+    ],
+    "211": [
+     "istirahat",
+     371.2,
+     35.2
+    ],
+    "212": [
+     "istirahat",
+     370.6,
+     35.2
+    ],
+    "213": [
+     "istirahat",
+     370.0,
+     35.2
+    ],
+    "214": [
+     "istirahat",
+     369.4,
+     35.2
+    ],
+    "215": [
+     "istirahat",
+     368.9,
+     35.2
+    ],
+    "216": [
+     "istirahat",
+     368.3,
+     35.2
+    ],
+    "217": [
+     "istirahat",
+     367.8,
+     35.2
+    ],
+    "218": [
+     "istirahat",
+     367.3,
+     35.2
+    ],
+    "219": [
+     "sendok",
+     366.9,
+     35.2
+    ],
+    "220": [
+     "sendok",
+     385.1,
+     35.2
+    ],
+    "221": [
+     "sendok",
+     394.2,
+     35.2
+    ],
+    "222": [
+     "sendok",
+     389.3,
+     35.2
+    ],
+    "223": [
+     "sendok",
+     373.0,
+     35.2
+    ],
+    "224": [
+     "angkat",
+     358.4,
+     35.2
+    ],
+    "225": [
+     "angkat",
+     322.2,
+     35.2
+    ],
+    "226": [
+     "angkat",
+     174.9,
+     35.2
+    ],
+    "227": [
+     "angkat",
+     129.5,
+     35.2
+    ],
+    "228": [
+     "angkat",
+     88.7,
+     35.2
+    ],
+    "229": [
+     "angkat",
+     67.2,
+     35.2
+    ],
+    "230": [
+     "dekat_mulut",
+     55.1,
+     35.2
+    ],
+    "231": [
+     "dekat_mulut",
+     22.9,
+     35.2
+    ],
+    "232": [
+     "dekat_mulut",
+     0.4,
+     35.2
+    ],
+    "233": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "234": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "235": [
+     "kontak",
+     0.0,
+     35.2
+    ],
+    "236": [
+     "tarik",
+     1.2,
+     35.2
+    ],
+    "237": [
+     "tarik",
+     23.4,
+     35.2
+    ],
+    "238": [
+     "kembali",
+     47.5,
+     35.2
+    ],
+    "239": [
+     "kembali",
+     59.4,
+     35.2
+    ],
+    "240": [
+     "kembali",
+     89.6,
+     35.2
+    ],
+    "241": [
+     "kembali",
+     129.8,
+     35.2
+    ],
+    "242": [
+     "kembali",
+     171.1,
+     35.2
+    ],
+    "243": [
+     "kembali",
+     208.3,
+     35.2
+    ],
+    "244": [
+     "kembali",
+     237.5,
+     35.2
+    ],
+    "245": [
+     "kembali",
+     252.7,
+     35.2
+    ],
+    "246": [
+     "istirahat",
+     253.6,
+     35.2
+    ],
+    "247": [
+     "istirahat",
+     253.8,
+     35.2
+    ],
+    "248": [
+     "istirahat",
+     254.1,
+     35.2
+    ],
+    "249": [
+     "istirahat",
+     254.3,
+     35.2
+    ],
+    "250": [
+     "istirahat",
+     254.6,
+     35.2
+    ],
+    "251": [
+     "istirahat",
+     254.9,
+     35.2
+    ],
+    "252": [
+     "istirahat",
+     255.2,
+     35.2
+    ],
+    "253": [
+     "istirahat",
+     255.6,
+     35.2
+    ]
+   }
+  }
+ },
+ "sebidang_zfighting": {
+  "tol_m": 0.0008,
+  "jumlah": 277,
+  "pasangan": [
+   {
+    "objek": [
+     "jendela_jauh.050",
+     "jendela_jauh.086"
+    ],
+    "luas_m2": 0.1414
+   },
+   {
+    "objek": [
+     "bodi.003",
+     "bodi.009"
+    ],
+    "luas_m2": 0.1331
+   },
+   {
+    "objek": [
+     "jendela_jauh.201",
+     "jendela_jauh.202"
+    ],
+    "luas_m2": 0.1016
+   },
+   {
+    "objek": [
+     "jari_roda.002",
+     "jari_roda.008"
+    ],
+    "luas_m2": 0.0864
+   },
+   {
+    "objek": [
+     "jari_roda.003",
+     "jari_roda.007"
+    ],
+    "luas_m2": 0.0864
+   },
+   {
+    "objek": [
+     "jari_roda.012",
+     "jari_roda.018"
+    ],
+    "luas_m2": 0.0864
+   },
+   {
+    "objek": [
+     "jari_roda.013",
+     "jari_roda.017"
+    ],
+    "luas_m2": 0.0864
+   },
+   {
+    "objek": [
+     "jendela_jauh.017",
+     "jendela_jauh.024"
+    ],
+    "luas_m2": 0.0818
+   },
+   {
+    "objek": [
+     "jari_roda.002",
+     "jari_roda.003"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jari_roda.002",
+     "jari_roda.007"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jari_roda.003",
+     "jari_roda.008"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jari_roda.007",
+     "jari_roda.008"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jari_roda.012",
+     "jari_roda.013"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jari_roda.012",
+     "jari_roda.017"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jari_roda.013",
+     "jari_roda.018"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jari_roda.017",
+     "jari_roda.018"
+    ],
+    "luas_m2": 0.0634
+   },
+   {
+    "objek": [
+     "jendela_jauh.049",
+     "jendela_jauh.079"
+    ],
+    "luas_m2": 0.0544
+   },
+   {
+    "objek": [
+     "jari_roda.001",
+     "jari_roda.009"
+    ],
+    "luas_m2": 0.0544
+   },
+   {
+    "objek": [
+     "jari_roda.004",
+     "jari_roda.006"
+    ],
+    "luas_m2": 0.0544
+   },
+   {
+    "objek": [
+     "jari_roda.011",
+     "jari_roda.019"
+    ],
+    "luas_m2": 0.0544
+   },
+   {
+    "objek": [
+     "jari_roda.014",
+     "jari_roda.016"
+    ],
+    "luas_m2": 0.0544
+   },
+   {
+    "objek": [
+     "jendela_jauh.062",
+     "jendela_jauh.067"
+    ],
+    "luas_m2": 0.0539
+   },
+   {
+    "objek": [
+     "jari_roda.001",
+     "jari_roda.002"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.001",
+     "jari_roda.008"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.002",
+     "jari_roda.009"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.003",
+     "jari_roda.004"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.003",
+     "jari_roda.006"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.004",
+     "jari_roda.007"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.006",
+     "jari_roda.007"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.008",
+     "jari_roda.009"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.011",
+     "jari_roda.012"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.011",
+     "jari_roda.018"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.012",
+     "jari_roda.019"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.013",
+     "jari_roda.014"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.013",
+     "jari_roda.016"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.014",
+     "jari_roda.017"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.016",
+     "jari_roda.017"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jari_roda.018",
+     "jari_roda.019"
+    ],
+    "luas_m2": 0.0465
+   },
+   {
+    "objek": [
+     "jendela_jauh.003",
+     "jendela_jauh.013"
+    ],
+    "luas_m2": 0.0385
+   },
+   {
+    "objek": [
+     "jari_roda.001",
+     "jari_roda.003"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.001",
+     "jari_roda.007"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.002",
+     "jari_roda.004"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.002",
+     "jari_roda.006"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.003",
+     "jari_roda.009"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.004",
+     "jari_roda.008"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.006",
+     "jari_roda.008"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.007",
+     "jari_roda.009"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.011",
+     "jari_roda.013"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.011",
+     "jari_roda.017"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.012",
+     "jari_roda.014"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.012",
+     "jari_roda.016"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.013",
+     "jari_roda.019"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.014",
+     "jari_roda.018"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.016",
+     "jari_roda.018"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jari_roda.017",
+     "jari_roda.019"
+    ],
+    "luas_m2": 0.0341
+   },
+   {
+    "objek": [
+     "jendela_jauh.064",
+     "jendela_jauh.076"
+    ],
+    "luas_m2": 0.0308
+   },
+   {
+    "objek": [
+     "jendela_jauh.052",
+     "jendela_jauh.056"
+    ],
+    "luas_m2": 0.0274
+   },
+   {
+    "objek": [
+     "jari_roda.001",
+     "jari_roda.004"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "jari_roda.001",
+     "jari_roda.006"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "jari_roda.004",
+     "jari_roda.009"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "jari_roda.006",
+     "jari_roda.009"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "jari_roda.011",
+     "jari_roda.014"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "jari_roda.011",
+     "jari_roda.016"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "jari_roda.014",
+     "jari_roda.019"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "jari_roda.016",
+     "jari_roda.019"
+    ],
+    "luas_m2": 0.0184
+   },
+   {
+    "objek": [
+     "kanstin.114",
+     "trotoar"
+    ],
+    "luas_m2": 0.0104
+   },
+   {
+    "objek": [
+     "kanstin.229",
+     "trotoar.001"
+    ],
+    "luas_m2": 0.0104
+   },
+   {
+    "objek": [
+     "kanstin",
+     "trotoar"
+    ],
+    "luas_m2": 0.0104
+   },
+   {
+    "objek": [
+     "kanstin.115",
+     "trotoar.001"
+    ],
+    "luas_m2": 0.0104
+   },
+   {
+    "objek": [
+     "jendela_jauh.201",
+     "jendela_jauh.203"
+    ],
+    "luas_m2": 0.0093
+   },
+   {
+    "objek": [
+     "lis_fasad",
+     "pilaster"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad",
+     "pilaster.001"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.001",
+     "pilaster.002"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.001",
+     "pilaster.003"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.002",
+     "pilaster.002"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.002",
+     "pilaster.003"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.003",
+     "pilaster.004"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.003",
+     "pilaster.005"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.004",
+     "pilaster.004"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.004",
+     "pilaster.005"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.005",
+     "pilaster.006"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.005",
+     "pilaster.007"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.006",
+     "pilaster.006"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.006",
+     "pilaster.007"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.007",
+     "pilaster.008"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.007",
+     "pilaster.009"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.008",
+     "pilaster.010"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.008",
+     "pilaster.011"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.009",
+     "pilaster.012"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.009",
+     "pilaster.013"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.010",
+     "pilaster.012"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.010",
+     "pilaster.013"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.011",
+     "pilaster.014"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.011",
+     "pilaster.015"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.012",
+     "pilaster.014"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.012",
+     "pilaster.015"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.013",
+     "pilaster.016"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.013",
+     "pilaster.017"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.014",
+     "pilaster.016"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.014",
+     "pilaster.017"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.015",
+     "pilaster.016"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.015",
+     "pilaster.017"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.016",
+     "pilaster.018"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.016",
+     "pilaster.019"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.017",
+     "pilaster.020"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.017",
+     "pilaster.021"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.018",
+     "pilaster.020"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.018",
+     "pilaster.021"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.019",
+     "pilaster.022"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.019",
+     "pilaster.023"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.020",
+     "pilaster.022"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.020",
+     "pilaster.023"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.021",
+     "pilaster.022"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.021",
+     "pilaster.023"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.022",
+     "pilaster.024"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.022",
+     "pilaster.025"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.023",
+     "pilaster.026"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.023",
+     "pilaster.027"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.024",
+     "pilaster.028"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.024",
+     "pilaster.029"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.025",
+     "pilaster.030"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.025",
+     "pilaster.031"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.026",
+     "pilaster.032"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.026",
+     "pilaster.033"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.027",
+     "pilaster.034"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.027",
+     "pilaster.035"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.028",
+     "pilaster.034"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.028",
+     "pilaster.035"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.029",
+     "pilaster.036"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.029",
+     "pilaster.037"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.030",
+     "pilaster.036"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.030",
+     "pilaster.037"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.031",
+     "pilaster.038"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.031",
+     "pilaster.039"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.032",
+     "pilaster.038"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.032",
+     "pilaster.039"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.033",
+     "pilaster.040"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.033",
+     "pilaster.041"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.034",
+     "pilaster.042"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.034",
+     "pilaster.043"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.035",
+     "pilaster.042"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.035",
+     "pilaster.043"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.036",
+     "pilaster.044"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.036",
+     "pilaster.045"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.037",
+     "pilaster.046"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.037",
+     "pilaster.047"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.038",
+     "pilaster.048"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.039",
+     "pilaster.048"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.040",
+     "pilaster.048"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.038",
+     "pilaster.049"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.039",
+     "pilaster.049"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.040",
+     "pilaster.049"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.041",
+     "pilaster.050"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.042",
+     "pilaster.050"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.041",
+     "pilaster.051"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.042",
+     "pilaster.051"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.043",
+     "pilaster.052"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.044",
+     "pilaster.052"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.043",
+     "pilaster.053"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.044",
+     "pilaster.053"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.045",
+     "pilaster.054"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.045",
+     "pilaster.055"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.046",
+     "pilaster.056"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.047",
+     "pilaster.056"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.046",
+     "pilaster.057"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.047",
+     "pilaster.057"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.048",
+     "pilaster.058"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.048",
+     "pilaster.059"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.049",
+     "pilaster.060"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.050",
+     "pilaster.060"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.049",
+     "pilaster.061"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.050",
+     "pilaster.061"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.051",
+     "pilaster.062"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.052",
+     "pilaster.062"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.053",
+     "pilaster.062"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.051",
+     "pilaster.063"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.052",
+     "pilaster.063"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.053",
+     "pilaster.063"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.054",
+     "pilaster.064"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.055",
+     "pilaster.064"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.054",
+     "pilaster.065"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.055",
+     "pilaster.065"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.056",
+     "pilaster.066"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.057",
+     "pilaster.066"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.058",
+     "pilaster.066"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.056",
+     "pilaster.067"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.057",
+     "pilaster.067"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.058",
+     "pilaster.067"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.059",
+     "pilaster.068"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.059",
+     "pilaster.069"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.060",
+     "pilaster.070"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.060",
+     "pilaster.071"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.061",
+     "pilaster.072"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.062",
+     "pilaster.072"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.061",
+     "pilaster.073"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.062",
+     "pilaster.073"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.063",
+     "pilaster.074"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.064",
+     "pilaster.074"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.063",
+     "pilaster.075"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.064",
+     "pilaster.075"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.065",
+     "pilaster.076"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.065",
+     "pilaster.077"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.066",
+     "pilaster.078"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.067",
+     "pilaster.078"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.066",
+     "pilaster.079"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.067",
+     "pilaster.079"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.068",
+     "pilaster.080"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.068",
+     "pilaster.081"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.069",
+     "pilaster.082"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.070",
+     "pilaster.082"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.069",
+     "pilaster.083"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.070",
+     "pilaster.083"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.071",
+     "pilaster.084"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.072",
+     "pilaster.084"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.071",
+     "pilaster.085"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "lis_fasad.072",
+     "pilaster.085"
+    ],
+    "luas_m2": 0.0076
+   },
+   {
+    "objek": [
+     "daun_tanah.101",
+     "marka.007"
+    ],
+    "luas_m2": 0.0065
+   },
+   {
+    "objek": [
+     "jendela_jauh",
+     "jendela_jauh.045"
+    ],
+    "luas_m2": 0.0064
+   },
+   {
+    "objek": [
+     "jendela_jauh.004",
+     "jendela_jauh.030"
+    ],
+    "luas_m2": 0.0056
+   },
+   {
+    "objek": [
+     "lis_fasad",
+     "lis_lantai"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.036",
+     "lis_lantai.022"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.001",
+     "lis_lantai.001"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.003",
+     "lis_lantai.002"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.005",
+     "lis_lantai.003"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.007",
+     "lis_lantai.004"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.008",
+     "lis_lantai.005"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.009",
+     "lis_lantai.006"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.011",
+     "lis_lantai.007"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.013",
+     "lis_lantai.008"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.016",
+     "lis_lantai.009"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.017",
+     "lis_lantai.010"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.019",
+     "lis_lantai.011"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.022",
+     "lis_lantai.012"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.023",
+     "lis_lantai.013"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.024",
+     "lis_lantai.014"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.025",
+     "lis_lantai.015"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.026",
+     "lis_lantai.016"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.027",
+     "lis_lantai.017"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.029",
+     "lis_lantai.018"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.031",
+     "lis_lantai.019"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.033",
+     "lis_lantai.020"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.034",
+     "lis_lantai.021"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.037",
+     "lis_lantai.023"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.038",
+     "lis_lantai.024"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.041",
+     "lis_lantai.025"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.043",
+     "lis_lantai.026"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.045",
+     "lis_lantai.027"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.046",
+     "lis_lantai.028"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.048",
+     "lis_lantai.029"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.049",
+     "lis_lantai.030"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.051",
+     "lis_lantai.031"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.054",
+     "lis_lantai.032"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.056",
+     "lis_lantai.033"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.059",
+     "lis_lantai.034"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.060",
+     "lis_lantai.035"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.061",
+     "lis_lantai.036"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.063",
+     "lis_lantai.037"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.065",
+     "lis_lantai.038"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.066",
+     "lis_lantai.039"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.068",
+     "lis_lantai.040"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.069",
+     "lis_lantai.041"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "lis_fasad.071",
+     "lis_lantai.042"
+    ],
+    "luas_m2": 0.004
+   },
+   {
+    "objek": [
+     "daun_tanah.028",
+     "daun_tanah.177"
+    ],
+    "luas_m2": 0.0025
+   },
+   {
+    "objek": [
+     "cabai.001",
+     "cabai.002"
+    ],
+    "luas_m2": 0.0011
+   },
+   {
+    "objek": [
+     "mi.009",
+     "mi.011"
+    ],
+    "luas_m2": 0.001
+   },
+   {
+    "objek": [
+     "sawi.010",
+     "sosis.010"
+    ],
+    "luas_m2": 0.001
+   },
+   {
+    "objek": [
+     "daun_tanah.035",
+     "daun_tanah.204"
+    ],
+    "luas_m2": 0.0009
+   },
+   {
+    "objek": [
+     "sawi.001",
+     "sawi.003"
+    ],
+    "luas_m2": 0.0009
+   },
+   {
+    "objek": [
+     "sawi",
+     "sawi.005"
+    ],
+    "luas_m2": 0.0008
+   },
+   {
+    "objek": [
+     "sawi.003",
+     "sosis.005"
+    ],
+    "luas_m2": 0.0007
+   },
+   {
+    "objek": [
+     "sosis",
+     "sosis.004"
+    ],
+    "luas_m2": 0.0006
+   },
+   {
+    "objek": [
+     "sosis.001",
+     "sosis.004"
+    ],
+    "luas_m2": 0.0006
+   },
+   {
+    "objek": [
+     "cabai.002",
+     "cabai.004"
+    ],
+    "luas_m2": 0.0006
+   },
+   {
+    "objek": [
+     "timun",
+     "timun.001"
+    ],
+    "luas_m2": 0.0006
+   },
+   {
+    "objek": [
+     "timun.001",
+     "timun.002"
+    ],
+    "luas_m2": 0.0006
+   },
+   {
+    "objek": [
+     "mi.006",
+     "mi.008"
+    ],
+    "luas_m2": 0.0005
+   },
+   {
+    "objek": [
+     "cabai.009",
+     "sosis.007"
+    ],
+    "luas_m2": 0.0005
+   }
+  ]
+ }
+}

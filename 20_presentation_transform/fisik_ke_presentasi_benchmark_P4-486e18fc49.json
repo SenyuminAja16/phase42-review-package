@@ -1,0 +1,297 @@
+{
+ "build_id": "P4-486e18fc49",
+ "catatan": "fisik → presentasi: skala benda (harus konstan), geser presentasi/blocking (dibatasi geser_maks profil), lompatan posisi benda di potongan kamera (DICATAT, tanpa ambang lolos/gagal), transisi kepemilikan",
+ "lompatan_benda_di_potongan_kamera_m": {
+  "benda_sutil_darto_0": [
+   [
+    75,
+    0.068
+   ],
+   [
+    159,
+    0.1293
+   ],
+   [
+    199,
+    0.1316
+   ],
+   [
+    226,
+    0.0593
+   ],
+   [
+    282,
+    0.0667
+   ]
+  ],
+  "benda_piring_jali_1": [
+   [
+    75,
+    0.4619
+   ],
+   [
+    159,
+    0.1108
+   ],
+   [
+    199,
+    0.3685
+   ],
+   [
+    226,
+    0.2214
+   ],
+   [
+    282,
+    0.0017
+   ],
+   [
+    458,
+    0.3649
+   ],
+   [
+    541,
+    0.4561
+   ],
+   [
+    612,
+    0.0744
+   ],
+   [
+    703,
+    0.0058
+   ],
+   [
+    732,
+    0.3475
+   ]
+  ],
+  "benda_sendok_jali_2": [
+   [
+    75,
+    0.4525
+   ],
+   [
+    159,
+    0.113
+   ],
+   [
+    199,
+    0.1925
+   ],
+   [
+    226,
+    0.1695
+   ]
+  ]
+ },
+ "lompatan_layar_benda_px_dalam_shot": {
+  "min": 0.0073,
+  "maks": 43.8864,
+  "rata2": 3.2378,
+  "n": 890
+ },
+ "transisi_kepemilikan": [
+  {
+   "benda": "sutil_darto_0",
+   "frame": 458,
+   "dari": "hand:darto",
+   "ke": "world:None",
+   "lompatan_m": 0.0,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "sendok_jali_2",
+   "frame": 254,
+   "dari": "hand:jali",
+   "ke": "place:jali",
+   "lompatan_m": 0.0002,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  },
+  {
+   "benda": "sendok_jali_2",
+   "frame": 268,
+   "dari": "place:jali",
+   "ke": "on:None",
+   "lompatan_m": 0.0001,
+   "residual_maks_m": 0.0,
+   "residual_maks_px": 0.0
+  }
+ ],
+ "validator": {
+  "temporal:lompatan_benda": {
+   "status": "PASS",
+   "kategori": "temporal",
+   "pelanggaran": 0,
+   "sampel": 890
+  },
+  "skala_fisik_benda:sutil_darto_0": {
+   "status": "PASS",
+   "skala_min_profil": 0.9,
+   "skala_min_terukur": 0.9941,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 225,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:sutil_darto_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:piring_jali_1": {
+   "status": "PASS",
+   "skala_min_profil": 1.0,
+   "skala_min_terukur": 1.0,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 565,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:piring_jali_1": {
+   "status": "PASS",
+   "maks_m": 0.0,
+   "batas_m": 0.04,
+   "sampel": 0,
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:sendok_jali_2": {
+   "status": "PASS",
+   "skala_min_profil": 0.9,
+   "skala_min_terukur": 0.993,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 112,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:sendok_jali_2": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  }
+ },
+ "per_benda": {
+  "sutil_darto_0": {
+   "skala_presentasi_min_max": [
+    0.9941,
+    1.0
+   ],
+   "geser_blocking_presentasi_maks_m": 0.0,
+   "geser_maks_profil_m": null,
+   "frame_geser_di_atas_batas": [],
+   "geser_presentasi_per_frame": {},
+   "skala_min_profil": 0.9
+  },
+  "piring_jali_1": {
+   "skala_presentasi_min_max": [
+    1.0,
+    1.0
+   ],
+   "geser_blocking_presentasi_maks_m": 0.0,
+   "geser_maks_profil_m": 0.04,
+   "frame_geser_di_atas_batas": [],
+   "geser_presentasi_per_frame": {},
+   "skala_min_profil": 1.0
+  },
+  "sendok_jali_2": {
+   "skala_presentasi_min_max": [
+    0.9838,
+    1.0055
+   ],
+   "geser_blocking_presentasi_maks_m": 0.0,
+   "geser_maks_profil_m": null,
+   "frame_geser_di_atas_batas": [],
+   "geser_presentasi_per_frame": {},
+   "skala_min_profil": 0.9
+  }
+ },
+ "pembanding_phase41": {
+  "build_id": "P4-4b69684991",
+  "lompatan_benda_di_potongan_kamera_m": {
+   "benda_sutil_darto_0": [
+    [
+     75,
+     0.2385
+    ],
+    [
+     159,
+     0.2095
+    ],
+    [
+     199,
+     0.1696
+    ],
+    [
+     226,
+     0.1029
+    ],
+    [
+     282,
+     0.2329
+    ]
+   ],
+   "benda_piring_jali_1": [
+    [
+     75,
+     0.4763
+    ],
+    [
+     159,
+     0.1151
+    ],
+    [
+     199,
+     0.3701
+    ],
+    [
+     226,
+     0.2216
+    ],
+    [
+     282,
+     0.0018
+    ],
+    [
+     458,
+     0.3513
+    ],
+    [
+     541,
+     0.4561
+    ],
+    [
+     612,
+     0.0787
+    ],
+    [
+     703,
+     0.0056
+    ],
+    [
+     732,
+     0.3415
+    ]
+   ],
+   "benda_sendok_jali_2": [
+    [
+     75,
+     0.2934
+    ],
+    [
+     159,
+     0.1975
+    ],
+    [
+     199,
+     0.4306
+    ],
+    [
+     226,
+     0.2293
+    ]
+   ]
+  }
+ }
+}

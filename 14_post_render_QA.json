@@ -1,0 +1,1791 @@
+{
+ "catatan": "qa_render.py (frame lengkap/kembar, alpha, durasi A/V, black crush, clipping, flicker temporal, sinkron dialog) dan qa_kedip.py (kedip per shot) pada video final; lip-sync perseptual NOT_TESTED (butuh penilaian manusia)",
+ "benchmark": {
+  "build_id": "P4-486e18fc49",
+  "video": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "video_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "qa_render": {
+   "story": "benchmark_warung",
+   "build_id_adegan": "P4-486e18fc49",
+   "rentang": [
+    1,
+    860
+   ],
+   "video": "stories/benchmark_warung/output/benchmark_warung.mp4",
+   "catatan": "indikator numerik pasca-render; BUKAN penilaian artistik. Frame yang disebut perlu dilihat langsung.",
+   "cek": {
+    "frame_lengkap": {
+     "status": "PASS",
+     "rentang": [
+      1,
+      860
+     ],
+     "hilang": [],
+     "n_hilang": 0,
+     "rusak": [],
+     "ukuran": [
+      [
+       1080,
+       1920
+      ]
+     ]
+    },
+    "frame_kembar": {
+     "status": "PASS",
+     "n": 0,
+     "contoh": [],
+     "catatan": "frame identik berurutan; bisa sah (tahan diam tanpa efek) atau render macet"
+    },
+    "artefak_alpha_outline": {
+     "status": "PASS",
+     "heuristik": true,
+     "bintik_terang_terisolasi_p95": 0.0,
+     "bintik_maks": 1,
+     "frame_bintik_terbanyak": [
+      469,
+      520,
+      766,
+      778,
+      832
+     ],
+     "piksel_magenta_maks": 0,
+     "catatan": "bintik = piksel terang (luma>120) yang SEMUA 8 tetangganya gelap (luma<50): pola khas alpha HASHED/dither di garis tinta. Ambang WARN p95>40/frame. Heuristik, perlu dicek visual."
+    },
+    "durasi_av": {
+     "status": "PASS",
+     "video_dtk": 28.666667,
+     "audio_dtk": 28.664,
+     "harapan_dtk": 28.6667,
+     "frame_video": 860,
+     "frame_harapan": 860,
+     "komentar_build": "build_id=P4-486e18fc49 frames=P4-486e18fc49"
+    },
+    "black_crush": {
+     "status": "PASS",
+     "hilang_detail_oleh_grading_p95": 0.0014,
+     "hilang_detail_oleh_grading_maks": 0.0019,
+     "frame_terburuk_grading": 239,
+     "hitam_absolut_p95_info": 0.0014,
+     "hitam_absolut_frame_maks_info": 235,
+     "toleransi": "status = fraksi piksel yang di render mentah luma>=10 tetapi <=4 setelah grading (detail bayangan hilang): WARN >1%, FAIL >4% (p95, tiap 5 frame). Hitam absolut (termasuk garis tinta/rambut hitam = gaya) hanya informasi."
+    },
+    "highlight_clipping": {
+     "status": "PASS",
+     "fraksi_p95": 0.0036,
+     "fraksi_maks": 0.0041,
+     "frame_terburuk": 216,
+     "toleransi": "fraksi kanal>=253: WARN >1%, FAIL >5% (p95); lampu praktis memang boleh terang"
+    },
+    "flicker_temporal": {
+     "status": "PASS",
+     "global_maks": 1.02,
+     "ubin_maks": 5.15,
+     "frame_mencurigakan": [],
+     "toleransi": "|2L[t]-L[t-1]-L[t+1]|/2 global WARN>1.5 FAIL>3; ubin 4x4 WARN>6 FAIL>12 (gerak cepat/kilat juga bisa memicu -> periksa frame yang disebut)"
+    },
+    "sinkron_dialog_timestamp": {
+     "event_kata_vs_timestamp_tts": {
+      "status": "PASS",
+      "selisih_maks_frame": 0.5,
+      "n_kata": 20,
+      "rincian": [
+       {
+        "baris": "n3",
+        "kata": "Pak",
+        "frame_event": 290,
+        "frame_audio": 289.93,
+        "selisih_frame": 0.07
+       },
+       {
+        "baris": "n3",
+        "kata": "satu",
+        "frame_event": 314,
+        "frame_audio": 313.63,
+        "selisih_frame": 0.37
+       },
+       {
+        "baris": "n3",
+        "kata": "lagi",
+        "frame_event": 323,
+        "frame_audio": 322.69,
+        "selisih_frame": 0.31
+       },
+       {
+        "baris": "n3",
+        "kata": "ya",
+        "frame_event": 331,
+        "frame_audio": 331.0,
+        "selisih_frame": 0.0
+       },
+       {
+        "baris": "n3",
+        "kata": "Dibungkus",
+        "frame_event": 368,
+        "frame_audio": 367.78,
+        "selisih_frame": 0.22
+       },
+       {
+        "baris": "n3",
+        "kata": "pedas",
+        "frame_event": 401,
+        "frame_audio": 400.54,
+        "selisih_frame": 0.46
+       },
+       {
+        "baris": "n4",
+        "kata": "Tumben",
+        "frame_event": 466,
+        "frame_audio": 465.52,
+        "selisih_frame": 0.48
+       },
+       {
+        "baris": "n4",
+        "kata": "Jal",
+        "frame_event": 495,
+        "frame_audio": 494.68,
+        "selisih_frame": 0.32
+       },
+       {
+        "baris": "n4",
+        "kata": "Buat",
+        "frame_event": 541,
+        "frame_audio": 541.09,
+        "selisih_frame": -0.09
+       },
+       {
+        "baris": "n4",
+        "kata": "siapa",
+        "frame_event": 551,
+        "frame_audio": 550.69,
+        "selisih_frame": 0.31
+       },
+       {
+        "baris": "n5",
+        "kata": "Buat",
+        "frame_event": 620,
+        "frame_audio": 619.54,
+        "selisih_frame": 0.46
+       },
+       {
+        "baris": "n5",
+        "kata": "istri",
+        "frame_event": 629,
+        "frame_audio": 628.63,
+        "selisih_frame": 0.37
+       },
+       {
+        "baris": "n5",
+        "kata": "di",
+        "frame_event": 638,
+        "frame_audio": 638.08,
+        "selisih_frame": -0.08
+       },
+       {
+        "baris": "n5",
+        "kata": "rumah",
+        "frame_event": 641,
+        "frame_audio": 641.26,
+        "selisih_frame": -0.26
+       },
+       {
+        "baris": "n5",
+        "kata": "Pak",
+        "frame_event": 663,
+        "frame_audio": 662.95,
+        "selisih_frame": 0.05
+       },
+       {
+        "baris": "n5",
+        "kata": "Hari",
+        "frame_event": 703,
+        "frame_audio": 702.91,
+        "selisih_frame": 0.09
+       },
+       {
+        "baris": "n5",
+        "kata": "ini",
+        "frame_event": 711,
+        "frame_audio": 711.19,
+        "selisih_frame": -0.19
+       },
+       {
+        "baris": "n5",
+        "kata": "dia",
+        "frame_event": 720,
+        "frame_audio": 719.5,
+        "selisih_frame": 0.5
+       },
+       {
+        "baris": "n5",
+        "kata": "ulang",
+        "frame_event": 724,
+        "frame_audio": 724.21,
+        "selisih_frame": -0.21
+       },
+       {
+        "baris": "n5",
+        "kata": "tahun",
+        "frame_event": 732,
+        "frame_audio": 731.71,
+        "selisih_frame": 0.29
+       }
+      ],
+      "toleransi": "PASS <=1 frame, WARN <=2, FAIL >2"
+     },
+     "geser_audio_vs_timestamp": {
+      "status": "PASS",
+      "geser_maks_ms": 10.0,
+      "video": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.764
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 0.0,
+        "korelasi": 0.707
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.738
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.755
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.507
+       }
+      ],
+      "mix_wav_sebelum_encode": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.768
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 0.0,
+        "korelasi": 0.71
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.741
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.757
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.517
+       }
+      ],
+      "toleransi": "korelasi silang amplop pita bicara (resolusi 10 ms), baris dgn korelasi >=0.5: PASS <=1 frame (33 ms), WARN <=2 frame, FAIL >2 frame"
+     },
+     "status": "PASS"
+    },
+    "lip_sync_perseptual": {
+     "status": "NOT_TESTED",
+     "alasan": "kecocokan bentuk mulut dengan bunyi memerlukan penilaian manusia; tidak disimpulkan dari uji timestamp"
+    }
+   },
+   "ringkas": {
+    "PASS": 8,
+    "NOT_TESTED": 1
+   }
+  },
+  "qa_kedip": {
+   "sumber": "stories/benchmark_warung/output/benchmark_warung.mp4",
+   "status": "WARN",
+   "total": {
+    "status": "WARN",
+    "maks": 1.05,
+    "frame_maks": 465,
+    "frame_di_atas_warn": 1,
+    "batas": {
+     "warn": 1.0,
+     "fail": 2.0
+    },
+    "frame_diuji": 793
+   },
+   "per_shot": {
+    "1": {
+     "status": "PASS",
+     "maks": 0.4,
+     "frame_maks": 55,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 56,
+     "kamera": "establishing",
+     "rentang": [
+      1,
+      74
+     ]
+    },
+    "2": {
+     "status": "PASS",
+     "maks": 0.21,
+     "frame_maks": 107,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 82,
+     "kamera": "full",
+     "rentang": [
+      75,
+      158
+     ]
+    },
+    "3": {
+     "status": "PASS",
+     "maks": 0.17,
+     "frame_maks": 191,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 38,
+     "kamera": "medium",
+     "rentang": [
+      159,
+      198
+     ]
+    },
+    "4": {
+     "status": "PASS",
+     "maks": 0.35,
+     "frame_maks": 215,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 25,
+     "kamera": "insert",
+     "rentang": [
+      199,
+      225
+     ]
+    },
+    "5": {
+     "status": "PASS",
+     "maks": 0.48,
+     "frame_maks": 252,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 54,
+     "kamera": "medium",
+     "rentang": [
+      226,
+      281
+     ]
+    },
+    "6": {
+     "status": "PASS",
+     "maks": 0.3,
+     "frame_maks": 401,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 174,
+     "kamera": "mcu",
+     "rentang": [
+      282,
+      457
+     ]
+    },
+    "7": {
+     "status": "WARN",
+     "maks": 1.05,
+     "frame_maks": 465,
+     "frame_di_atas_warn": 1,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 81,
+     "kamera": "ots",
+     "rentang": [
+      458,
+      540
+     ]
+    },
+    "8": {
+     "status": "PASS",
+     "maks": 0.35,
+     "frame_maks": 572,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 69,
+     "kamera": "mcu",
+     "rentang": [
+      541,
+      611
+     ]
+    },
+    "9": {
+     "status": "PASS",
+     "maks": 0.24,
+     "frame_maks": 613,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 89,
+     "kamera": "mcu",
+     "rentang": [
+      612,
+      702
+     ]
+    },
+    "10": {
+     "status": "PASS",
+     "maks": 0.18,
+     "frame_maks": 711,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 27,
+     "kamera": "closeup",
+     "rentang": [
+      703,
+      731
+     ]
+    },
+    "11": {
+     "status": "PASS",
+     "maks": 0.2,
+     "frame_maks": 792,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 98,
+     "kamera": "ending",
+     "rentang": [
+      732,
+      860
+     ]
+    }
+   },
+   "dikecualikan_fade": [
+    [
+     1,
+     16
+    ],
+    [
+     832,
+     860
+    ]
+   ]
+  }
+ },
+ "generalization": {
+  "build_id": "P4-2d0645d14d",
+  "video": "02_generalization_phase42_P4-2d0645d14d.mp4",
+  "video_sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+  "qa_render": {
+   "story": "_uji_phase4_rumah",
+   "build_id_adegan": "P4-2d0645d14d",
+   "rentang": [
+    1,
+    616
+   ],
+   "video": "stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4",
+   "catatan": "indikator numerik pasca-render; BUKAN penilaian artistik. Frame yang disebut perlu dilihat langsung.",
+   "cek": {
+    "frame_lengkap": {
+     "status": "PASS",
+     "rentang": [
+      1,
+      616
+     ],
+     "hilang": [],
+     "n_hilang": 0,
+     "rusak": [],
+     "ukuran": [
+      [
+       1080,
+       1920
+      ]
+     ]
+    },
+    "frame_kembar": {
+     "status": "PASS",
+     "n": 0,
+     "contoh": [],
+     "catatan": "frame identik berurutan; bisa sah (tahan diam tanpa efek) atau render macet"
+    },
+    "artefak_alpha_outline": {
+     "status": "PASS",
+     "heuristik": true,
+     "bintik_terang_terisolasi_p95": 0.0,
+     "bintik_maks": 0,
+     "frame_bintik_terbanyak": [
+      1,
+      4,
+      7,
+      10,
+      13
+     ],
+     "piksel_magenta_maks": 0,
+     "catatan": "bintik = piksel terang (luma>120) yang SEMUA 8 tetangganya gelap (luma<50): pola khas alpha HASHED/dither di garis tinta. Ambang WARN p95>40/frame. Heuristik, perlu dicek visual."
+    },
+    "durasi_av": {
+     "status": "PASS",
+     "video_dtk": 20.533333,
+     "audio_dtk": 20.533,
+     "harapan_dtk": 20.5333,
+     "frame_video": 616,
+     "frame_harapan": 616,
+     "komentar_build": "build_id=P4-2d0645d14d frames=P4-2d0645d14d"
+    },
+    "black_crush": {
+     "status": "PASS",
+     "hilang_detail_oleh_grading_p95": 0.0075,
+     "hilang_detail_oleh_grading_maks": 0.009,
+     "frame_terburuk_grading": 114,
+     "hitam_absolut_p95_info": 0.0262,
+     "hitam_absolut_frame_maks_info": 114,
+     "toleransi": "status = fraksi piksel yang di render mentah luma>=10 tetapi <=4 setelah grading (detail bayangan hilang): WARN >1%, FAIL >4% (p95, tiap 5 frame). Hitam absolut (termasuk garis tinta/rambut hitam = gaya) hanya informasi."
+    },
+    "highlight_clipping": {
+     "status": "PASS",
+     "fraksi_p95": 0.0045,
+     "fraksi_maks": 0.0055,
+     "frame_terburuk": 125,
+     "toleransi": "fraksi kanal>=253: WARN >1%, FAIL >5% (p95); lampu praktis memang boleh terang"
+    },
+    "flicker_temporal": {
+     "status": "PASS",
+     "global_maks": 0.45,
+     "ubin_maks": 4.34,
+     "frame_mencurigakan": [],
+     "toleransi": "|2L[t]-L[t-1]-L[t+1]|/2 global WARN>1.5 FAIL>3; ubin 4x4 WARN>6 FAIL>12 (gerak cepat/kilat juga bisa memicu -> periksa frame yang disebut)"
+    },
+    "sinkron_dialog_timestamp": {
+     "event_kata_vs_timestamp_tts": {
+      "status": "PASS",
+      "selisih_maks_frame": 0.44,
+      "n_kata": 9,
+      "rincian": [
+       {
+        "baris": "n3",
+        "kata": "Ini",
+        "frame_event": 227,
+        "frame_audio": 227.02,
+        "selisih_frame": -0.02
+       },
+       {
+        "baris": "n3",
+        "kata": "Bu",
+        "frame_event": 255,
+        "frame_audio": 254.77,
+        "selisih_frame": 0.23
+       },
+       {
+        "baris": "n3",
+        "kata": "Tehnya",
+        "frame_event": 296,
+        "frame_audio": 296.02,
+        "selisih_frame": -0.02
+       },
+       {
+        "baris": "n3",
+        "kata": "masih",
+        "frame_event": 311,
+        "frame_audio": 310.66,
+        "selisih_frame": 0.34
+       },
+       {
+        "baris": "n3",
+        "kata": "hangat",
+        "frame_event": 324,
+        "frame_audio": 324.16,
+        "selisih_frame": -0.16
+       },
+       {
+        "baris": "n4",
+        "kata": "Wah",
+        "frame_event": 373,
+        "frame_audio": 373.42,
+        "selisih_frame": -0.42
+       },
+       {
+        "baris": "n4",
+        "kata": "terima",
+        "frame_event": 399,
+        "frame_audio": 398.56,
+        "selisih_frame": 0.44
+       },
+       {
+        "baris": "n4",
+        "kata": "kasih",
+        "frame_event": 411,
+        "frame_audio": 410.92,
+        "selisih_frame": 0.08
+       },
+       {
+        "baris": "n4",
+        "kata": "Nak",
+        "frame_event": 439,
+        "frame_audio": 439.42,
+        "selisih_frame": -0.42
+       }
+      ],
+      "toleransi": "PASS <=1 frame, WARN <=2, FAIL >2"
+     },
+     "geser_audio_vs_timestamp": {
+      "status": "PASS",
+      "geser_maks_ms": 10.0,
+      "video": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.729
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 10.0,
+        "korelasi": 0.686
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.878
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.791
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.795
+       }
+      ],
+      "mix_wav_sebelum_encode": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.741
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 10.0,
+        "korelasi": 0.693
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.873
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.793
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.796
+       }
+      ],
+      "toleransi": "korelasi silang amplop pita bicara (resolusi 10 ms), baris dgn korelasi >=0.5: PASS <=1 frame (33 ms), WARN <=2 frame, FAIL >2 frame"
+     },
+     "status": "PASS"
+    },
+    "lip_sync_perseptual": {
+     "status": "NOT_TESTED",
+     "alasan": "kecocokan bentuk mulut dengan bunyi memerlukan penilaian manusia; tidak disimpulkan dari uji timestamp"
+    }
+   },
+   "ringkas": {
+    "PASS": 8,
+    "NOT_TESTED": 1
+   }
+  },
+  "qa_kedip": {
+   "sumber": "stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4",
+   "status": "PASS",
+   "total": {
+    "status": "PASS",
+    "maks": 0.46,
+    "frame_maks": 563,
+    "frame_di_atas_warn": 0,
+    "batas": {
+     "warn": 1.0,
+     "fail": 2.0
+    },
+    "frame_diuji": 559
+   },
+   "per_shot": {
+    "1": {
+     "status": "PASS",
+     "maks": 0.29,
+     "frame_maks": 87,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 96,
+     "kamera": "establishing",
+     "rentang": [
+      1,
+      114
+     ]
+    },
+    "2": {
+     "status": "PASS",
+     "maks": 0.31,
+     "frame_maks": 156,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 103,
+     "kamera": "medium",
+     "rentang": [
+      115,
+      219
+     ]
+    },
+    "3": {
+     "status": "PASS",
+     "maks": 0.34,
+     "frame_maks": 346,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 144,
+     "kamera": "full",
+     "rentang": [
+      220,
+      365
+     ]
+    },
+    "4": {
+     "status": "PASS",
+     "maks": 0.41,
+     "frame_maks": 439,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 115,
+     "kamera": "closeup",
+     "rentang": [
+      366,
+      482
+     ]
+    },
+    "5": {
+     "status": "PASS",
+     "maks": 0.3,
+     "frame_maks": 537,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 60,
+     "kamera": "medium",
+     "rentang": [
+      483,
+      544
+     ]
+    },
+    "6": {
+     "status": "PASS",
+     "maks": 0.46,
+     "frame_maks": 563,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 41,
+     "kamera": "wide",
+     "rentang": [
+      545,
+      616
+     ]
+    }
+   },
+   "dikecualikan_fade": [
+    [
+     1,
+     16
+    ],
+    [
+     588,
+     616
+    ]
+   ]
+  }
+ },
+ "third_story": {
+  "build_id": "P4-b1767c3b5e",
+  "video": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "video_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "qa_render": {
+   "story": "uji3_kopi_sore",
+   "build_id_adegan": "P4-b1767c3b5e",
+   "rentang": [
+    1,
+    750
+   ],
+   "video": "stories/uji3_kopi_sore/output/uji3_kopi_sore.mp4",
+   "catatan": "indikator numerik pasca-render; BUKAN penilaian artistik. Frame yang disebut perlu dilihat langsung.",
+   "cek": {
+    "frame_lengkap": {
+     "status": "PASS",
+     "rentang": [
+      1,
+      750
+     ],
+     "hilang": [],
+     "n_hilang": 0,
+     "rusak": [],
+     "ukuran": [
+      [
+       1080,
+       1920
+      ]
+     ]
+    },
+    "frame_kembar": {
+     "status": "PASS",
+     "n": 0,
+     "contoh": [],
+     "catatan": "frame identik berurutan; bisa sah (tahan diam tanpa efek) atau render macet"
+    },
+    "artefak_alpha_outline": {
+     "status": "PASS",
+     "heuristik": true,
+     "bintik_terang_terisolasi_p95": 0.0,
+     "bintik_maks": 0,
+     "frame_bintik_terbanyak": [
+      1,
+      4,
+      7,
+      10,
+      13
+     ],
+     "piksel_magenta_maks": 0,
+     "catatan": "bintik = piksel terang (luma>120) yang SEMUA 8 tetangganya gelap (luma<50): pola khas alpha HASHED/dither di garis tinta. Ambang WARN p95>40/frame. Heuristik, perlu dicek visual."
+    },
+    "durasi_av": {
+     "status": "PASS",
+     "video_dtk": 25.0,
+     "audio_dtk": 24.992,
+     "harapan_dtk": 25.0,
+     "frame_video": 750,
+     "frame_harapan": 750,
+     "komentar_build": "build_id=P4-b1767c3b5e frames=P4-b1767c3b5e"
+    },
+    "black_crush": {
+     "status": "WARN",
+     "hilang_detail_oleh_grading_p95": 0.0155,
+     "hilang_detail_oleh_grading_maks": 0.0223,
+     "frame_terburuk_grading": 49,
+     "hitam_absolut_p95_info": 0.0633,
+     "hitam_absolut_frame_maks_info": 272,
+     "toleransi": "status = fraksi piksel yang di render mentah luma>=10 tetapi <=4 setelah grading (detail bayangan hilang): WARN >1%, FAIL >4% (p95, tiap 5 frame). Hitam absolut (termasuk garis tinta/rambut hitam = gaya) hanya informasi."
+    },
+    "highlight_clipping": {
+     "status": "PASS",
+     "fraksi_p95": 0.0043,
+     "fraksi_maks": 0.0055,
+     "frame_terburuk": 80,
+     "toleransi": "fraksi kanal>=253: WARN >1%, FAIL >5% (p95); lampu praktis memang boleh terang"
+    },
+    "flicker_temporal": {
+     "status": "WARN",
+     "global_maks": 0.79,
+     "ubin_maks": 6.79,
+     "frame_mencurigakan": [
+      [
+       238,
+       0.57,
+       6.28
+      ],
+      [
+       239,
+       0.53,
+       6.39
+      ],
+      [
+       288,
+       0.19,
+       6.79
+      ],
+      [
+       289,
+       0.16,
+       6.69
+      ]
+     ],
+     "toleransi": "|2L[t]-L[t-1]-L[t+1]|/2 global WARN>1.5 FAIL>3; ubin 4x4 WARN>6 FAIL>12 (gerak cepat/kilat juga bisa memicu -> periksa frame yang disebut)"
+    },
+    "sinkron_dialog_timestamp": {
+     "event_kata_vs_timestamp_tts": {
+      "status": "PASS",
+      "selisih_maks_frame": 0.46,
+      "n_kata": 10,
+      "rincian": [
+       {
+        "baris": "n3",
+        "kata": "Kopinya",
+        "frame_event": 311,
+        "frame_audio": 310.54,
+        "selisih_frame": 0.46
+       },
+       {
+        "baris": "n3",
+        "kata": "Pak",
+        "frame_event": 346,
+        "frame_audio": 345.79,
+        "selisih_frame": 0.21
+       },
+       {
+        "baris": "n3",
+        "kata": "Masih",
+        "frame_event": 384,
+        "frame_audio": 384.04,
+        "selisih_frame": -0.04
+       },
+       {
+        "baris": "n3",
+        "kata": "hangat",
+        "frame_event": 400,
+        "frame_audio": 399.79,
+        "selisih_frame": 0.21
+       },
+       {
+        "baris": "n4",
+        "kata": "Wah",
+        "frame_event": 450,
+        "frame_audio": 449.74,
+        "selisih_frame": 0.26
+       },
+       {
+        "baris": "n4",
+        "kata": "pas",
+        "frame_event": 472,
+        "frame_audio": 472.24,
+        "selisih_frame": -0.24
+       },
+       {
+        "baris": "n4",
+        "kata": "sekali",
+        "frame_event": 478,
+        "frame_audio": 478.24,
+        "selisih_frame": -0.24
+       },
+       {
+        "baris": "n4",
+        "kata": "Terima",
+        "frame_event": 520,
+        "frame_audio": 519.88,
+        "selisih_frame": 0.12
+       },
+       {
+        "baris": "n4",
+        "kata": "kasih",
+        "frame_event": 529,
+        "frame_audio": 529.24,
+        "selisih_frame": -0.24
+       },
+       {
+        "baris": "n4",
+        "kata": "Wulan",
+        "frame_event": 553,
+        "frame_audio": 553.24,
+        "selisih_frame": -0.24
+       }
+      ],
+      "toleransi": "PASS <=1 frame, WARN <=2, FAIL >2"
+     },
+     "geser_audio_vs_timestamp": {
+      "status": "PASS",
+      "geser_maks_ms": 10.0,
+      "video": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.697
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 10.0,
+        "korelasi": 0.782
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 10.0,
+        "korelasi": 0.827
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 10.0,
+        "korelasi": 0.804
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.712
+       }
+      ],
+      "mix_wav_sebelum_encode": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.701
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 10.0,
+        "korelasi": 0.782
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 10.0,
+        "korelasi": 0.83
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 10.0,
+        "korelasi": 0.806
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.712
+       }
+      ],
+      "toleransi": "korelasi silang amplop pita bicara (resolusi 10 ms), baris dgn korelasi >=0.5: PASS <=1 frame (33 ms), WARN <=2 frame, FAIL >2 frame"
+     },
+     "status": "PASS"
+    },
+    "lip_sync_perseptual": {
+     "status": "NOT_TESTED",
+     "alasan": "kecocokan bentuk mulut dengan bunyi memerlukan penilaian manusia; tidak disimpulkan dari uji timestamp"
+    }
+   },
+   "ringkas": {
+    "PASS": 6,
+    "WARN": 2,
+    "NOT_TESTED": 1
+   }
+  },
+  "qa_kedip": {
+   "sumber": "stories/uji3_kopi_sore/output/uji3_kopi_sore.mp4",
+   "status": "PASS",
+   "total": {
+    "status": "PASS",
+    "maks": 0.78,
+    "frame_maks": 118,
+    "frame_di_atas_warn": 0,
+    "batas": {
+     "warn": 1.0,
+     "fail": 2.0
+    },
+    "frame_diuji": 691
+   },
+   "per_shot": {
+    "1": {
+     "status": "PASS",
+     "maks": 0.55,
+     "frame_maks": 39,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 42,
+     "kamera": "establishing",
+     "rentang": [
+      1,
+      60
+     ]
+    },
+    "2": {
+     "status": "PASS",
+     "maks": 0.78,
+     "frame_maks": 118,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 83,
+     "kamera": "medium",
+     "rentang": [
+      61,
+      145
+     ]
+    },
+    "3": {
+     "status": "PASS",
+     "maks": 0.61,
+     "frame_maks": 238,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 155,
+     "kamera": "full",
+     "rentang": [
+      146,
+      302
+     ]
+    },
+    "4": {
+     "status": "PASS",
+     "maks": 0.35,
+     "frame_maks": 424,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 137,
+     "kamera": "medium",
+     "rentang": [
+      303,
+      441
+     ]
+    },
+    "5": {
+     "status": "PASS",
+     "maks": 0.38,
+     "frame_maks": 520,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 161,
+     "kamera": "mcu",
+     "rentang": [
+      442,
+      604
+     ]
+    },
+    "6": {
+     "status": "PASS",
+     "maks": 0.33,
+     "frame_maks": 612,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 69,
+     "kamera": "medium",
+     "rentang": [
+      605,
+      675
+     ]
+    },
+    "7": {
+     "status": "PASS",
+     "maks": 0.54,
+     "frame_maks": 702,
+     "frame_di_atas_warn": 0,
+     "batas": {
+      "warn": 1.0,
+      "fail": 2.0
+     },
+     "frame_diuji": 44,
+     "kamera": "ending",
+     "rentang": [
+      676,
+      750
+     ]
+    }
+   },
+   "dikecualikan_fade": [
+    [
+     1,
+     16
+    ],
+    [
+     722,
+     750
+    ]
+   ]
+  }
+ },
+ "pembanding_phase41": {
+  "benchmark_P4-4b69684991": {
+   "story": "benchmark_warung",
+   "build_id_adegan": "P4-4b69684991",
+   "rentang": [
+    1,
+    860
+   ],
+   "video": "stories/benchmark_warung/output/benchmark_warung.mp4",
+   "catatan": "indikator numerik pasca-render; BUKAN penilaian artistik. Frame yang disebut perlu dilihat langsung.",
+   "cek": {
+    "frame_lengkap": {
+     "status": "PASS",
+     "rentang": [
+      1,
+      860
+     ],
+     "hilang": [],
+     "n_hilang": 0,
+     "rusak": [],
+     "ukuran": [
+      [
+       1080,
+       1920
+      ]
+     ]
+    },
+    "frame_kembar": {
+     "status": "PASS",
+     "n": 0,
+     "contoh": [],
+     "catatan": "frame identik berurutan; bisa sah (tahan diam tanpa efek) atau render macet"
+    },
+    "artefak_alpha_outline": {
+     "status": "PASS",
+     "heuristik": true,
+     "bintik_terang_terisolasi_p95": 0.0,
+     "bintik_maks": 1,
+     "frame_bintik_terbanyak": [
+      25,
+      85,
+      94,
+      109,
+      469
+     ],
+     "piksel_magenta_maks": 0,
+     "catatan": "bintik = piksel terang (luma>120) yang SEMUA 8 tetangganya gelap (luma<50): pola khas alpha HASHED/dither di garis tinta. Ambang WARN p95>40/frame. Heuristik, perlu dicek visual."
+    },
+    "durasi_av": {
+     "status": "PASS",
+     "video_dtk": 28.666667,
+     "audio_dtk": 28.664,
+     "harapan_dtk": 28.6667,
+     "frame_video": 860,
+     "frame_harapan": 860,
+     "komentar_build": "build_id=P4-4b69684991 frames=P4-4b69684991"
+    },
+    "black_crush": {
+     "status": "PASS",
+     "hilang_detail_oleh_grading_p95": 0.0025,
+     "hilang_detail_oleh_grading_maks": 0.0034,
+     "frame_terburuk_grading": 744,
+     "hitam_absolut_p95_info": 0.0044,
+     "hitam_absolut_frame_maks_info": 830,
+     "toleransi": "status = fraksi piksel yang di render mentah luma>=10 tetapi <=4 setelah grading (detail bayangan hilang): WARN >1%, FAIL >4% (p95, tiap 5 frame). Hitam absolut (termasuk garis tinta/rambut hitam = gaya) hanya informasi."
+    },
+    "highlight_clipping": {
+     "status": "PASS",
+     "fraksi_p95": 0.0036,
+     "fraksi_maks": 0.0043,
+     "frame_terburuk": 169,
+     "toleransi": "fraksi kanal>=253: WARN >1%, FAIL >5% (p95); lampu praktis memang boleh terang"
+    },
+    "flicker_temporal": {
+     "status": "WARN",
+     "global_maks": 1.54,
+     "ubin_maks": 6.18,
+     "frame_mencurigakan": [
+      [
+       215,
+       0.55,
+       6.18
+      ],
+      [
+       466,
+       1.54,
+       5.73
+      ]
+     ],
+     "toleransi": "|2L[t]-L[t-1]-L[t+1]|/2 global WARN>1.5 FAIL>3; ubin 4x4 WARN>6 FAIL>12 (gerak cepat/kilat juga bisa memicu -> periksa frame yang disebut)"
+    },
+    "sinkron_dialog_timestamp": {
+     "event_kata_vs_timestamp_tts": {
+      "status": "PASS",
+      "selisih_maks_frame": 0.5,
+      "n_kata": 20,
+      "rincian": [
+       {
+        "baris": "n3",
+        "kata": "Pak",
+        "frame_event": 290,
+        "frame_audio": 289.93,
+        "selisih_frame": 0.07
+       },
+       {
+        "baris": "n3",
+        "kata": "satu",
+        "frame_event": 314,
+        "frame_audio": 313.63,
+        "selisih_frame": 0.37
+       },
+       {
+        "baris": "n3",
+        "kata": "lagi",
+        "frame_event": 323,
+        "frame_audio": 322.69,
+        "selisih_frame": 0.31
+       },
+       {
+        "baris": "n3",
+        "kata": "ya",
+        "frame_event": 331,
+        "frame_audio": 331.0,
+        "selisih_frame": 0.0
+       },
+       {
+        "baris": "n3",
+        "kata": "Dibungkus",
+        "frame_event": 368,
+        "frame_audio": 367.78,
+        "selisih_frame": 0.22
+       },
+       {
+        "baris": "n3",
+        "kata": "pedas",
+        "frame_event": 401,
+        "frame_audio": 400.54,
+        "selisih_frame": 0.46
+       },
+       {
+        "baris": "n4",
+        "kata": "Tumben",
+        "frame_event": 466,
+        "frame_audio": 465.52,
+        "selisih_frame": 0.48
+       },
+       {
+        "baris": "n4",
+        "kata": "Jal",
+        "frame_event": 495,
+        "frame_audio": 494.68,
+        "selisih_frame": 0.32
+       },
+       {
+        "baris": "n4",
+        "kata": "Buat",
+        "frame_event": 541,
+        "frame_audio": 541.09,
+        "selisih_frame": -0.09
+       },
+       {
+        "baris": "n4",
+        "kata": "siapa",
+        "frame_event": 551,
+        "frame_audio": 550.69,
+        "selisih_frame": 0.31
+       },
+       {
+        "baris": "n5",
+        "kata": "Buat",
+        "frame_event": 620,
+        "frame_audio": 619.54,
+        "selisih_frame": 0.46
+       },
+       {
+        "baris": "n5",
+        "kata": "istri",
+        "frame_event": 629,
+        "frame_audio": 628.63,
+        "selisih_frame": 0.37
+       },
+       {
+        "baris": "n5",
+        "kata": "di",
+        "frame_event": 638,
+        "frame_audio": 638.08,
+        "selisih_frame": -0.08
+       },
+       {
+        "baris": "n5",
+        "kata": "rumah",
+        "frame_event": 641,
+        "frame_audio": 641.26,
+        "selisih_frame": -0.26
+       },
+       {
+        "baris": "n5",
+        "kata": "Pak",
+        "frame_event": 663,
+        "frame_audio": 662.95,
+        "selisih_frame": 0.05
+       },
+       {
+        "baris": "n5",
+        "kata": "Hari",
+        "frame_event": 703,
+        "frame_audio": 702.91,
+        "selisih_frame": 0.09
+       },
+       {
+        "baris": "n5",
+        "kata": "ini",
+        "frame_event": 711,
+        "frame_audio": 711.19,
+        "selisih_frame": -0.19
+       },
+       {
+        "baris": "n5",
+        "kata": "dia",
+        "frame_event": 720,
+        "frame_audio": 719.5,
+        "selisih_frame": 0.5
+       },
+       {
+        "baris": "n5",
+        "kata": "ulang",
+        "frame_event": 724,
+        "frame_audio": 724.21,
+        "selisih_frame": -0.21
+       },
+       {
+        "baris": "n5",
+        "kata": "tahun",
+        "frame_event": 732,
+        "frame_audio": 731.71,
+        "selisih_frame": 0.29
+       }
+      ],
+      "toleransi": "PASS <=1 frame, WARN <=2, FAIL >2"
+     },
+     "geser_audio_vs_timestamp": {
+      "status": "PASS",
+      "geser_maks_ms": 10.0,
+      "video": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.764
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 0.0,
+        "korelasi": 0.707
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.738
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.755
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.507
+       }
+      ],
+      "mix_wav_sebelum_encode": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.768
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 0.0,
+        "korelasi": 0.71
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.741
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.757
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.517
+       }
+      ],
+      "toleransi": "korelasi silang amplop pita bicara (resolusi 10 ms), baris dgn korelasi >=0.5: PASS <=1 frame (33 ms), WARN <=2 frame, FAIL >2 frame"
+     },
+     "status": "PASS"
+    },
+    "lip_sync_perseptual": {
+     "status": "NOT_TESTED",
+     "alasan": "kecocokan bentuk mulut dengan bunyi memerlukan penilaian manusia; tidak disimpulkan dari uji timestamp"
+    }
+   },
+   "ringkas": {
+    "PASS": 7,
+    "WARN": 1,
+    "NOT_TESTED": 1
+   }
+  },
+  "generalisasi_P4-21e3aadc90": {
+   "story": "_uji_phase4_rumah",
+   "build_id_adegan": "P4-21e3aadc90",
+   "rentang": [
+    1,
+    616
+   ],
+   "video": "stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4",
+   "catatan": "indikator numerik pasca-render; BUKAN penilaian artistik. Frame yang disebut perlu dilihat langsung.",
+   "cek": {
+    "frame_lengkap": {
+     "status": "PASS",
+     "rentang": [
+      1,
+      616
+     ],
+     "hilang": [],
+     "n_hilang": 0,
+     "rusak": [],
+     "ukuran": [
+      [
+       1080,
+       1920
+      ]
+     ]
+    },
+    "frame_kembar": {
+     "status": "PASS",
+     "n": 0,
+     "contoh": [],
+     "catatan": "frame identik berurutan; bisa sah (tahan diam tanpa efek) atau render macet"
+    },
+    "artefak_alpha_outline": {
+     "status": "PASS",
+     "heuristik": true,
+     "bintik_terang_terisolasi_p95": 0.0,
+     "bintik_maks": 0,
+     "frame_bintik_terbanyak": [
+      1,
+      4,
+      7,
+      10,
+      13
+     ],
+     "piksel_magenta_maks": 0,
+     "catatan": "bintik = piksel terang (luma>120) yang SEMUA 8 tetangganya gelap (luma<50): pola khas alpha HASHED/dither di garis tinta. Ambang WARN p95>40/frame. Heuristik, perlu dicek visual."
+    },
+    "durasi_av": {
+     "status": "PASS",
+     "video_dtk": 20.533333,
+     "audio_dtk": 20.533,
+     "harapan_dtk": 20.5333,
+     "frame_video": 616,
+     "frame_harapan": 616,
+     "komentar_build": "build_id=P4-21e3aadc90 frames=P4-21e3aadc90"
+    },
+    "black_crush": {
+     "status": "WARN",
+     "hilang_detail_oleh_grading_p95": 0.0112,
+     "hilang_detail_oleh_grading_maks": 0.012,
+     "frame_terburuk_grading": 214,
+     "hitam_absolut_p95_info": 0.0617,
+     "hitam_absolut_frame_maks_info": 543,
+     "toleransi": "status = fraksi piksel yang di render mentah luma>=10 tetapi <=4 setelah grading (detail bayangan hilang): WARN >1%, FAIL >4% (p95, tiap 5 frame). Hitam absolut (termasuk garis tinta/rambut hitam = gaya) hanya informasi."
+    },
+    "highlight_clipping": {
+     "status": "PASS",
+     "fraksi_p95": 0.0045,
+     "fraksi_maks": 0.0054,
+     "frame_terburuk": 125,
+     "toleransi": "fraksi kanal>=253: WARN >1%, FAIL >5% (p95); lampu praktis memang boleh terang"
+    },
+    "flicker_temporal": {
+     "status": "PASS",
+     "global_maks": 0.51,
+     "ubin_maks": 5.67,
+     "frame_mencurigakan": [],
+     "toleransi": "|2L[t]-L[t-1]-L[t+1]|/2 global WARN>1.5 FAIL>3; ubin 4x4 WARN>6 FAIL>12 (gerak cepat/kilat juga bisa memicu -> periksa frame yang disebut)"
+    },
+    "sinkron_dialog_timestamp": {
+     "event_kata_vs_timestamp_tts": {
+      "status": "PASS",
+      "selisih_maks_frame": 0.44,
+      "n_kata": 9,
+      "rincian": [
+       {
+        "baris": "n3",
+        "kata": "Ini",
+        "frame_event": 227,
+        "frame_audio": 227.02,
+        "selisih_frame": -0.02
+       },
+       {
+        "baris": "n3",
+        "kata": "Bu",
+        "frame_event": 255,
+        "frame_audio": 254.77,
+        "selisih_frame": 0.23
+       },
+       {
+        "baris": "n3",
+        "kata": "Tehnya",
+        "frame_event": 296,
+        "frame_audio": 296.02,
+        "selisih_frame": -0.02
+       },
+       {
+        "baris": "n3",
+        "kata": "masih",
+        "frame_event": 311,
+        "frame_audio": 310.66,
+        "selisih_frame": 0.34
+       },
+       {
+        "baris": "n3",
+        "kata": "hangat",
+        "frame_event": 324,
+        "frame_audio": 324.16,
+        "selisih_frame": -0.16
+       },
+       {
+        "baris": "n4",
+        "kata": "Wah",
+        "frame_event": 373,
+        "frame_audio": 373.42,
+        "selisih_frame": -0.42
+       },
+       {
+        "baris": "n4",
+        "kata": "terima",
+        "frame_event": 399,
+        "frame_audio": 398.56,
+        "selisih_frame": 0.44
+       },
+       {
+        "baris": "n4",
+        "kata": "kasih",
+        "frame_event": 411,
+        "frame_audio": 410.92,
+        "selisih_frame": 0.08
+       },
+       {
+        "baris": "n4",
+        "kata": "Nak",
+        "frame_event": 439,
+        "frame_audio": 439.42,
+        "selisih_frame": -0.42
+       }
+      ],
+      "toleransi": "PASS <=1 frame, WARN <=2, FAIL >2"
+     },
+     "geser_audio_vs_timestamp": {
+      "status": "PASS",
+      "geser_maks_ms": 10.0,
+      "video": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.729
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 10.0,
+        "korelasi": 0.686
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.878
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.791
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.795
+       }
+      ],
+      "mix_wav_sebelum_encode": [
+       {
+        "baris": "n1",
+        "geser_ms": 0.0,
+        "korelasi": 0.741
+       },
+       {
+        "baris": "n2",
+        "geser_ms": 10.0,
+        "korelasi": 0.693
+       },
+       {
+        "baris": "n3",
+        "geser_ms": 0.0,
+        "korelasi": 0.873
+       },
+       {
+        "baris": "n4",
+        "geser_ms": 0.0,
+        "korelasi": 0.793
+       },
+       {
+        "baris": "n5",
+        "geser_ms": 10.0,
+        "korelasi": 0.796
+       }
+      ],
+      "toleransi": "korelasi silang amplop pita bicara (resolusi 10 ms), baris dgn korelasi >=0.5: PASS <=1 frame (33 ms), WARN <=2 frame, FAIL >2 frame"
+     },
+     "status": "PASS"
+    },
+    "lip_sync_perseptual": {
+     "status": "NOT_TESTED",
+     "alasan": "kecocokan bentuk mulut dengan bunyi memerlukan penilaian manusia; tidak disimpulkan dari uji timestamp"
+    }
+   },
+   "ringkas": {
+    "PASS": 7,
+    "WARN": 1,
+    "NOT_TESTED": 1
+   }
+  }
+ }
+}

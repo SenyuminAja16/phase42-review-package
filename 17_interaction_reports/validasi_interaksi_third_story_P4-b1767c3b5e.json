@@ -1,0 +1,567 @@
+{
+ "frame": [
+  1,
+  750,
+  1
+ ],
+ "ringkasan": {
+  "kedalaman_maks_benda_belakang_m": {
+   "min": -1.1976,
+   "maks": -0.0479,
+   "rata2": -0.4738,
+   "n": 155
+  },
+  "jangkar_selisih_tinggi_cm": {
+   "min": 0.0004,
+   "maks": 1.6785,
+   "rata2": 0.0589,
+   "n": 750
+  },
+  "jangkar_selisih_datar_cm": {
+   "min": 0.0,
+   "maks": 4.4928,
+   "rata2": 4.0963,
+   "n": 750
+  },
+  "kedalaman_min_benda_m": {
+   "min": 0.0317,
+   "maks": 0.6439,
+   "rata2": 0.0444,
+   "n": 1301
+  },
+  "jarak_tangan_ke_benda_px": {
+   "min": 0.0,
+   "maks": 7.2839,
+   "rata2": 0.0298,
+   "n": 1301
+  },
+  "wajah_terhalang_shot1": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 5
+  },
+  "lompatan_layar_benda_px": {
+   "min": 0.0043,
+   "maks": 31.9956,
+   "rata2": 2.1306,
+   "n": 1287
+  },
+  "wajah_terhalang_shot2": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 17
+  },
+  "wajah_terhalang_shot3": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 13
+  },
+  "wajah_terhalang_shot4": {
+   "min": 0.0,
+   "maks": 0.1111,
+   "rata2": 0.0397,
+   "n": 28
+  },
+  "wajah_terhalang_shot5": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 32
+  },
+  "wajah_terhalang_shot6": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 15
+  },
+  "wajah_terhalang_shot7": {
+   "min": 0.0,
+   "maks": 0.0,
+   "rata2": 0.0,
+   "n": 15
+  }
+ },
+ "jumlah_pelanggaran": {
+  "tembus_tubuh": 1
+ },
+ "pelanggaran": {
+  "tembus_tubuh": [
+   [
+    260,
+    "wulan",
+    "kaki.020",
+    6
+   ]
+  ]
+ },
+ "lompatan_benda_di_potongan_kamera_m": {
+  "benda_piring_harjo_0": [
+   [
+    61,
+    1.2183
+   ],
+   [
+    146,
+    0.1697
+   ],
+   [
+    303,
+    0.0511
+   ],
+   [
+    442,
+    0.6586
+   ],
+   [
+    605,
+    0.1774
+   ],
+   [
+    676,
+    0.1683
+   ]
+  ],
+  "benda_sendok_harjo_1": [
+   [
+    61,
+    1.2026
+   ]
+  ],
+  "benda_kopi_wulan_2": [
+   [
+    303,
+    0.0041
+   ],
+   [
+    442,
+    0.4987
+   ],
+   [
+    605,
+    0.1371
+   ],
+   [
+    676,
+    0.1057
+   ]
+  ]
+ },
+ "ik_meleset": 7,
+ "status": {
+  "lapisan:lapisan+lapisan_belakang": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 1456
+  },
+  "melayang:melayang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 1301
+  },
+  "genggam:genggam_meleset+telapak_genggam_tersembunyi": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 1301
+  },
+  "lapisan:lengan_tersembunyi_saat_memegang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 1456
+  },
+  "sutil:sutil_di_luar_wajan": {
+   "status": "NOT_APPLICABLE",
+   "kategori": "geometri",
+   "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+  },
+  "dudukan:pantat_tidak_di_dudukan+dingklik_memotong_tokoh": {
+   "status": "PASS",
+   "kategori": "geometri",
+   "pelanggaran": 0,
+   "sampel": 750
+  },
+  "tembus:tembus_tubuh": {
+   "status": "WARN",
+   "kategori": "geometri",
+   "pelanggaran": 1,
+   "sampel": 152
+  },
+  "wajah:wajah_terhalang": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 125
+  },
+  "pandang:pandang_ke_kamera_saat_masak": {
+   "status": "NOT_APPLICABLE",
+   "kategori": "performa",
+   "alasan": "tidak ada sampel yang relevan di rentang frame ini"
+  },
+  "efek_wajah:efek_menutupi_wajah": {
+   "status": "PASS",
+   "kategori": "layar",
+   "pelanggaran": 0,
+   "sampel": 150
+  },
+  "temporal:lompatan_benda": {
+   "status": "PASS",
+   "kategori": "temporal",
+   "pelanggaran": 0,
+   "sampel": 1287
+  },
+  "rencana_mulut:dialog_tanpa_gerak_mulut": {
+   "status": "PASS",
+   "kategori": "rencana",
+   "pelanggaran": 0,
+   "sampel": 2
+  },
+  "kedip:emosi_tanpa_kedip": {
+   "status": "PASS",
+   "kategori": "rencana",
+   "pelanggaran": 0,
+   "sampel": 2
+  },
+  "orientasi_genggam:piring_harjo_0": {
+   "status": "PASS",
+   "toleransi_derajat": 20,
+   "p95": 12.1,
+   "maks": 17.8,
+   "median": 5.3,
+   "di_atas_toleransi": 0,
+   "sampel": 711,
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:piring_harjo_0": {
+   "status": "PASS",
+   "skala_min_profil": 1.0,
+   "skala_min_terukur": 1.0,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 711,
+   "kategori": "genggam"
+  },
+  "tekuk_pergelangan:piring_harjo_0": {
+   "status": "WARN",
+   "nyaman_derajat": 30.0,
+   "batas_derajat": 45.0,
+   "p95": 0.0,
+   "maks": 59.7,
+   "di_atas_batas": 1,
+   "sampel": 711,
+   "kategori": "genggam"
+  },
+  "inversi_genggam:piring_harjo_0": {
+   "status": "PASS",
+   "frame": [],
+   "jumlah": 0,
+   "kategori": "genggam"
+  },
+  "kontak_mulut:piring_harjo_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak mulut yang terlihat",
+   "kategori": "genggam"
+  },
+  "geser_presentasi:piring_harjo_0": {
+   "status": "PASS",
+   "maks_m": 0.0,
+   "batas_m": 0.04,
+   "sampel": 0,
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:piring_harjo_0": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:piring_harjo_0": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "tidak ada fase kontak kritis",
+   "kategori": "genggam"
+  },
+  "orientasi_genggam:sendok_harjo_1": {
+   "status": "PASS",
+   "toleransi_derajat": 10,
+   "p95": 8.2,
+   "maks": 8.2,
+   "median": 5.8,
+   "di_atas_toleransi": 0,
+   "sampel": 78,
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:sendok_harjo_1": {
+   "status": "PASS",
+   "skala_min_profil": 0.9,
+   "skala_min_terukur": 0.9918,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 78,
+   "kategori": "genggam"
+  },
+  "tekuk_pergelangan:sendok_harjo_1": {
+   "status": "PASS",
+   "nyaman_derajat": 30.0,
+   "batas_derajat": 45.0,
+   "p95": 22.2,
+   "maks": 29.4,
+   "di_atas_batas": 0,
+   "sampel": 78,
+   "kategori": "genggam"
+  },
+  "inversi_genggam:sendok_harjo_1": {
+   "status": "PASS",
+   "frame": [],
+   "jumlah": 0,
+   "kategori": "genggam"
+  },
+  "kontak_mulut:sendok_harjo_1": {
+   "status": "PASS",
+   "rasio_maks_thd_lebar": 0.0,
+   "batas_rasio": 0.25,
+   "frame_di_atas": [],
+   "sampel": 6,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:sendok_harjo_1": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:sendok_harjo_1": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:sendok_harjo_1": {
+   "status": "PASS",
+   "maks": 19.4,
+   "batas_derajat": 45.0,
+   "batas_keras_derajat": 60.0,
+   "sampel": 10,
+   "kategori": "genggam"
+  },
+  "orientasi_genggam:kopi_wulan_2": {
+   "status": "PASS",
+   "toleransi_derajat": 25,
+   "p95": 20.2,
+   "maks": 20.2,
+   "median": 20.1,
+   "di_atas_toleransi": 0,
+   "sampel": 512,
+   "kategori": "genggam"
+  },
+  "skala_fisik_benda:kopi_wulan_2": {
+   "status": "PASS",
+   "skala_min_profil": 1.0,
+   "skala_min_terukur": 1.0,
+   "frame_di_bawah": [],
+   "jumlah_di_bawah": 0,
+   "sampel": 512,
+   "kategori": "genggam"
+  },
+  "tekuk_pergelangan:kopi_wulan_2": {
+   "status": "PASS",
+   "nyaman_derajat": 30.0,
+   "batas_derajat": 45.0,
+   "p95": 32.8,
+   "maks": 34.1,
+   "di_atas_batas": 0,
+   "sampel": 512,
+   "kategori": "genggam"
+  },
+  "inversi_genggam:kopi_wulan_2": {
+   "status": "PASS",
+   "frame": [],
+   "jumlah": 0,
+   "kategori": "genggam"
+  },
+  "kontak_mulut:kopi_wulan_2": {
+   "status": "PASS",
+   "rasio_maks_thd_lebar": 0.019,
+   "batas_rasio": 0.25,
+   "frame_di_atas": [],
+   "sampel": 19,
+   "kategori": "genggam"
+  },
+  "geser_presentasi:kopi_wulan_2": {
+   "status": "NOT_APPLICABLE",
+   "alasan": "profil tanpa geser_maks",
+   "kategori": "genggam"
+  },
+  "tabrakan_dunia:kopi_wulan_2": {
+   "status": "PASS",
+   "toleransi_tembus_m": 0.005,
+   "tembus": [],
+   "sentuh": [],
+   "mepet_frame": 0,
+   "terdalam_m": 0.0,
+   "kategori": "genggam"
+  },
+  "pergelangan_fase_kontak:kopi_wulan_2": {
+   "status": "PASS",
+   "maks": 0.0,
+   "batas_derajat": 45.0,
+   "batas_keras_derajat": 60.0,
+   "sampel": 27,
+   "kategori": "genggam"
+  },
+  "serah_terima": {
+   "status": "PASS",
+   "serah": [
+    {
+     "benda": "kopi_wulan_2",
+     "frame": 398,
+     "pemberi": "wulan",
+     "penerima": "harjo",
+     "titik": [
+      -0.825,
+      2.554,
+      0.837
+     ],
+     "residual_pemberi_px": 0.0,
+     "jarak_bebas_titik_m": 0.49,
+     "jarak_bebas_lintasan_m": 0.3932,
+     "proxy_terdekat": "dudukan",
+     "jumlah_proxy": 49,
+     "status_tabrakan": "ok",
+     "residual_penerima_px": 0.0,
+     "status_jangkauan": "ok",
+     "pindah_tangan": false,
+     "diagnosa": {
+      "tangan_pemberi_lain_px": [
+       49.4,
+       53.2
+      ],
+      "titik_lain": [
+       -0.789,
+       2.593,
+       0.829
+      ],
+      "tampak": [
+       "q",
+       -1,
+       "q",
+       1
+      ]
+     },
+     "diagnosa_tabrakan": [
+      {
+       "tanpa_uji_tabrakan": {
+        "titik": [
+         -0.825,
+         2.554,
+         0.837
+        ],
+        "residual_px": [
+         0.0,
+         0.0
+        ],
+        "jarak_bebas_titik_m": 0.49,
+        "jarak_bebas_lintasan_m": 0.3932
+       }
+      },
+      {
+       "tanpa_uji_tabrakan": {
+        "titik": [
+         -0.789,
+         2.593,
+         0.829
+        ],
+        "residual_px": [
+         49.4,
+         53.2
+        ],
+        "jarak_bebas_titik_m": 0.5145,
+        "jarak_bebas_lintasan_m": 0.417
+       }
+      }
+     ],
+     "lompatan_m": 0.0106,
+     "residual_maks_m": 0.001,
+     "status": "PASS",
+     "alasan": []
+    }
+   ],
+   "toleransi": {
+    "px": 6.0,
+    "lompatan_m": 0.02,
+    "residual_m": 0.02
+   },
+   "kategori": "genggam"
+  },
+  "serah_terima_tabrakan": {
+   "status": "PASS",
+   "serah": [
+    {
+     "benda": "kopi_wulan_2",
+     "frame": 398,
+     "jarak_bebas_titik_m": 0.49,
+     "jarak_bebas_lintasan_m": 0.3932,
+     "proxy_terdekat": "dudukan",
+     "status_tabrakan": "ok"
+    }
+   ],
+   "kategori": "genggam"
+  },
+  "cabang_siku": {
+   "status": "PASS",
+   "kejadian": [],
+   "jumlah": 0,
+   "kategori": "temporal"
+  },
+  "transisi_kepemilikan": {
+   "status": "PASS",
+   "gagal": [],
+   "sampel": 7,
+   "lompatan_maks_m": 0.0106,
+   "toleransi": {
+    "lompatan_m": 0.02,
+    "px": 6.0
+   },
+   "kategori": "temporal"
+  },
+  "render_crush": {
+   "status": "NOT_TESTED",
+   "kategori": "render",
+   "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+  },
+  "render_alpha": {
+   "status": "NOT_TESTED",
+   "kategori": "render",
+   "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+  },
+  "audio_sinkron": {
+   "status": "NOT_TESTED",
+   "kategori": "render",
+   "alasan": "diuji di luar Blender: scripts/dev/qa_render.py"
+  }
+ },
+ "status_ringkas": {
+  "PASS": 33,
+  "WARN": 2,
+  "FAIL": 0,
+  "NOT_TESTED": 3,
+  "NOT_APPLICABLE": 6
+ },
+ "efek_jaga_wajah_build": {
+  "daun_jatuh": {
+   "objek": 45,
+   "frame_dipudarkan": 19
+  }
+ },
+ "build_id": "P4-b1767c3b5e",
+ "catatan": "PASS validator bukan bukti visual: lihat still diagnostik dengan build_id yang sama."
+}

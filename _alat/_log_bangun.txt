@@ -1,0 +1,22 @@
+verifikasi benchmark P4-486e18fc49 OK {'build_id': 'P4-486e18fc49', 'video_build_cocok': True, 'frame_terverifikasi': 860, 'frame_total': 860, 'provenance': 'PASS', 'provenance_build': 'P4-486e18fc49', 'scene_blend_sha256_manifest': '78091a6ae9f820a8f66229ab5e65c1a120ecc89b5b85579a0c55579904cf27c6', 'scene_blend_sha256_disk': '78091a6ae9f820a8f66229ab5e65c1a120ecc89b5b85579a0c55579904cf27c6', 'source_hash_manifest': 'f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c', 'source_hash_sekarang': 'f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c', 'ok': True}
+verifikasi generalization P4-2d0645d14d OK {'build_id': 'P4-2d0645d14d', 'video_build_cocok': True, 'frame_terverifikasi': 616, 'frame_total': 616, 'provenance': 'PASS', 'provenance_build': 'P4-2d0645d14d', 'scene_blend_sha256_manifest': 'eebd26c667bb62364076831fd5ac6c79fa36c965013fba81673cb06308fca51c', 'scene_blend_sha256_disk': 'eebd26c667bb62364076831fd5ac6c79fa36c965013fba81673cb06308fca51c', 'source_hash_manifest': 'f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c', 'source_hash_sekarang': 'f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c', 'ok': True}
+verifikasi third_story P4-b1767c3b5e OK {'build_id': 'P4-b1767c3b5e', 'video_build_cocok': True, 'frame_terverifikasi': 750, 'frame_total': 750, 'provenance': 'PASS', 'provenance_build': 'P4-b1767c3b5e', 'scene_blend_sha256_manifest': 'b9467133c80f1354ba43914ad203fa3c611257ef69f8dab3ef7d414848b61f67', 'scene_blend_sha256_disk': 'b9467133c80f1354ba43914ad203fa3c611257ef69f8dab3ef7d414848b61f67', 'source_hash_manifest': 'f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c', 'source_hash_sekarang': 'f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c', 'ok': True}
+teknis selesai
+blend scene_packed_benchmark_P4-486e18fc49.blend 46 MB; sumber sha256 78091a6ae9f820a8
+blend scene_packed_generalization_P4-2d0645d14d.blend 17 MB; sumber sha256 eebd26c667bb6236
+blend scene_packed_third_story_P4-b1767c3b5e.blend 16 MB; sumber sha256 b9467133c80f1354
+diag benchmark sutil_aduk_shot3_insert4
+diag benchmark sendok_suap_kontak_f233-235_taruh_f254_shot5
+diag benchmark sutil_taruh_f458_kedip_meja_shot7
+diag generalization ambil_teh_f131-143_shot2
+diag generalization serah_terima_f325_shot3
+diag generalization minum_kontak_f503-516_shot5
+diag generalization taruh_teh_f549-561_shot6
+diag third_story sendok_suap_kontak_f85-90_taruh_f118_kedip_jendela_shot2
+diag third_story ambil_kopi_f162-174_shot3
+diag third_story serah_terima_f398_shot4
+diag third_story minum_kontak_f631-649_shot6
+diagnostik -> 05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4
+komparasi benchmark
+komparasi generalization
+komparasi -> 04_comparison_phase41_vs_phase42_P4-486e18fc49_P4-2d0645d14d.mp4

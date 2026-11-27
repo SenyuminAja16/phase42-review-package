@@ -1,0 +1,11 @@
+..................../home/ahmad-mafaza-afnani/Documents/2d-animation/tests/test_phase42.py:184: ResourceWarning: unclosed file <_io.TextIOWrapper name='engine/sets/kit.py' mode='r' encoding='UTF-8'>
+  src = open("engine/sets/kit.py").read()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/home/ahmad-mafaza-afnani/Documents/2d-animation/tests/test_phase42.py:186: ResourceWarning: unclosed file <_io.TextIOWrapper name='engine/sets/gang_kampung.py' mode='r' encoding='UTF-8'>
+  self.assertIn("avoid=avoid", open("engine/sets/gang_kampung.py").read())
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+................
+----------------------------------------------------------------------
+Ran 36 tests in 19.337s
+
+OK

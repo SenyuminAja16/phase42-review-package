@@ -1,0 +1,122 @@
+{
+ "cerita": "_uji_phase4_rumah",
+ "build_id": "P4-2d0645d14d",
+ "ringkas": {
+  "WARN": 1,
+  "PASS": 3
+ },
+ "cek": {
+  "komposisi_pita": {
+   "status": "WARN",
+   "kunci_diuji": 12,
+   "di_luar_pita": [
+    {
+     "shot": 2,
+     "frame": 115,
+     "metrik": "tinggi",
+     "nilai": 0.318,
+     "pita": [
+      0.4,
+      0.78
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.71 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 2,
+     "frame": 219,
+     "metrik": "tinggi",
+     "nilai": 0.318,
+     "pita": [
+      0.4,
+      0.78
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.71 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 3,
+     "frame": 220,
+     "metrik": "tinggi",
+     "nilai": 0.427,
+     "pita": [
+      0.55,
+      0.82
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.71 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 3,
+     "frame": 365,
+     "metrik": "tinggi",
+     "nilai": 0.422,
+     "pita": [
+      0.55,
+      0.82
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.70 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 4,
+     "frame": 482,
+     "metrik": "mata_y",
+     "nilai": 0.179,
+     "pita": [
+      0.18,
+      0.42
+     ],
+     "status": "WARN"
+    },
+    {
+     "shot": 5,
+     "frame": 483,
+     "metrik": "tinggi",
+     "nilai": 0.375,
+     "pita": [
+      0.4,
+      0.78
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.72 NDC, termasuk tokoh lain di bingkai)"
+    },
+    {
+     "shot": 5,
+     "frame": 544,
+     "metrik": "tinggi",
+     "nilai": 0.372,
+     "pita": [
+      0.4,
+      0.78
+     ],
+     "status": "WARN",
+     "alasan": "dibatasi_lebar_kelompok (lebar 1.72 NDC, termasuk tokoh lain di bingkai)"
+    }
+   ]
+  },
+  "wajah_subjek": {
+   "status": "PASS",
+   "shot_diuji": 3,
+   "masalah": []
+  },
+  "aksi_dalam_shot": {
+   "status": "PASS",
+   "aksi": [
+    {
+     "frame": 325,
+     "benda": "teh_dimas_0",
+     "shot": 3,
+     "kamera": "full",
+     "status": "PASS"
+    }
+   ],
+   "catatan": "heuristik berbasis daftar shot; bukti visual = still/klip"
+  },
+  "suapan_dalam_shot": {
+   "status": "PASS",
+   "shot_diuji": 1,
+   "tanpa_kontak": []
+  }
+ }
+}

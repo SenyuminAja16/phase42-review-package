@@ -1,0 +1,4356 @@
+[
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0007_s01_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0007_s01_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0007_s01_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 7,
+  "shot": 1,
+  "asli_sha256": "d74019de09d625bd56c42a5881df3870aaac0b2752b69aac5ed04f4016b2935d",
+  "asli_bytes": 2664070,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 433826
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0037_s01_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0037_s01_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0037_s01_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 37,
+  "shot": 1,
+  "asli_sha256": "ad50a8d1a261a15b2fcb9822b3771101660d210d74d3d0d49c0cfbdb57814d02",
+  "asli_bytes": 2754519,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 476556
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0060_s01_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0060_s01_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0060_s01_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 60,
+  "shot": 1,
+  "asli_sha256": "1844935b36c98f07b645897cf8dfe8ebbf5e0ad6273ac4d146c0e7d1f9d18896",
+  "asli_bytes": 2823343,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 515624
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0068_s01_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0068_s01_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0068_s01_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 68,
+  "shot": 1,
+  "asli_sha256": "b388038fd1b3ad51e119abbf97f40c9ad169a2f74912119539a911934b906660",
+  "asli_bytes": 2841297,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 523699
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0081_s02_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0081_s02_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0081_s02_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 81,
+  "shot": 2,
+  "asli_sha256": "636c8a30a7231a504b044d8af7aaf23738348022b034e8d1c83157706fd8aaf0",
+  "asli_bytes": 2839872,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 515133
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0104_s02_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0104_s02_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0104_s02_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 104,
+  "shot": 2,
+  "asli_sha256": "b59d5497032a300c6f1ffe15ab2b4c9a50cfb1986b3c8e1549a97db8d103db2c",
+  "asli_bytes": 2843700,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 516558
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0116_s02_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0116_s02_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0116_s02_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 116,
+  "shot": 2,
+  "asli_sha256": "598281c5a6431fefb4a2ecc77f68c2f02fe1100d82ea6c4b0e56014755be083a",
+  "asli_bytes": 2842865,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 516511
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0120_s02_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0120_s02_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0120_s02_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 120,
+  "shot": 2,
+  "asli_sha256": "382d3aef619f4d27284e55d4bdcf0ef34c305be36109ecfa16123c860609917d",
+  "asli_bytes": 2841536,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 517237
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0149_s02_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0149_s02_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0149_s02_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 149,
+  "shot": 2,
+  "asli_sha256": "937279cec9d6a18949288eef31b7c37e1a80f90e53e5165081da0b14a97a1890",
+  "asli_bytes": 2846199,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 517190
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0152_s02_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0152_s02_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0152_s02_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 152,
+  "shot": 2,
+  "asli_sha256": "83948a6c890352b68eb27c03475661ae51e3f62abb5776d9b6949afa50313685",
+  "asli_bytes": 2845121,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 517557
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0165_s03_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0165_s03_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0165_s03_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 165,
+  "shot": 3,
+  "asli_sha256": "c7c2203b85493de6fcd58b3d6ff41f70ee39ee8c39cc133e70da5caa629d50f3",
+  "asli_bytes": 2534135,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 353654
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0178_s03_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0178_s03_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0178_s03_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 178,
+  "shot": 3,
+  "asli_sha256": "ee24a1c5953b6fc419b62da3ab6f34fc6b854c19ef032848ef5fe4c9e68aab75",
+  "asli_bytes": 2527763,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 346188
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0180_s03_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0180_s03_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0180_s03_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 180,
+  "shot": 3,
+  "asli_sha256": "0b262be0df0107343ecf114c0469b28e306739435c3d49b16f21f4a067e6d080",
+  "asli_bytes": 2526263,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 344812
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0192_s03_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0192_s03_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0192_s03_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 192,
+  "shot": 3,
+  "asli_sha256": "a5bed5c4b8c3cecff3947a573eda418a0ce8c5be7fcb1540fb3bc897bbdbbe1d",
+  "asli_bytes": 2537701,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 346522
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0194_s03_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0194_s03_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0194_s03_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 194,
+  "shot": 3,
+  "asli_sha256": "97195260a538552e3d7769474523e508c1041c3622e29504ebe0317637b02dba",
+  "asli_bytes": 2538203,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 346599
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0205_s04_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0205_s04_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0205_s04_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 205,
+  "shot": 4,
+  "asli_sha256": "8cc6bfcdfe21908e188ab7946a90d80a6ee934cbfe31c68637d9075d70ea0a83",
+  "asli_bytes": 2466826,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 272139
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0212_s04_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0212_s04_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0212_s04_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 212,
+  "shot": 4,
+  "asli_sha256": "c92774d444fc0451c426cbd70927a60f7fe4c678ed9f429723bbc1583504caf3",
+  "asli_bytes": 2461830,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 276017
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0219_s04_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0219_s04_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0219_s04_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 219,
+  "shot": 4,
+  "asli_sha256": "f67dd5ce4aaa27dfb4c68f23002b142894557ded6459f42d12f52e35b540b4ba",
+  "asli_bytes": 2475515,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 280929
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0222_s04_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0222_s04_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0222_s04_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 222,
+  "shot": 4,
+  "asli_sha256": "7e4945a0695670ae7b026fc92aa2f3eede7b59b1a576fc373611e36cab08c154",
+  "asli_bytes": 2475646,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 283693
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0232_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0232_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0232_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 232,
+  "shot": 5,
+  "asli_sha256": "26e202b6c1c126fa30935e3111558a56d791b7c882945abb55820de1c4ced168",
+  "asli_bytes": 2588744,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 357675
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0234_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0234_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0234_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 234,
+  "shot": 5,
+  "asli_sha256": "e95242a86ced933d7d8a818ae5664c0acf0c75f0044b156a58220b8f0b7a195e",
+  "asli_bytes": 2596097,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 360269
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0240_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0240_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0240_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 240,
+  "shot": 5,
+  "asli_sha256": "e6dc087b6bc199c55d75a3221cb306bb440dd93f30cc6af064840b6407b5d957",
+  "asli_bytes": 2591655,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 359101
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0250_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0250_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0250_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 250,
+  "shot": 5,
+  "asli_sha256": "858da9bb11ee7ce4d17bd4fecadf8dcb4114027379084a75b54b5ec32c9dfa5a",
+  "asli_bytes": 2583672,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 355923
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0253_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0253_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0253_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 253,
+  "shot": 5,
+  "asli_sha256": "d36e8a8769e174c0eeaea9b31dd09c3e7799cb43ba33c5921d2120bdc249fb89",
+  "asli_bytes": 2583577,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 353950
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0254_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0254_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0254_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 254,
+  "shot": 5,
+  "asli_sha256": "8d7ab0e2426e1807a2c73bdda6692531e0b992a1569877d46fe12e53423d0386",
+  "asli_bytes": 2581186,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 353948
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0268_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0268_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0268_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 268,
+  "shot": 5,
+  "asli_sha256": "80dc11fe8f0c24d6e0326ec889462461fb567c51e471f87ac45dc06c2fea8ad9",
+  "asli_bytes": 2579779,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 352009
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0275_s05_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0275_s05_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0275_s05_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 275,
+  "shot": 5,
+  "asli_sha256": "d8d9c4e251bd047a60d09029232387299b89fba06015d7d1889ff8789ea2ec91",
+  "asli_bytes": 2572623,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 349112
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0282_s06_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0282_s06_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0282_s06_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 282,
+  "shot": 6,
+  "asli_sha256": "defabb228bcd8a4c7768b4a47824202487c59ec4f13cd94859eed6f2790af164",
+  "asli_bytes": 2532376,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 331937
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0288_s06_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0288_s06_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0288_s06_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 288,
+  "shot": 6,
+  "asli_sha256": "40d789f1568fe2d72d92cd510b4f4b0a1cfef6b79991976338daaed8f9a4f059",
+  "asli_bytes": 2530841,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 330982
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0330_s06_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0330_s06_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0330_s06_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 330,
+  "shot": 6,
+  "asli_sha256": "1e29e583299fa8cd8d219d35e84a55d225d75465857794e0a0b61c3a93cc4115",
+  "asli_bytes": 2532967,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 331761
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0369_s06_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0369_s06_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0369_s06_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 369,
+  "shot": 6,
+  "asli_sha256": "0b98bda1674ee8464055950d124eddb1ce8633abcbcfd15909969983fd0c19ac",
+  "asli_bytes": 2528038,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 328831
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0380_s06_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0380_s06_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0380_s06_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 380,
+  "shot": 6,
+  "asli_sha256": "8c88305170cd0f20980717b0ef84d03fba30944c3649d08ab7325517ab4934c5",
+  "asli_bytes": 2530659,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 330310
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0451_s06_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0451_s06_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0451_s06_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 451,
+  "shot": 6,
+  "asli_sha256": "a8153922dd4d749d0cf4de87b08c19987bf66875c47e999e75cbebf980f3f9eb",
+  "asli_bytes": 2524380,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 321895
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0458_s07_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0458_s07_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0458_s07_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 458,
+  "shot": 7,
+  "asli_sha256": "8b79a0929116ed07ca55cdd6f8bf781498d5a61f29836c5ee1b11c2fb6f48bc8",
+  "asli_bytes": 2709025,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 409343
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0464_s07_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0464_s07_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0464_s07_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 464,
+  "shot": 7,
+  "asli_sha256": "264bd9e2b925fcd0154890eca830527e168b016a7661da898805d06d8d859032",
+  "asli_bytes": 2710274,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 408449
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0465_s07_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0465_s07_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0465_s07_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 465,
+  "shot": 7,
+  "asli_sha256": "8a2ae2049d37e5f1d442eb61647ff4be2ffde1dcc6afccefc8994df78f9acf9f",
+  "asli_bytes": 2701662,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 406149
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0478_s07_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0478_s07_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0478_s07_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 478,
+  "shot": 7,
+  "asli_sha256": "95b5d8f8685237a066be31ee4a827f0eb98c750685a758137c5b0129579afb42",
+  "asli_bytes": 2708116,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 407071
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0499_s07_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0499_s07_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0499_s07_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 499,
+  "shot": 7,
+  "asli_sha256": "7f4858075e177597e63c82f31deb895f91c9f970b04e2983f2384c3d00d8f85b",
+  "asli_bytes": 2685803,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 396335
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0500_s07_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0500_s07_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0500_s07_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 500,
+  "shot": 7,
+  "asli_sha256": "904522c47dc1b417523a32a92919118c0165b5d162b11abf1fdfaa207bb0a386",
+  "asli_bytes": 2684116,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 395556
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0534_s07_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0534_s07_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0534_s07_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 534,
+  "shot": 7,
+  "asli_sha256": "68f676537a647678807b263cb24a9c42b85b37390cb75eadc6a6cbe31cc93a43",
+  "asli_bytes": 2669603,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 386755
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0547_s08_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0547_s08_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0547_s08_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 547,
+  "shot": 8,
+  "asli_sha256": "5ddede7d6deffe4b79eafcb869536167de3e2eb121e1466ab16abcc992ec9e8b",
+  "asli_bytes": 2445553,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 320183
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0576_s08_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0576_s08_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0576_s08_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 576,
+  "shot": 8,
+  "asli_sha256": "6b5a807215d8ce3b90a25e0ca165f736ab041071c51b092f5f834154c10ce5ac",
+  "asli_bytes": 2445678,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 317097
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0580_s08_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0580_s08_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0580_s08_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 580,
+  "shot": 8,
+  "asli_sha256": "c48d7f529c39750e83a56bbd952380835c2bc8dd79a16bfddbaa55506a89cb6e",
+  "asli_bytes": 2451137,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 317216
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0605_s08_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0605_s08_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0605_s08_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 605,
+  "shot": 8,
+  "asli_sha256": "94d845b7015d740f49e7097b160d669b9bb570e3816b9f4876f156721d6d3ccd",
+  "asli_bytes": 2465726,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 322458
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0615_s09_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0615_s09_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0615_s09_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 615,
+  "shot": 9,
+  "asli_sha256": "57c2db41f4c4b6995a34d57e473af57aa85001d42407fdfb15c6054e81866378",
+  "asli_bytes": 2538875,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 335970
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0618_s09_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0618_s09_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0618_s09_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 618,
+  "shot": 9,
+  "asli_sha256": "5b70a73977e922bd48534ab21a9d58c879a84b0a2b629ec2ce02d7e8d0878040",
+  "asli_bytes": 2535578,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 333591
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0657_s09_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0657_s09_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0657_s09_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 657,
+  "shot": 9,
+  "asli_sha256": "8d02fc618afde4b7b600e712482a719d5d890f67a4b594fbb2c3741aa86e5178",
+  "asli_bytes": 2534497,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 330774
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0696_s09_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0696_s09_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0696_s09_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 696,
+  "shot": 9,
+  "asli_sha256": "f96e0462255dda85259b2403f1a8636eabc69aa853cd613c9fe7641eb89ab882",
+  "asli_bytes": 2530846,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 323565
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0700_s09_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0700_s09_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0700_s09_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 700,
+  "shot": 9,
+  "asli_sha256": "9e0cb4316ec6576fba3a904173c2849d41f71a5b50d64d1212015098f3dc5628",
+  "asli_bytes": 2531788,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 323951
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0709_s10_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0709_s10_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0709_s10_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 709,
+  "shot": 10,
+  "asli_sha256": "85a7f19f5365082f329869c95d73c3828209b16d86cf711c7a2e2ba6dfe357cb",
+  "asli_bytes": 2501419,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 315644
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0717_s10_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0717_s10_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0717_s10_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 717,
+  "shot": 10,
+  "asli_sha256": "44443dcee3571608bf78b4cf779dd44917300f5806a7a9fb66b517ddb03e6d8c",
+  "asli_bytes": 2519381,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 321223
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0725_s10_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0725_s10_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0725_s10_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 725,
+  "shot": 10,
+  "asli_sha256": "41552413ea16c7eb0a5aeb7168471550d212bc14e647a8a93f725510784eceeb",
+  "asli_bytes": 2540613,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 327805
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0738_s11_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0738_s11_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0738_s11_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 738,
+  "shot": 11,
+  "asli_sha256": "cf39a1af25dd5bfcbbbc362481dd71993a262b3f800190875c9d6fb84c5c089e",
+  "asli_bytes": 2724991,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 482020
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0760_s11_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0760_s11_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0760_s11_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 760,
+  "shot": 11,
+  "asli_sha256": "15b19493536bc5dfb88c003d3c28019c834f9ef38331fd608bf61582477afcd2",
+  "asli_bytes": 2722737,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 480344
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0796_s11_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0796_s11_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0796_s11_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 796,
+  "shot": 11,
+  "asli_sha256": "54a955d1400217757863703615717b9375eb23cfa913cbadd387844ad4fc77c1",
+  "asli_bytes": 2726972,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 483634
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/benchmark/f0854_s11_P4-486e18fc49_graded.jpg",
+  "asli": "06_stills_benchmark/graded/f0854_s11_P4-486e18fc49_graded.png",
+  "asli_raw": "06_stills_benchmark/raw/f0854_s11_P4-486e18fc49_raw.png",
+  "cerita": "benchmark",
+  "build_id": "P4-486e18fc49",
+  "frame": 854,
+  "shot": 11,
+  "asli_sha256": "99240568cf0d734cf0a4cdacb2d3492b2101e15a563a366475e0869770639298",
+  "asli_bytes": 2674400,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 448460
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0007_s01_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0007_s01_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0007_s01_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 7,
+  "shot": 1,
+  "asli_sha256": "336348ddda3bcd1f88b2c8e1951059bd28f3badaa41f54b8ebe46b5c6e1a0ee7",
+  "asli_bytes": 2596755,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 330395
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0057_s01_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0057_s01_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0057_s01_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 57,
+  "shot": 1,
+  "asli_sha256": "767bff691b5a30d7c30362e63d089588660d08ab8d4d5fdd635aa5a570e067c1",
+  "asli_bytes": 2549312,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 326639
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0060_s01_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0060_s01_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0060_s01_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 60,
+  "shot": 1,
+  "asli_sha256": "47d3e55f63b266ba45469bdc663da4d5c6d7746b56a413671eb962aad7b51e56",
+  "asli_bytes": 2551057,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 328035
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0108_s01_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0108_s01_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0108_s01_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 108,
+  "shot": 1,
+  "asli_sha256": "1fa132b7dfccf12e35b8f7b2084daed8f923b2b1f34a516730246b0c1afa1a62",
+  "asli_bytes": 2569316,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 337158
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0121_s02_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0121_s02_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0121_s02_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 121,
+  "shot": 2,
+  "asli_sha256": "7609ad344e272eae0af3c6b1a5b16626611db107fbebcad2c394ff4840d3a67f",
+  "asli_bytes": 2435908,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 327867
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0131_s02_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0131_s02_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0131_s02_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 131,
+  "shot": 2,
+  "asli_sha256": "de2dd7486bfd3aa392d433862fbe1078a6af7554f1a5f49628303dacc055162d",
+  "asli_bytes": 2433467,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 325842
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0135_s02_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0135_s02_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0135_s02_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 135,
+  "shot": 2,
+  "asli_sha256": "bf92248a69c73eb9bf72103f6d4d92fc52a9b5c98321d7386185da71259f40b7",
+  "asli_bytes": 2435053,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 326235
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0143_s02_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0143_s02_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0143_s02_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 143,
+  "shot": 2,
+  "asli_sha256": "bd9b803cb64fe3ca06ef8cc7396080df5b587b4f42561a1a318197420346a11c",
+  "asli_bytes": 2433675,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 325488
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0167_s02_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0167_s02_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0167_s02_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 167,
+  "shot": 2,
+  "asli_sha256": "7f16e97617661690cb8c6917ef50b71781685f403559494b158d351783902ee8",
+  "asli_bytes": 2435050,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 329699
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0200_s02_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0200_s02_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0200_s02_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 200,
+  "shot": 2,
+  "asli_sha256": "1f519865156b28ba4c0651f9787025eea4ffc3efe07a222748f0f5f07a583a21",
+  "asli_bytes": 2434661,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 328234
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0213_s02_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0213_s02_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0213_s02_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 213,
+  "shot": 2,
+  "asli_sha256": "d25de5e2ac6ac10a26ac59a2c1535c5bcc433a5cab23620b57355b5144ff629d",
+  "asli_bytes": 2433702,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 328332
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0226_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0226_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0226_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 226,
+  "shot": 3,
+  "asli_sha256": "5defeb41865dc5208eb37a85361fd4f2067196d5b49d2ee56324f671cbddaadf",
+  "asli_bytes": 2461120,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 349418
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0292_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0292_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0292_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 292,
+  "shot": 3,
+  "asli_sha256": "9772d12c7391d3d6a01472637111944bfc9e625afd10b7f6c81baccc8696097b",
+  "asli_bytes": 2477304,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 350584
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0300_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0300_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0300_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 300,
+  "shot": 3,
+  "asli_sha256": "18223667ec039b9563770baee69fcf48951fd66c3deb30d34c33b2d324b5e6bd",
+  "asli_bytes": 2477935,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 350890
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0301_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0301_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0301_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 301,
+  "shot": 3,
+  "asli_sha256": "4f9101d66aed007898fe43d4fb17043470bc242a80bdbdfee1ee235506f1ee13",
+  "asli_bytes": 2477286,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 350798
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0310_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0310_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0310_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 310,
+  "shot": 3,
+  "asli_sha256": "9059a837f468660a43f1b6a5220de2c841f0523bd91036b76892438210ce4a0b",
+  "asli_bytes": 2481769,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 352029
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0318_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0318_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0318_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 318,
+  "shot": 3,
+  "asli_sha256": "179b7722c60efbf8d059793f89cec462226821df53467bd3c381cb22ec781b80",
+  "asli_bytes": 2489231,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 355318
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0325_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0325_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0325_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 325,
+  "shot": 3,
+  "asli_sha256": "72c278adf90e1d475faac67eb23c6468d6f9e0f9dd980e20711663b771a676ad",
+  "asli_bytes": 2497873,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 357707
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0330_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0330_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0330_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 330,
+  "shot": 3,
+  "asli_sha256": "ed9ffd8b637d88a40a04a86d9aaab081f461440f04580b010572b90bbf0fccd3",
+  "asli_bytes": 2499188,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 357728
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0337_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0337_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0337_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 337,
+  "shot": 3,
+  "asli_sha256": "d8312867c010cb51ce200c3bc56404e111568d41329c1ff31daba40e20582aad",
+  "asli_bytes": 2509516,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 358682
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0340_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0340_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0340_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 340,
+  "shot": 3,
+  "asli_sha256": "1cf7b0b012c00206dcd38189bf3c253e70f97174257c551ed21ba0f5915c2d36",
+  "asli_bytes": 2504415,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 357183
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0359_s03_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0359_s03_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0359_s03_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 359,
+  "shot": 3,
+  "asli_sha256": "6f202f717b6c5ae1278d565a8e191f806036a94888ff3b7bc7f073e27464e61b",
+  "asli_bytes": 2511351,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 358828
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0372_s04_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0372_s04_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0372_s04_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 372,
+  "shot": 4,
+  "asli_sha256": "0645c0fb3ab68a937b7d59eafbafac6056d37faf6866661de3d051a7eecdde08",
+  "asli_bytes": 2396000,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 260818
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0420_s04_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0420_s04_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0420_s04_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 420,
+  "shot": 4,
+  "asli_sha256": "6e863eadb227ca23999da04a72bb9eda9ee5a6202a37ed12583f7a1598976089",
+  "asli_bytes": 2402073,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 263595
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0424_s04_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0424_s04_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0424_s04_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 424,
+  "shot": 4,
+  "asli_sha256": "c4815891e563fc09ebfd88cdc6d9954470e58a9c44ac37df2090e3631284c49f",
+  "asli_bytes": 2405911,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 263112
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0475_s04_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0475_s04_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0475_s04_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 475,
+  "shot": 4,
+  "asli_sha256": "93170a3ab339100fcd8b1cfedf0af3600bc67fb4818dc3d8bf68362213d1eb39",
+  "asli_bytes": 2396077,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 257888
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0476_s04_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0476_s04_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0476_s04_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 476,
+  "shot": 4,
+  "asli_sha256": "bdbdee0532fbacad1fd0106090d7ae36ac3f28dc9f6793b857bb989600ea94fc",
+  "asli_bytes": 2396630,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 258066
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0489_s05_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0489_s05_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0489_s05_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 489,
+  "shot": 5,
+  "asli_sha256": "1960ec7a6cab034aa6eeca30f39af831829e0f7da33b662264856097c95cdc93",
+  "asli_bytes": 2462239,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 326576
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0500_s05_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0500_s05_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0500_s05_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 500,
+  "shot": 5,
+  "asli_sha256": "80f7689a258947ee2d621556e694354bb6e0aee2aedc1c0eddc66147328e1499",
+  "asli_bytes": 2458221,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 324978
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0510_s05_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0510_s05_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0510_s05_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 510,
+  "shot": 5,
+  "asli_sha256": "5b7278a51182856e2860da7143332a9bee9a5a72202462b778a727fb63209d3f",
+  "asli_bytes": 2460523,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 326917
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0513_s05_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0513_s05_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0513_s05_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 513,
+  "shot": 5,
+  "asli_sha256": "ef7fd02cad5360af81abde2c38f90e5f3e93d78cd566795b93b22f8db7bdd8bb",
+  "asli_bytes": 2462467,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 326862
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0538_s05_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0538_s05_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0538_s05_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 538,
+  "shot": 5,
+  "asli_sha256": "c646ad2f09cdc53ba574637a2cb20acef2892f778b5858e9f03f1ee3598b848e",
+  "asli_bytes": 2474575,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 332321
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0549_s06_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0549_s06_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0549_s06_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 549,
+  "shot": 6,
+  "asli_sha256": "164e90f0e13a58e2d1f5ff6b10ba51310eeac3ee1fff1c109bec4cb21d7c1518",
+  "asli_bytes": 2438056,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 298419
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0551_s06_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0551_s06_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0551_s06_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 551,
+  "shot": 6,
+  "asli_sha256": "5e8bb33ae41c642efa5af46d2233a52218499a7f81365670d84cf0bce8c46315",
+  "asli_bytes": 2438208,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 298389
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0560_s06_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0560_s06_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0560_s06_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 560,
+  "shot": 6,
+  "asli_sha256": "7729d0ccfcafb093738a637ed0445b8e9efdffa404553336281eba8cab7f380a",
+  "asli_bytes": 2438680,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 297957
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0561_s06_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0561_s06_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0561_s06_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 561,
+  "shot": 6,
+  "asli_sha256": "24935a2c28d3a8a92235c44466d07d0b8cdce3cf73ceb8b93eb1338a86a157c9",
+  "asli_bytes": 2438160,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 297620
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0580_s06_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0580_s06_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0580_s06_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 580,
+  "shot": 6,
+  "asli_sha256": "fc33c0c80f84bdf97e5f661652dcf03c041ca779a1dc1f464888787f97a44064",
+  "asli_bytes": 2434838,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 296740
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0590_s06_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0590_s06_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0590_s06_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 590,
+  "shot": 6,
+  "asli_sha256": "153806e7aa369302447d7e999cd62ad3b96ee719727b39596fd1c0f44f4cd428",
+  "asli_bytes": 2431499,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 295903
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/generalization/f0610_s06_P4-2d0645d14d_graded.jpg",
+  "asli": "07_stills_generalization/graded/f0610_s06_P4-2d0645d14d_graded.png",
+  "asli_raw": "07_stills_generalization/raw/f0610_s06_P4-2d0645d14d_raw.png",
+  "cerita": "generalization",
+  "build_id": "P4-2d0645d14d",
+  "frame": 610,
+  "shot": 6,
+  "asli_sha256": "16ef5f6b021afa9873477c72240328e918c6515aa8cb22698f8fd6bc37d515de",
+  "asli_bytes": 2431915,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 293995
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0007_s01_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0007_s01_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0007_s01_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 7,
+  "shot": 1,
+  "asli_sha256": "c7beac4a98d540121246e53c045bd112367e1975e398a16a5039e4246c2c1b2f",
+  "asli_bytes": 2867969,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 499664
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0030_s01_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0030_s01_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0030_s01_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 30,
+  "shot": 1,
+  "asli_sha256": "7da319d837a7478a18f7738e1c5d5e1756dcabe7ac36a73a7ccfd2942cc3f01c",
+  "asli_bytes": 2797160,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 471039
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0054_s01_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0054_s01_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0054_s01_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 54,
+  "shot": 1,
+  "asli_sha256": "8976969828174e419109461d5be1c0ea98391ffe2923e002a0b0e7fd91140e4c",
+  "asli_bytes": 2649176,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 434772
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0067_s02_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0067_s02_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0067_s02_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 67,
+  "shot": 2,
+  "asli_sha256": "d2224053f3cb814e000dbd546e20ee96294f46fbfbc95fe5addf2b33c090f7c4",
+  "asli_bytes": 2412542,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 316306
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0088_s02_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0088_s02_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0088_s02_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 88,
+  "shot": 2,
+  "asli_sha256": "59e0b1bb1c29a31de6a45ae330a5e3e1a32a68ff30bd8d60b49fcbbaaeeac840",
+  "asli_bytes": 2419669,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 315242
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0103_s02_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0103_s02_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0103_s02_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 103,
+  "shot": 2,
+  "asli_sha256": "32c5cfa394d6f6cba33e68d2649a4501ef85a339f18b21964caaeebfcd9d8fcc",
+  "asli_bytes": 2435508,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 313218
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0118_s02_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0118_s02_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0118_s02_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 118,
+  "shot": 2,
+  "asli_sha256": "08788d90f464a87bc67da60c848d67138d61ebf43277e53e740710cd7d117cdb",
+  "asli_bytes": 2442966,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 310050
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0132_s02_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0132_s02_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0132_s02_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 132,
+  "shot": 2,
+  "asli_sha256": "26a010e8631d0f5a79a65c8119668782150e910c33327e71ce46fd028512aec3",
+  "asli_bytes": 2444985,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 307506
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0139_s02_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0139_s02_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0139_s02_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 139,
+  "shot": 2,
+  "asli_sha256": "92bdd912211d284692981033d46fc12e6d8ce4a573cc46fe7c372519ca32f3de",
+  "asli_bytes": 2439197,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 305490
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0141_s02_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0141_s02_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0141_s02_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 141,
+  "shot": 2,
+  "asli_sha256": "3a0915bc3e0ec190905f20a0fe177c73ee1ef03b21985a10c7152de0d8a7d09e",
+  "asli_bytes": 2441356,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 306522
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0152_s03_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0152_s03_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0152_s03_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 152,
+  "shot": 3,
+  "asli_sha256": "ccfd638ad51360e5ca75bcdcc7a121cffe5831feffb8d77a6ef9fe88e85b9f20",
+  "asli_bytes": 2532776,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 383692
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0162_s03_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0162_s03_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0162_s03_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 162,
+  "shot": 3,
+  "asli_sha256": "860665bd1246f809851a31087983e54f114dbcce5bc55c044d4cf13d306b3d57",
+  "asli_bytes": 2533749,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 382848
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0165_s03_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0165_s03_P4-b1767c3b5e_graded.png",
+  "asli_raw": null,
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 165,
+  "shot": 3,
+  "asli_sha256": "76c3d5606c5c8331c93a749789bbf4a730b0c297f1c9f97e8f0a345e1c7adfcf",
+  "asli_bytes": 2533782,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 383117
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0174_s03_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0174_s03_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0174_s03_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 174,
+  "shot": 3,
+  "asli_sha256": "1756ad6003ad8e7c1520b5f57fccc34159709a7926deac79e55a5aff1184de3d",
+  "asli_bytes": 2538266,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 383850
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0224_s03_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0224_s03_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0224_s03_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 224,
+  "shot": 3,
+  "asli_sha256": "79d04e0b06ef2efc10af5aa223c1b26742fdb71d86240b6f154d8a49b693fd1c",
+  "asli_bytes": 2549834,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 388335
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0250_s03_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0250_s03_P4-b1767c3b5e_graded.png",
+  "asli_raw": null,
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 250,
+  "shot": 3,
+  "asli_sha256": "e7fee1d92a8e7c1a7d9f6f67888ac09cfe1fabed2ee5a5c3bcb78ff0e5910315",
+  "asli_bytes": 2585557,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 401597
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0296_s03_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0296_s03_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0296_s03_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 296,
+  "shot": 3,
+  "asli_sha256": "532a82a3a37c0075ef5df285273bc6979e1848f144e5bc48dc78e3faab018a03",
+  "asli_bytes": 2627122,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 407117
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0309_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0309_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0309_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 309,
+  "shot": 4,
+  "asli_sha256": "0a27bff8fad70b750274e5469e560c7876de36cedc3999aef69af45a1bae89b8",
+  "asli_bytes": 2552143,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 379875
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0372_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0372_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0372_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 372,
+  "shot": 4,
+  "asli_sha256": "0a02f0ce63c1ddee1a7736c20bc32ac4ae320a034e04ac747455d6c08cd5bdec",
+  "asli_bytes": 2552548,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 378336
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0383_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0383_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0383_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 383,
+  "shot": 4,
+  "asli_sha256": "717962be1ec9dddc84987230308c167c73129a7390312a7690e09d37878d675f",
+  "asli_bytes": 2556352,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 378820
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0384_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0384_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0384_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 384,
+  "shot": 4,
+  "asli_sha256": "681c53296b45675c3e3de9b5418eb17112edc47efdd9d35e5424e456f1b47afd",
+  "asli_bytes": 2554739,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 377952
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0398_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0398_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0398_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 398,
+  "shot": 4,
+  "asli_sha256": "0cb984d1eae3b2df93bc49d2a619da1081c9d0e240c8640218252825af7e3230",
+  "asli_bytes": 2555255,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 376645
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0410_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0410_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0410_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 410,
+  "shot": 4,
+  "asli_sha256": "f474a8cef84c0237141d5e916ad15d6ba57883a23d11490c9ca612a3ff918c58",
+  "asli_bytes": 2551110,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 376449
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0413_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0413_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0413_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 413,
+  "shot": 4,
+  "asli_sha256": "e4aedef1c3beb7a76f7717e27abb923834b67d04939e314b79732e01bf774cc3",
+  "asli_bytes": 2555150,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 377252
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0435_s04_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0435_s04_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0435_s04_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 435,
+  "shot": 4,
+  "asli_sha256": "7ebfb831728cdb9103344abc90892a37f93b2d785cb357177a96e06e7de2da33",
+  "asli_bytes": 2544343,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 373970
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0448_s05_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0448_s05_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0448_s05_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 448,
+  "shot": 5,
+  "asli_sha256": "4f0d98c9a5ce7daebd71d27f022b718790519944964466c9569ee3562ebe4c3b",
+  "asli_bytes": 2418044,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 279623
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0500_s05_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0500_s05_P4-b1767c3b5e_graded.png",
+  "asli_raw": null,
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 500,
+  "shot": 5,
+  "asli_sha256": "0965ada94078456d000f2327ee22e0fa6c28e5c09ddc8ada4c08c54d08490d48",
+  "asli_bytes": 2435141,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 278140
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0523_s05_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0523_s05_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0523_s05_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 523,
+  "shot": 5,
+  "asli_sha256": "6dbe6b6e95506ce903ef0f6de49a3d399e83131577284b5af353adce5579ec1a",
+  "asli_bytes": 2460775,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 275540
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0598_s05_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0598_s05_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0598_s05_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 598,
+  "shot": 5,
+  "asli_sha256": "ecc72cedf91ac24f9b60c15a2e5aa5db3e552c57a5a7ace05ae28f152db27a11",
+  "asli_bytes": 2461970,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 268584
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0611_s06_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0611_s06_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0611_s06_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 611,
+  "shot": 6,
+  "asli_sha256": "41c578138a25fd85e63adc637f9de2fa9180b9aadf21db19c74f1cd60fc58186",
+  "asli_bytes": 2429031,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 317220
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0640_s06_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0640_s06_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0640_s06_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 640,
+  "shot": 6,
+  "asli_sha256": "76270a9b02cc683b295d308efc706a75a8540b1423afd742bf2821456d5b12e8",
+  "asli_bytes": 2440105,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 320211
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0669_s06_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0669_s06_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0669_s06_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 669,
+  "shot": 6,
+  "asli_sha256": "2ffc678eedb81e05d9b226a9f29f8c905b82fb3ac41ecbf5852a47ce593bbded",
+  "asli_bytes": 2451158,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 323869
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0682_s07_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0682_s07_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0682_s07_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 682,
+  "shot": 7,
+  "asli_sha256": "5a6b68dd2b7783cf61704fb9e0325317b3d7092fba1b6c9adebb7e3326fe9899",
+  "asli_bytes": 2525027,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 392734
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0700_s07_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0700_s07_P4-b1767c3b5e_graded.png",
+  "asli_raw": null,
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 700,
+  "shot": 7,
+  "asli_sha256": "648a35d48426fbaf940a65e4509aaeb4301c08b5c31fa3b48c2664fe364c8d84",
+  "asli_bytes": 2531472,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 396437
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0713_s07_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0713_s07_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0713_s07_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 713,
+  "shot": 7,
+  "asli_sha256": "02ab77a379dc65a44c7f447fa09614e0fbbefa0f5c0b54577e7ea27f20618cdf",
+  "asli_bytes": 2534804,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 398518
+ },
+ {
+  "jenis": "still_graded",
+  "optimasi": "stills_jpg/third_story/f0744_s07_P4-b1767c3b5e_graded.jpg",
+  "asli": "08_stills_third_story/graded/f0744_s07_P4-b1767c3b5e_graded.png",
+  "asli_raw": "08_stills_third_story/raw/f0744_s07_P4-b1767c3b5e_raw.png",
+  "cerita": "third_story",
+  "build_id": "P4-b1767c3b5e",
+  "frame": 744,
+  "shot": 7,
+  "asli_sha256": "7a8fc78891200d5489c19adb2b50b51afe769a417af50134a234a3239f19aba2",
+  "asli_bytes": 2766285,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 479689
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0060_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0060_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 60,
+  "asli_sha256": "79bbe8f4e393111d1ecd46edf32ab25384891e193d90e3cfdae20e97001f4ea3",
+  "asli_bytes": 2641391,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 444003
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0120_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0120_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 120,
+  "asli_sha256": "6bb65286b1a5e0bcebe92d4a9ab982351bc0401234a2896ac08e52a1b0f821b4",
+  "asli_bytes": 2733342,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 471485
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0180_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0180_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 180,
+  "asli_sha256": "3dd5c86015c0b19cad9303272444b686ebeb31b180f1c58c26c86a7e4fcb5b27",
+  "asli_bytes": 2504158,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 340889
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0212_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0212_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 212,
+  "asli_sha256": "424ccadc5e451500e741199f497862852ab327d3162293c7cdfd382a311a9f11",
+  "asli_bytes": 2403093,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 267370
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0222_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0222_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 222,
+  "asli_sha256": "c553b86d3b478836fcf3fc43af1d4ee3746f4fcf6e1b0f9d62512ef6d0715582",
+  "asli_bytes": 2426888,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 275836
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0240_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0240_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 240,
+  "asli_sha256": "70d174f3aa1da23d2fd52c45fc4705d288cdb98b3a9fb7814536cbdf47b57ad3",
+  "asli_bytes": 2534508,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 338768
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0250_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0250_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 250,
+  "asli_sha256": "2ebd98ca0937c7f380478429aec26c3898845dc24e1f71d6fffedb80315fb6bc",
+  "asli_bytes": 2520961,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 328141
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0282_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0282_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 282,
+  "asli_sha256": "763bfd26328307b9831a20ed90cf917174b84aef4568d34dbc459f51385f01ac",
+  "asli_bytes": 2431769,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 284664
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0330_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0330_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 330,
+  "asli_sha256": "64e9dc6d3ff731f1e5ec2740b54e73840d758fb6828c34ba7825e7f1549647f8",
+  "asli_bytes": 2418508,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 279166
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0380_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0380_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 380,
+  "asli_sha256": "18701ea7e168da16ecdd90968768914b7db3a13cf5e22d688d37bfec494fd2fa",
+  "asli_bytes": 2398783,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 267649
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0500_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0500_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 500,
+  "asli_sha256": "e46cf36035454d39465354f5ce2bce618048a9c8c3e9e4c97b45b78d4f5c279d",
+  "asli_bytes": 2632716,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 378833
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0580_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0580_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 580,
+  "asli_sha256": "7f9f1668abd679765df3401446472972336cfaa3e61434d4f63607691407fed5",
+  "asli_bytes": 2417405,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 303269
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0615_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0615_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 615,
+  "asli_sha256": "78801a43c6c4f66dda480fb043e0b434a2182b9696ea97ad5156def87cf288f4",
+  "asli_bytes": 2437423,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 288635
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0700_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0700_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 700,
+  "asli_sha256": "08dc8c4cd286b30073c926e0e110bbf4c0d8972902a180b14bd2efba6716eb4f",
+  "asli_bytes": 2397645,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 256845
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/benchmark_f0760_P4-4b69684991.jpg",
+  "asli": "09_before_after/_sumber_phase41/benchmark_f0760_P4-4b69684991.png",
+  "cerita": "benchmark",
+  "build_id": "P4-4b69684991",
+  "frame": 760,
+  "asli_sha256": "a2e3247f69a16b9e517ce1481f864ce171554467aa8822185310e37330c9e526",
+  "asli_bytes": 2696881,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 461583
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0060_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0060_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 60,
+  "asli_sha256": "e58faa2c1c54fcf767787b64656f1e12e3d6a89d08d7efb7a1dfd6459403ecde",
+  "asli_bytes": 2396308,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 285321
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0135_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0135_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 135,
+  "asli_sha256": "ef875be755a179c6df13f15228c2653d2500365f6b474ab324d9b3a2a00b0333",
+  "asli_bytes": 2406243,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 278814
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0200_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0200_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 200,
+  "asli_sha256": "e6423d30921a6d3d510160d4de8065b67199dc60c13512b044ad150cd4974ffb",
+  "asli_bytes": 2376806,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 275923
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0300_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0300_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 300,
+  "asli_sha256": "c02546e911d5d2a8da4b3c0355e2961c0222fd174641e67ceac510aaf255c6ea",
+  "asli_bytes": 2463866,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 323611
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0318_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0318_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 318,
+  "asli_sha256": "4e1f3c0ef8b016a4153d0504737971df31a1b526c8fbb5dde7a63e15b95672ac",
+  "asli_bytes": 2472651,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 326820
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0325_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0325_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 325,
+  "asli_sha256": "f54666133ba524aa97f858e58de97d4b4d2fb433521354f0eafd21ea7417e227",
+  "asli_bytes": 2479805,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 327808
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0330_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0330_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 330,
+  "asli_sha256": "f6ab8511b2b7209bbb8a68302ac6f2841b4de22c1671d335a01803895f1134c0",
+  "asli_bytes": 2479070,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 327153
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0420_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0420_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 420,
+  "asli_sha256": "cd31d87fb7b6e94ab33968b6c1e825ab48f8d280fc6edc4588a74476a2fde4f7",
+  "asli_bytes": 2286644,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 222257
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0475_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0475_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 475,
+  "asli_sha256": "1e46e5ce7441ec963a77e1f4998f3474981e1422f093633f848c9b8c4df2fc30",
+  "asli_bytes": 2266517,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 208594
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0500_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0500_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 500,
+  "asli_sha256": "577e7ddc7cc6d05b9cf6bf5d8cd1468ffd76b9b87ff365811ed96f9cd4aaab24",
+  "asli_bytes": 2322918,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 275924
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0560_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0560_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 560,
+  "asli_sha256": "5fccb69cc22843784013692c39d8b0b740d69c273872636f4662fc8046dd0dd9",
+  "asli_bytes": 2243519,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 232761
+ },
+ {
+  "jenis": "still_phase41_referensi",
+  "optimasi": "stills_jpg/phase41_reference/generalization_f0590_P4-21e3aadc90.jpg",
+  "asli": "09_before_after/_sumber_phase41/generalization_f0590_P4-21e3aadc90.png",
+  "cerita": "generalization",
+  "build_id": "P4-21e3aadc90",
+  "frame": 590,
+  "asli_sha256": "98eace4f274c13397873209683a597fd32c8c0e5db09bdbb981a1048a790183b",
+  "asli_bytes": 2255132,
+  "kualitas_jpeg": 92,
+  "skala": 1.0,
+  "resolusi": [
+   1080,
+   1920
+  ],
+  "bytes": 233421
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/01_lembar_lama__04a_sutil_genggam_sebelum_sesudah.jpg",
+  "asli": "09_before_after/01_lembar_lama__04a_sutil_genggam_sebelum_sesudah.jpg",
+  "asli_sha256": "da8a6926a0bb785178d2f03f326821237484871cafdc0681eefff3b0b76612f0",
+  "asli_bytes": 127422,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1292,
+   466
+  ],
+  "bytes": 127422
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/01_sutil_genggam_pergelangan.jpg",
+  "asli": "09_before_after/01_sutil_genggam_pergelangan.jpg",
+  "asli_sha256": "93ad91bd9678887c4ce1a4165680d5f75c5e844a03b82a7dacdbee99d5173dca",
+  "asli_bytes": 644459,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2122
+  ],
+  "bytes": 644459
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/02_bahu_siku_pergelangan_lengan.jpg",
+  "asli": "09_before_after/02_bahu_siku_pergelangan_lengan.jpg",
+  "asli_sha256": "80731a24751373c67f40f14e0c7d60eec98ab08d05da9dd1a1a9b74374100661",
+  "asli_bytes": 637326,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2122
+  ],
+  "bytes": 637326
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/03_penyangga_piring.jpg",
+  "asli": "09_before_after/03_penyangga_piring.jpg",
+  "asli_sha256": "c975f9da16cad44271c5b95371122fb78972c7c1056c3191fb6269baa30a3eb0",
+  "asli_bytes": 565415,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2122
+  ],
+  "bytes": 565415
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/04_lembar_lama__04b_sendok_mulut_sebelum_sesudah.jpg",
+  "asli": "09_before_after/04_lembar_lama__04b_sendok_mulut_sebelum_sesudah.jpg",
+  "asli_sha256": "792e51c3a7653700387ac7619ca738cb95d3825e9f6465f0c129b99f6b7a8ef1",
+  "asli_bytes": 113189,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   976,
+   466
+  ],
+  "bytes": 113189
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/04_sendok_ke_mulut.jpg",
+  "asli": "09_before_after/04_sendok_ke_mulut.jpg",
+  "asli_sha256": "ecb8464d635e1372e0a3f73e358af49ed3d4bb495aa63a7d50859f6c99d19d2f",
+  "asli_bytes": 871119,
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   2324,
+   2122
+  ],
+  "bytes": 734540
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/05_fase_makan.jpg",
+  "asli": "09_before_after/05_fase_makan.jpg",
+  "asli_sha256": "3b8f65804172a980e5aa7389f4545991254794c47ff0b6f26bd1c42cd718acac",
+  "asli_bytes": 1164025,
+  "kualitas_jpeg": 82,
+  "skala": 1.0,
+  "resolusi": [
+   3289,
+   1842
+  ],
+  "bytes": 726382
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/05_fase_minum.jpg",
+  "asli": "09_before_after/05_fase_minum.jpg",
+  "asli_sha256": "dfc7f994c10e41c92ac9c96937086867dc14a0b144098540b9b184bdf2363ca3",
+  "asli_bytes": 937957,
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   2862,
+   1842
+  ],
+  "bytes": 782500
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/06_serah_terima_gelas.jpg",
+  "asli": "09_before_after/06_serah_terima_gelas.jpg",
+  "asli_sha256": "acc3615cdd07c47bb26c72268ea6d5cc3cc91ee3936c11566450253ff08ef81d",
+  "asli_bytes": 812002,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   2324,
+   2122
+  ],
+  "bytes": 812002
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/06b_serah_terima_uji3.jpg",
+  "asli": "09_before_after/06b_serah_terima_uji3.jpg",
+  "asli_sha256": "00670ca4d27956c016d8f54c6950a3c474ffd28294f885c01dd8126cd1db4147",
+  "asli_bytes": 353259,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   1144
+  ],
+  "bytes": 353259
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/07_anatomi_duduk.jpg",
+  "asli": "09_before_after/07_anatomi_duduk.jpg",
+  "asli_sha256": "16ddce4fe9980c54d07172b1ad23cf512b5947d363773d6411a818fc93ed0568",
+  "asli_bytes": 514432,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2122
+  ],
+  "bytes": 514432
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/07_lembar_lama__04d_kaki_duduk_bangku_sebelum_sesudah.jpg",
+  "asli": "09_before_after/07_lembar_lama__04d_kaki_duduk_bangku_sebelum_sesudah.jpg",
+  "asli_sha256": "7de585790f577a9bbb726d1717489fd1d50e5956c15886a47ceac32575cfa7be",
+  "asli_bytes": 136290,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1321,
+   426
+  ],
+  "bytes": 136290
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/08_lembar_lama__04c_blush_mask_kulit_sebelum_sesudah.jpg",
+  "asli": "09_before_after/08_lembar_lama__04c_blush_mask_kulit_sebelum_sesudah.jpg",
+  "asli_sha256": "6f7641d563ef4f35c2831ab8ba5473c6fca9ed9f1275805b4e998ebba2675383",
+  "asli_bytes": 129930,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1920,
+   466
+  ],
+  "bytes": 129930
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/08_mask_wajah_blush_sri.jpg",
+  "asli": "09_before_after/08_mask_wajah_blush_sri.jpg",
+  "asli_sha256": "0380c249b38ef8839bee6832cdfd0b713831f12b0c6a73d66e0134fc4e1789c5",
+  "asli_bytes": 383810,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1424,
+   2322
+  ],
+  "bytes": 383810
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/09_siluet_transisi_profil.jpg",
+  "asli": "09_before_after/09_siluet_transisi_profil.jpg",
+  "asli_sha256": "65a6a2e01b8593681ebfcf9c8636d56ee175ad5982e5c17a76fdb2d6c1b585d6",
+  "asli_bytes": 603929,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2122
+  ],
+  "bytes": 603929
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/09b_tokoh_cerita_ketiga.jpg",
+  "asli": "09_before_after/09b_tokoh_cerita_ketiga.jpg",
+  "asli_sha256": "d02140c56053addc75c392308d03c359037e2d704cb26bc3023c3cac0087bc26",
+  "asli_bytes": 515619,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   2830,
+   1144
+  ],
+  "bytes": 515619
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/10_establishing_penutup_benchmark.jpg",
+  "asli": "09_before_after/10_establishing_penutup_benchmark.jpg",
+  "asli_sha256": "166cd3bb5ca8944227b2df7a3b617b658b195e0d18a275255930f73c5ca437a0",
+  "asli_bytes": 495836,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1312,
+   2088
+  ],
+  "bytes": 495836
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/10_establishing_penutup_generalisasi.jpg",
+  "asli": "09_before_after/10_establishing_penutup_generalisasi.jpg",
+  "asli_sha256": "20f2752be27b562beaef901f00f9c941b79963d971ba42f0b935c9d92b812b67",
+  "asli_bytes": 380469,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1312,
+   2122
+  ],
+  "bytes": 380469
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/11_interior.jpg",
+  "asli": "09_before_after/11_interior.jpg",
+  "asli_sha256": "dce01a6551417547175cfa41866f2bfd7816e37a1637f3cfeedb4ced4d6112ae",
+  "asli_bytes": 725961,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   2324,
+   2122
+  ],
+  "bytes": 725961
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/12_hero_asset_makanan_alat_masak.jpg",
+  "asli": "09_before_after/12_hero_asset_makanan_alat_masak.jpg",
+  "asli_sha256": "ad62615632f003841d3e4b91514473afc7acb696f61d5eab30da805d902e1103",
+  "asli_bytes": 532756,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2122
+  ],
+  "bytes": 532756
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/13_cahaya_kedalaman_benchmark.jpg",
+  "asli": "09_before_after/13_cahaya_kedalaman_benchmark.jpg",
+  "asli_sha256": "aeab44359a5f6572ebd0af81f00aa5b09eb5398942f05354b8ca48bcfeefc13d",
+  "asli_bytes": 570364,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2088
+  ],
+  "bytes": 570364
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/13_cahaya_kedalaman_generalisasi.jpg",
+  "asli": "09_before_after/13_cahaya_kedalaman_generalisasi.jpg",
+  "asli_sha256": "54d352ed11e9b3580688fa3a711776fa29d7289a0eedfb251a85b14636e2e5b3",
+  "asli_bytes": 323513,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1312,
+   2088
+  ],
+  "bytes": 323513
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/14_phase41_01_final_render.jpg",
+  "asli": "09_before_after/14_phase41_01_final_render.jpg",
+  "asli_sha256": "42bcb7b952eef3bd2a4f730f625cfeb2fb843cf8a04a481e809c006981346d1f",
+  "asli_bytes": 557577,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   3270,
+   960
+  ],
+  "bytes": 557577
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/14_phase41_02_raw_render.jpg",
+  "asli": "09_before_after/14_phase41_02_raw_render.jpg",
+  "asli_sha256": "e802a47316be8fa26c8e5877121b96c0c38836bda2b21dff3c3e5fc79d44bcd5",
+  "asli_bytes": 365877,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   2178,
+   960
+  ],
+  "bytes": 365877
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/14_phase41_03_solid_view.jpg",
+  "asli": "09_before_after/14_phase41_03_solid_view.jpg",
+  "asli_sha256": "1ad9915c69374a310fce3950d8977569135d2d46d325e8fe186be0b98ae87453",
+  "asli_bytes": 152997,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1506,
+   960
+  ],
+  "bytes": 152997
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/14_raw_vs_graded.jpg",
+  "asli": "09_before_after/14_raw_vs_graded.jpg",
+  "asli_sha256": "00b83783d209469628621976874742a60e1871a9e326fc900179eb122c20a435",
+  "asli_bytes": 514811,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1818,
+   2088
+  ],
+  "bytes": 514811
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/15_kedip_f463-467_benchmark.jpg",
+  "asli": "09_before_after/15_kedip_f463-467_benchmark.jpg",
+  "asli_sha256": "0b87d3f175ac300c2e9e073a99397de2fd54c9dcc4aead7cbb77a8f4fd2f7575",
+  "asli_bytes": 662532,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   3000,
+   1048
+  ],
+  "bytes": 662532
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/15_lembar_lama__04f_kedip_meja_gerobak_sebelum_sesudah.jpg",
+  "asli": "09_before_after/15_lembar_lama__04f_kedip_meja_gerobak_sebelum_sesudah.jpg",
+  "asli_sha256": "49478705111bd41cde525e41702086ffcd0913568813fb7485962f933a2a6a4a",
+  "asli_bytes": 283774,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1740,
+   1010
+  ],
+  "bytes": 283774
+ },
+ {
+  "jenis": "lembar_before_after",
+  "optimasi": "before_after_jpg/15_lembar_lama__04g_kedip_jendela_zfighting_sebelum_sesudah.jpg",
+  "asli": "09_before_after/15_lembar_lama__04g_kedip_jendela_zfighting_sebelum_sesudah.jpg",
+  "asli_sha256": "d3098180164c3f94c14003f049c17a1912c02e5c57e2e2dd3bb4f0a983142c16",
+  "asli_bytes": 142833,
+  "kualitas_jpeg": "asli (disalin)",
+  "skala": 1.0,
+  "resolusi": [
+   1758,
+   426
+  ],
+  "bytes": 142833
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/00_ringkasan.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 2715,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_01_provenance_laporan.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 317732,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_02_video_dan_scene.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 1288,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_03_frame_0001-0150.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33399,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_03_frame_0151-0300.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_03_frame_0301-0450.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_03_frame_0451-0600.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_03_frame_0601-0750.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/benchmark_03_frame_0751-0860.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 24627,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/generalization_01_provenance_laporan.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 252842,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/generalization_02_video_dan_scene.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 1470,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/generalization_03_frame_0001-0150.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33399,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/generalization_03_frame_0151-0300.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/generalization_03_frame_0301-0450.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/generalization_03_frame_0451-0600.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/generalization_03_frame_0601-0616.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 3759,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/third_story_01_provenance_laporan.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 216773,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/third_story_02_video_dan_scene.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 1102,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/third_story_03_frame_0001-0150.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33399,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/third_story_03_frame_0151-0300.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/third_story_03_frame_0301-0450.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/third_story_03_frame_0451-0600.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "provenance_potongan",
+  "optimasi": "provenance_split/third_story_03_frame_0601-0750.json",
+  "asli": "15_build_provenance.json",
+  "asli_sha256": "1fa830b451f031be6019d370d984906d33834497cf300979cfb7b1b10291b7ad",
+  "bytes": 33507,
+  "gabungan_sama_dengan_asli": true
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar01_f0001-0116.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   1,
+   116
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:00.00",
+   "00:03.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 760136
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar02_f0121-0236.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   121,
+   236
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:04.00",
+   "00:07.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 774244
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar03_f0241-0356.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   241,
+   356
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:08.00",
+   "00:11.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 695341
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar04_f0361-0476.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   361,
+   476
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:12.00",
+   "00:15.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 702685
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar05_f0481-0596.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   481,
+   596
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:16.00",
+   "00:19.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 787665
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar06_f0601-0716.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   601,
+   716
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:20.00",
+   "00:23.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 686998
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar07_f0721-0836.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   721,
+   836
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:24.00",
+   "00:27.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 789804
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/benchmark/01_benchmark_phase42_P4-486e18fc49_lembar08_f0841-0856.jpg",
+  "asli": "01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/01_benchmark_phase42_P4-486e18fc49.mp4",
+  "asli_sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+  "build_id": "P4-486e18fc49",
+  "frame_video": [
+   841,
+   856
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:28.00",
+   "00:28.50"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 119231
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/generalization/02_generalization_phase42_P4-2d0645d14d_lembar01_f0001-0116.jpg",
+  "asli": "02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+  "build_id": "P4-2d0645d14d",
+  "frame_video": [
+   1,
+   116
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:00.00",
+   "00:03.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 594934
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/generalization/02_generalization_phase42_P4-2d0645d14d_lembar02_f0121-0236.jpg",
+  "asli": "02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+  "build_id": "P4-2d0645d14d",
+  "frame_video": [
+   121,
+   236
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:04.00",
+   "00:07.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 772637
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/generalization/02_generalization_phase42_P4-2d0645d14d_lembar03_f0241-0356.jpg",
+  "asli": "02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+  "build_id": "P4-2d0645d14d",
+  "frame_video": [
+   241,
+   356
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:08.00",
+   "00:11.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 793531
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/generalization/02_generalization_phase42_P4-2d0645d14d_lembar04_f0361-0476.jpg",
+  "asli": "02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+  "build_id": "P4-2d0645d14d",
+  "frame_video": [
+   361,
+   476
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:12.00",
+   "00:15.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 677161
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/generalization/02_generalization_phase42_P4-2d0645d14d_lembar05_f0481-0596.jpg",
+  "asli": "02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+  "build_id": "P4-2d0645d14d",
+  "frame_video": [
+   481,
+   596
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:16.00",
+   "00:19.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 673693
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/generalization/02_generalization_phase42_P4-2d0645d14d_lembar06_f0601-0616.jpg",
+  "asli": "02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/02_generalization_phase42_P4-2d0645d14d.mp4",
+  "asli_sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+  "build_id": "P4-2d0645d14d",
+  "frame_video": [
+   601,
+   616
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:20.00",
+   "00:20.50"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 94699
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/third_story/03_third_story_phase42_P4-b1767c3b5e_lembar01_f0001-0116.jpg",
+  "asli": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "build_id": "P4-b1767c3b5e",
+  "frame_video": [
+   1,
+   116
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:00.00",
+   "00:03.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 688819
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/third_story/03_third_story_phase42_P4-b1767c3b5e_lembar02_f0121-0236.jpg",
+  "asli": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "build_id": "P4-b1767c3b5e",
+  "frame_video": [
+   121,
+   236
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:04.00",
+   "00:07.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 731414
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/third_story/03_third_story_phase42_P4-b1767c3b5e_lembar03_f0241-0356.jpg",
+  "asli": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "build_id": "P4-b1767c3b5e",
+  "frame_video": [
+   241,
+   356
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:08.00",
+   "00:11.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 778737
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/third_story/03_third_story_phase42_P4-b1767c3b5e_lembar04_f0361-0476.jpg",
+  "asli": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "build_id": "P4-b1767c3b5e",
+  "frame_video": [
+   361,
+   476
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:12.00",
+   "00:15.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 722260
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/third_story/03_third_story_phase42_P4-b1767c3b5e_lembar05_f0481-0596.jpg",
+  "asli": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "build_id": "P4-b1767c3b5e",
+  "frame_video": [
+   481,
+   596
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:16.00",
+   "00:19.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 614589
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/third_story/03_third_story_phase42_P4-b1767c3b5e_lembar06_f0601-0716.jpg",
+  "asli": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "build_id": "P4-b1767c3b5e",
+  "frame_video": [
+   601,
+   716
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:20.00",
+   "00:23.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 717784
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/third_story/03_third_story_phase42_P4-b1767c3b5e_lembar07_f0721-0746.jpg",
+  "asli": "03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/03_third_story_phase42_P4-b1767c3b5e.mp4",
+  "asli_sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+  "build_id": "P4-b1767c3b5e",
+  "frame_video": [
+   721,
+   746
+  ],
+  "langkah_frame": 5,
+  "timecode": [
+   "00:24.00",
+   "00:24.83"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1662,
+   2248
+  ],
+  "bytes": 175529
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar01_f0001-0058.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   1,
+   58
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:00.00",
+   "00:01.90"
+  ],
+  "kualitas_jpeg": 84,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 787616
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar02_f0061-0118.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   61,
+   118
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:02.00",
+   "00:03.90"
+  ],
+  "kualitas_jpeg": 84,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 765173
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar03_f0121-0178.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   121,
+   178
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:04.00",
+   "00:05.90"
+  ],
+  "kualitas_jpeg": 82,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 796741
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar04_f0181-0238.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   181,
+   238
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:06.00",
+   "00:07.90"
+  ],
+  "kualitas_jpeg": 84,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 810834
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar05_f0241-0298.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   241,
+   298
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:08.00",
+   "00:09.90"
+  ],
+  "kualitas_jpeg": 84,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 803371
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar06_f0301-0358.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   301,
+   358
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:10.00",
+   "00:11.90"
+  ],
+  "kualitas_jpeg": 84,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 794757
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar07_f0361-0418.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   361,
+   418
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:12.00",
+   "00:13.90"
+  ],
+  "kualitas_jpeg": 86,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 779440
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar08_f0421-0478.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   421,
+   478
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:14.00",
+   "00:15.90"
+  ],
+  "kualitas_jpeg": 86,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 771781
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar09_f0481-0538.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   481,
+   538
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:16.00",
+   "00:17.90"
+  ],
+  "kualitas_jpeg": 86,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 790492
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar10_f0541-0598.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   541,
+   598
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:18.00",
+   "00:19.90"
+  ],
+  "kualitas_jpeg": 84,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 778029
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar11_f0601-0658.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   601,
+   658
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:20.00",
+   "00:21.90"
+  ],
+  "kualitas_jpeg": 84,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 795360
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar12_f0661-0718.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   661,
+   718
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:22.00",
+   "00:23.90"
+  ],
+  "kualitas_jpeg": 86,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 808931
+ },
+ {
+  "jenis": "lembar_kontak_video",
+  "optimasi": "contact_sheets/diagnostic/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e_lembar13_f0721-0721.jpg",
+  "asli": "05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_url": "https://github.com/SenyuminAja16/phase42-review-package/releases/download/phase42-final/05_interaction_diagnostic_P4-486e18fc49_P4-2d0645d14d_P4-b1767c3b5e.mp4",
+  "asli_sha256": "a416f678c3193c15f730871751aa5935bc3c09563fcfe1c92e51e941ff65e2db",
+  "build_id": "3 build",
+  "frame_video": [
+   721,
+   721
+  ],
+  "langkah_frame": 3,
+  "timecode": [
+   "00:24.00",
+   "00:24.00"
+  ],
+  "kualitas_jpeg": 88,
+  "skala": 1.0,
+  "resolusi": [
+   1656,
+   2632
+  ],
+  "bytes": 99427
+ }
+]

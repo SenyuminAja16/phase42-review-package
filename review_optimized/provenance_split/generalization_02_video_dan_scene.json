@@ -1,0 +1,44 @@
+{
+ "build_id": "P4-2d0645d14d",
+ "video_sha256_disk": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+ "video_checksum_final": [
+  {
+   "jenis": "asli",
+   "berkas": "/home/ahmad-mafaza-afnani/Documents/2d-animation/stories/_uji_phase4_rumah/output/_uji_phase4_rumah.mp4",
+   "sha256": "65d25a5736069009d7f26dd1c49e37826b99cb17e7aee171357a9c5e762179fb",
+   "ukuran": 93403553,
+   "build_id": "P4-2d0645d14d",
+   "sumber_sha256": null,
+   "sumber": null,
+   "catatan": "rakitan make.py mode=penuh; provenance PASS",
+   "dibuat": "2026-11-27T20:49:58+0700"
+  }
+ ],
+ "video_checksum_riwayat_build_lama": [
+  {
+   "jenis": "asli",
+   "build_id": "P4-55e36b9ef6",
+   "sha256": "2649d9fc9b572fb77f7221962a2b40fa6735c1c184b082a4d9de2c850f1ac00e",
+   "dibuat": "2026-11-27T15:14:21+0700"
+  },
+  {
+   "jenis": "asli",
+   "build_id": "P4-da5e095e8a",
+   "sha256": "3d3a1f91fab13485f313bba1a9e0ebf1a56945d3b7b57392b2164323d870f8ee",
+   "dibuat": "2026-11-27T17:01:33+0700"
+  },
+  {
+   "jenis": "asli",
+   "build_id": "P4-92a110fd6f",
+   "sha256": "4eb7dcc2d0602c1a34120fed6a4746b993c7e228eefde1d3908d12cfda1c7525",
+   "dibuat": "2026-11-27T18:19:48+0700"
+  }
+ ],
+ "scene_build": {
+  "dimulai": "2026-11-27T19:03:46+0700",
+  "blender": "Blender 4.5.16 LTS (hash 3f6797307da5 built 2026-11-10 01:31:21)",
+  "selesai": "2026-11-27T19:04:09+0700",
+  "durasi_dtk": 23.2,
+  "scene_blend_sha256": "eebd26c667bb62364076831fd5ac6c79fa36c965013fba81673cb06308fca51c"
+ }
+}

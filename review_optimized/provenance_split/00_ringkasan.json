@@ -1,0 +1,63 @@
+{
+ "catatan": "provenance per frame/potongan render final + checksum video + identitas scene/source/config",
+ "verifikasi_paket": {
+  "benchmark": {
+   "build_id": "P4-486e18fc49",
+   "video_comment": "build_id=P4-486e18fc49 frames=P4-486e18fc49",
+   "video_build_cocok": true,
+   "frame_terverifikasi": 860,
+   "frame_total": 860,
+   "provenance": "PASS",
+   "provenance_build": "P4-486e18fc49",
+   "scene_blend_sha256_manifest": "78091a6ae9f820a8f66229ab5e65c1a120ecc89b5b85579a0c55579904cf27c6",
+   "scene_blend_sha256_disk": "78091a6ae9f820a8f66229ab5e65c1a120ecc89b5b85579a0c55579904cf27c6",
+   "source_hash_manifest": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+   "source_hash_sekarang": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+   "ok": true
+  },
+  "generalization": {
+   "build_id": "P4-2d0645d14d",
+   "video_comment": "build_id=P4-2d0645d14d frames=P4-2d0645d14d",
+   "video_build_cocok": true,
+   "frame_terverifikasi": 616,
+   "frame_total": 616,
+   "provenance": "PASS",
+   "provenance_build": "P4-2d0645d14d",
+   "scene_blend_sha256_manifest": "eebd26c667bb62364076831fd5ac6c79fa36c965013fba81673cb06308fca51c",
+   "scene_blend_sha256_disk": "eebd26c667bb62364076831fd5ac6c79fa36c965013fba81673cb06308fca51c",
+   "source_hash_manifest": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+   "source_hash_sekarang": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+   "ok": true
+  },
+  "third_story": {
+   "build_id": "P4-b1767c3b5e",
+   "video_comment": "build_id=P4-b1767c3b5e frames=P4-b1767c3b5e",
+   "video_build_cocok": true,
+   "frame_terverifikasi": 750,
+   "frame_total": 750,
+   "provenance": "PASS",
+   "provenance_build": "P4-b1767c3b5e",
+   "scene_blend_sha256_manifest": "b9467133c80f1354ba43914ad203fa3c611257ef69f8dab3ef7d414848b61f67",
+   "scene_blend_sha256_disk": "b9467133c80f1354ba43914ad203fa3c611257ef69f8dab3ef7d414848b61f67",
+   "source_hash_manifest": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+   "source_hash_sekarang": "f7ccb35625ca892f68798b6b10541e6810d9a769c139a10ab073e7e045631c8c",
+   "ok": true
+  }
+ },
+ "build_dibuang_selama_gate_E": {
+  "benchmark": [
+   "P4-555dd710c7 (kedip meja; source berubah)",
+   "P4-71837de932 (source berubah: PROBE)",
+   "P4-d61be635aa (dihentikan 240/860; z-fighting)"
+  ],
+  "generalization": [
+   "P4-da5e095e8a (provenance PASS, source berubah)",
+   "P4-92a110fd6f (source berubah)",
+   "P4-2d0645d14d percobaan pertama: sesi Colab dipangkas server saat unggah (tidak ada frame)"
+  ],
+  "third_story": [
+   "P4-3b9aa5db79 (gagal audio: suasana tidak dikenal)",
+   "P4-888954b55c (QA kedip FAIL 5,52: z-fighting)"
+  ]
+ }
+}

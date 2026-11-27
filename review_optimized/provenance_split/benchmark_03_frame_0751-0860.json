@@ -1,0 +1,667 @@
+{
+ "build_id": "P4-486e18fc49",
+ "skema": 2,
+ "catatan": "status per frame: terverifikasi_chunk = checksum cocok dgn metadata potongan; warisan_tanpa_bukti = tidak ada bukti identitas build",
+ "frame": {
+  "751": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "f8118af86499125cf36f7d9dbee31d0db668b5c3e240625579e7284b7f2a9371",
+   "status": "terverifikasi_chunk"
+  },
+  "752": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "002a553bb1f9acfec851b10b87a9e6e29bfc40e6e11bbe660f402ffb9daadd16",
+   "status": "terverifikasi_chunk"
+  },
+  "753": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "4200e921845eb919bac997913c3ee9149bea513c2e2aa4fe19395f40b5a639b9",
+   "status": "terverifikasi_chunk"
+  },
+  "754": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "3f0b9f64ad4ed5c9b5522e8c100d43680103ad260910e869f794df8f11c4f902",
+   "status": "terverifikasi_chunk"
+  },
+  "755": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "d2698199b2a59faa8d204570719d3687cf8733458ae516e4734c979d457c46b5",
+   "status": "terverifikasi_chunk"
+  },
+  "756": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "484fe94f5fa6eed1362afd7768f78fed81a652caa03f9b93a14df50e8731934a",
+   "status": "terverifikasi_chunk"
+  },
+  "757": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "12672e639e17b6122cb86cc578af8da3d3b7b9148a6d6131fed4022e716c85db",
+   "status": "terverifikasi_chunk"
+  },
+  "758": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "af155a44949c5c39556499f01d24d644799d50d6d5dddb69735d4d8b6c83ff07",
+   "status": "terverifikasi_chunk"
+  },
+  "759": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "fdbbcf883bfbd6c2a7dc5456f2a6281a082072a8d5e79cbf47eb692bcd1758c9",
+   "status": "terverifikasi_chunk"
+  },
+  "760": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "d95dc16469df49943562d5a2428e6cab36e70c92632bc3e1af7198738a752b00",
+   "status": "terverifikasi_chunk"
+  },
+  "761": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "958cc8809f358ff7b6f8bfdc0e324c3ce13655465c6e24d5ea06d85fd4d972fb",
+   "status": "terverifikasi_chunk"
+  },
+  "762": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "c50ab42225b0d06dbfb0a0fb637b7681a262ed089102962462fd9e570191c858",
+   "status": "terverifikasi_chunk"
+  },
+  "763": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "e104da1698dd2b3e04ae15d1e6b3a97386a25abec30dd568d5a96b9864b0e74f",
+   "status": "terverifikasi_chunk"
+  },
+  "764": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "07f4b016f73d487fcfb5cd6de97d822601d708da8fb37d95a0208f02035c4094",
+   "status": "terverifikasi_chunk"
+  },
+  "765": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "ce033c69ca0e18a7ca3ea096767123084ac48ea9d4a939fea53f3445fad67829",
+   "status": "terverifikasi_chunk"
+  },
+  "766": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "70d127dd877659e711b2e275ee4fafa1a8bcdef46cbe77423b8eb8351aaca300",
+   "status": "terverifikasi_chunk"
+  },
+  "767": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "429f5b9455dde556f941f0032c828f71c37b1f926e939b4052d8fe97f48494a8",
+   "status": "terverifikasi_chunk"
+  },
+  "768": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "0400ffddedf0aafc4a6fa967e10c2a743547a9e4e227c2543448757dda0c9ee3",
+   "status": "terverifikasi_chunk"
+  },
+  "769": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "5d53ed6cf01e0032fba1028056cd75050fb1ba9616c1a4e17798bd42d032b5e7",
+   "status": "terverifikasi_chunk"
+  },
+  "770": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "3bf62695fceb08a9e535b7a97512105623c8577a8b5ca916b8b6c4f536d31b7e",
+   "status": "terverifikasi_chunk"
+  },
+  "771": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "8b7f3e2cb6ca8b07238662dd7a4731e7e41c2d356474958cbaa363080a2e70b5",
+   "status": "terverifikasi_chunk"
+  },
+  "772": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "6e0f8114177dec95ae10b2d672fa59d39e2cb6feef3d13343db7edde42c9a41d",
+   "status": "terverifikasi_chunk"
+  },
+  "773": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "4b1e02677a6ea369f079be1a879057e7b4bc7a8f4e870612b3db9257694b5263",
+   "status": "terverifikasi_chunk"
+  },
+  "774": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "5b2d23cc098f88ce5e5ae4bdbc382de21bffaf1431d26e2c51cf6a978e82d48a",
+   "status": "terverifikasi_chunk"
+  },
+  "775": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "a94a4dec8820de3833b46dde4f25a7ee1d5797caa1b8e1c1859f3f2f63b41372",
+   "status": "terverifikasi_chunk"
+  },
+  "776": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "4d40e7691581b1c39aa23841e21fa1d1856ba1ebcb683acf7d191cf48f523af1",
+   "status": "terverifikasi_chunk"
+  },
+  "777": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "ed371bd3cdd67d33db892b21069717b6526ecf5417ad5aeb1a7b6fa9e75ed3d0",
+   "status": "terverifikasi_chunk"
+  },
+  "778": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "46ae03db5e3b8ca1b3a17f31e15e76de20af762a2c7412aa7213d8d8c0ec8a5a",
+   "status": "terverifikasi_chunk"
+  },
+  "779": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "daac7e0a45f79b141a4b89ee7469e4efdaa8cd8cca80840147747976cd523def",
+   "status": "terverifikasi_chunk"
+  },
+  "780": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "e0edeabc923945047b9ffdf3d0b0ce4ce7a3c5e59114b168d1b48c1c56c8ed1f",
+   "status": "terverifikasi_chunk"
+  },
+  "781": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "2dfdc7601207ceb0cb94d8b8c8f706bf1d3a205d7bf800605056fcbc9c9df001",
+   "status": "terverifikasi_chunk"
+  },
+  "782": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "9b660fa99103741be872151f0811df5cd111e3b7f6bcb9ac7dd848500d859e9f",
+   "status": "terverifikasi_chunk"
+  },
+  "783": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "6e0f78fcb14cdaac50ded8389f0b57bb70da5117b9f14cd315afce90829f6e19",
+   "status": "terverifikasi_chunk"
+  },
+  "784": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "04bfcb11a4752d8cf5282a1dfddb3169c63d7d3404bbf6008d5f77384ea99d5f",
+   "status": "terverifikasi_chunk"
+  },
+  "785": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "2544b82af1e04a7f76147d011679c9251e50512232d601c64cbe8635d058c4bb",
+   "status": "terverifikasi_chunk"
+  },
+  "786": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "c3376a4f288766c7058a133be54270e538664d1cb7e2bf7777bf4bc834b43560",
+   "status": "terverifikasi_chunk"
+  },
+  "787": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "62a8e7c0e46de671e5fbc32c58a5d948f9f1919ae72c07ebc1f505048ecf5c6f",
+   "status": "terverifikasi_chunk"
+  },
+  "788": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "fa4f5c4b80b29f410c140a2e8716a95493b7be4d2597d9f0f9136da654fd2e5c",
+   "status": "terverifikasi_chunk"
+  },
+  "789": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "98b98a2fd531662fff276e2ad189a1e6cbed746b799b0031590353c0970cb4c7",
+   "status": "terverifikasi_chunk"
+  },
+  "790": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "646e5a94f5cf791ef2b08fc7d255aacff981c0923e5309a592ba33cd20d06111",
+   "status": "terverifikasi_chunk"
+  },
+  "791": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "1fbfc1db390cd0d25eadbee19b4ab69f351bb2c4bd094d1db1269e47de545063",
+   "status": "terverifikasi_chunk"
+  },
+  "792": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "8c9dda4dd5e71848ec03588f5e2bf5cadf0f5c0f6cedfa980453e1f9d8d91053",
+   "status": "terverifikasi_chunk"
+  },
+  "793": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "847161cdb9c17840d86ca2557e17e2f02a4a077f164a0edeced3f442b8443117",
+   "status": "terverifikasi_chunk"
+  },
+  "794": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "99cd289aac807b03cc57ba376a63d1fce352d2380b939d57d058071eebbc3186",
+   "status": "terverifikasi_chunk"
+  },
+  "795": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "bf6c2d042ed760d19a2730244423f7ae0a7ef321fd5b5290218f8499d4b05027",
+   "status": "terverifikasi_chunk"
+  },
+  "796": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "7af7548215017956f76317acb8c0f1bd9fe688087549fed362df62c3121fa7be",
+   "status": "terverifikasi_chunk"
+  },
+  "797": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "fee37ce022f2efa0e1d100351144727a28d1051f8352220afae38ab0a3e4c541",
+   "status": "terverifikasi_chunk"
+  },
+  "798": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "c00f6adf00de8f8b8820f8ad69a3800617a9f23279f9ac6f39575d93ce3e0566",
+   "status": "terverifikasi_chunk"
+  },
+  "799": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "815a77c878a8f1e488d498e7c531e4eca77d0f956b2b93ed4594782600094c11",
+   "status": "terverifikasi_chunk"
+  },
+  "800": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "5bc28b0df3283ca223e11263c09d13cd9fcaaaea5c2022072fdae457f9d3776e",
+   "status": "terverifikasi_chunk"
+  },
+  "801": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "17d52aafa0ffc7a7fade26f7dbdfbf320e1e1f7f49bce713cac101d24fe90166",
+   "status": "terverifikasi_chunk"
+  },
+  "802": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "825fbfb47377692e35d04742429046c95b86f20eba98d2adccaf0ca1731fb5f3",
+   "status": "terverifikasi_chunk"
+  },
+  "803": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "a67f9ac6bd941c38ffd496c47817989effe7ca86fa20e5138c8f4cf120b6404b",
+   "status": "terverifikasi_chunk"
+  },
+  "804": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "cda9cc49f069ecc10226174647210d6015bf22d0294d8e9502215c52a8b731a5",
+   "status": "terverifikasi_chunk"
+  },
+  "805": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "f9b2c3d31cb212c2ec1b0a3c2c8f655a2285837abc79d60c9cf47b8f90f55475",
+   "status": "terverifikasi_chunk"
+  },
+  "806": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "ceb5eab0bc933fa83f36b64bfa76549c679fa233f35c1f49e2b1f2a069deb814",
+   "status": "terverifikasi_chunk"
+  },
+  "807": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "16fed44d32d15d9b7671ad656536ddaee0e8e2586a2a1036591654c2f7843358",
+   "status": "terverifikasi_chunk"
+  },
+  "808": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "a632314a5da53f82d2ef9ed1ef025a9d48d15f5e4f1ff927eb53affe0fc39c7c",
+   "status": "terverifikasi_chunk"
+  },
+  "809": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "061c69f7d3db37f638885e3988d60446e9b60e9f2e7a9c7af8e334c1866c709c",
+   "status": "terverifikasi_chunk"
+  },
+  "810": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "e5d7498e7e45f7b30cb63ebd5fb267eb379a0dd1884033d1e830a289c75a9e40",
+   "status": "terverifikasi_chunk"
+  },
+  "811": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "a6fae4706f96b7532337797e3d880163d53893889fcd8303010aa0c5c766f16e",
+   "status": "terverifikasi_chunk"
+  },
+  "812": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "0a8f4dfc7600008065f332c640f6848b63fcb3ccc7104f533497f2352b914fa7",
+   "status": "terverifikasi_chunk"
+  },
+  "813": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "ae42c3ff3d5bab690c76710807d07ddb03d540ccec1404a1c45f6a3a5d54f60f",
+   "status": "terverifikasi_chunk"
+  },
+  "814": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "e939345167f5cb8d6b3a34c8e41222052fa2f0a61be0fa7de8fc98f8f6d04c5b",
+   "status": "terverifikasi_chunk"
+  },
+  "815": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "a329f132210008646d6e4c50b45d844965670931c18d561c13b14033a6ba662e",
+   "status": "terverifikasi_chunk"
+  },
+  "816": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "10e1be34d35a9bbdf9b20952f433f0e2cb7dc30325ee3c411e6d4a710ecaefda",
+   "status": "terverifikasi_chunk"
+  },
+  "817": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "f7b5d6b8a8d6b7d8437028d6b883eb1208e5a36879068b854b2f2ced22501229",
+   "status": "terverifikasi_chunk"
+  },
+  "818": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "d534cda57e6ebb35015e64d4e6b36dd019cab9ddb11ee93ad3ea3addabfa5fa4",
+   "status": "terverifikasi_chunk"
+  },
+  "819": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "a4bb96f5f5d49554aeee57642be2f7d0efd1f0a46e77ad02d1ad0426fd146e86",
+   "status": "terverifikasi_chunk"
+  },
+  "820": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "0b71ae915afa61ed7a51685607974651d7ed1b7500056c8c17583b01672c6c55",
+   "status": "terverifikasi_chunk"
+  },
+  "821": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "ae3c7277966be6500fdba61e9dd843cb724a75046716d0a8fc888e7bd439a4a5",
+   "status": "terverifikasi_chunk"
+  },
+  "822": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "2376e3fc2cddc6f13b1a7f9a363a345a273841dc75097f915a67b59888b2c7ad",
+   "status": "terverifikasi_chunk"
+  },
+  "823": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "8e7024bcfe45b54fd4550930abc201bb1a61a7f7ea9d0e539a14e1079f2641d7",
+   "status": "terverifikasi_chunk"
+  },
+  "824": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "23c3dfef52e908fc445fc2e2f029ba0a212309b63f69b748ec5ff3ab710ea2b7",
+   "status": "terverifikasi_chunk"
+  },
+  "825": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "d76960d297227833300cdae44b5554239e603ca4124a85ba298fd9fe6fa33cc2",
+   "status": "terverifikasi_chunk"
+  },
+  "826": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "f775b4d284170f1b61f3c7f19fda9b16599e276c4c334f3a18e8d895944a3f0a",
+   "status": "terverifikasi_chunk"
+  },
+  "827": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "bc328f13ba4e26dfe1cbab98d69bb32c3365b1b1bb3c556cd8f8fd8e5c1d6454",
+   "status": "terverifikasi_chunk"
+  },
+  "828": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "1302f63f8bfccaff57d34279d672f213152db6f27eba7192e031056bd42c9717",
+   "status": "terverifikasi_chunk"
+  },
+  "829": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "3305fcf5361137c0d1021b8c852e6def399912ed9c873e669888fe4677d25f3c",
+   "status": "terverifikasi_chunk"
+  },
+  "830": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "a56862526a30ba36cbd08cf9671a6411bd17a137a620dd056c2e5b7ac4ea9756",
+   "status": "terverifikasi_chunk"
+  },
+  "831": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "0fe6694d165a567259e40c3bd3bb726b72069cd0019167f93a781b2f508e5c20",
+   "status": "terverifikasi_chunk"
+  },
+  "832": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "4e89829dcd2c9b93150eca8f6db5c3ff32dc6e4d8f84b9fc0a415b7e6348b0b6",
+   "status": "terverifikasi_chunk"
+  },
+  "833": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "2ddee89c574c07c5d8fe52b276748e3708fcf2f5bf9cba5916556a1fe554264c",
+   "status": "terverifikasi_chunk"
+  },
+  "834": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "cb481f5f8270ed33766627015277e38d67de4c6d39b956995133b13631be16e2",
+   "status": "terverifikasi_chunk"
+  },
+  "835": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "080bc3deca7c0625ccc25374e1a0240dd90361df861b8944618361c749feee25",
+   "status": "terverifikasi_chunk"
+  },
+  "836": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "f2602663f8b232b3c96cd3009a4352f0e1ada888b672052436963c8756bfd8b9",
+   "status": "terverifikasi_chunk"
+  },
+  "837": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "3053c26f8a443f1958e474ec382368fe4514cdd8280a22acf64f415a8a372ebe",
+   "status": "terverifikasi_chunk"
+  },
+  "838": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "e40d89fca4595419d616db6012bfdbca66b84bd9c8d83b5c6141965c249f7d40",
+   "status": "terverifikasi_chunk"
+  },
+  "839": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "64bcc296afd9d31f22509c793791abac187312bdd6ef116e95c1641b7f5ba9c6",
+   "status": "terverifikasi_chunk"
+  },
+  "840": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0721-0840_20261127192401_colab_395394.json",
+   "sha256": "7617d0024408ec34120600ef97f632718588b8b4d00ca75adf7032fc6db46b7e",
+   "status": "terverifikasi_chunk"
+  },
+  "841": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "85d17854d7283647f1614a3aed2cb435b3e0abeb907d28fdc708ae3027817fcc",
+   "status": "terverifikasi_chunk"
+  },
+  "842": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "6fddf86408a931a6549dc6e47887427fc10e60efecdb8db8c5e0017d0e0eea2b",
+   "status": "terverifikasi_chunk"
+  },
+  "843": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "4541a1a4a49d8c0d1bf40af86e709c6cea89dfd8a13f53e09b1815911c271393",
+   "status": "terverifikasi_chunk"
+  },
+  "844": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "1d2cff0a9a23b19f8e5d4fde122f3e35d24781d3c1fb8609a5f308d67ceebeee",
+   "status": "terverifikasi_chunk"
+  },
+  "845": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "fce254b029ad41fbc399633e26210c0eb16bd709141c3de555e85a4e1a7eb6b8",
+   "status": "terverifikasi_chunk"
+  },
+  "846": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "934e8d16efbdd8814c692f55892e0876316d2eba806e69f6a388e26c3210d491",
+   "status": "terverifikasi_chunk"
+  },
+  "847": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "c0a964648a41c987d11d34f7e83f3b8eb741f135e9407dadb55ad6ae79ffe207",
+   "status": "terverifikasi_chunk"
+  },
+  "848": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "29ccaa915db610fb1f723bcbd45545d87586a935c7953630b01fec8b5bb16f73",
+   "status": "terverifikasi_chunk"
+  },
+  "849": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "2602cd5b93ed68801d4e138ad114afa23000422848b5b715a438062783685e04",
+   "status": "terverifikasi_chunk"
+  },
+  "850": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "569049b7017602c2c5a006fb65b23b616b00c29fffbbc5e8b147b38f852dad59",
+   "status": "terverifikasi_chunk"
+  },
+  "851": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "3b2cec2df613daf486ce1b13d71320411fcf4ced97b901324fe290fa325a000c",
+   "status": "terverifikasi_chunk"
+  },
+  "852": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "8da168f330ac289ac623f421acfccc2611914a44f65a280829324c841f68db81",
+   "status": "terverifikasi_chunk"
+  },
+  "853": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "e80dc32112bd78b5e08215a806bbb4fb47a69f401422971b66a9cac97e045996",
+   "status": "terverifikasi_chunk"
+  },
+  "854": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "bf539050ff1abb8678104abcd4d53a424d84a41ee39bfc62a7894872eb4ac502",
+   "status": "terverifikasi_chunk"
+  },
+  "855": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "50bc454da36a75c345bd9510ee88aa4e4bfb5655a20973491390b906a0b1327b",
+   "status": "terverifikasi_chunk"
+  },
+  "856": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "e71209ddbbb1491cefebbde3c3024ea77d1e760a5cbcea4aeacc53db1ae76300",
+   "status": "terverifikasi_chunk"
+  },
+  "857": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "16329ed27744a22648cc40147c27c12944d6675d018ef74662682913a88911bf",
+   "status": "terverifikasi_chunk"
+  },
+  "858": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "6456d7305f5a336f128ad062ee9f0a4445a29aeb6d38f4018f90ffcc88807fa8",
+   "status": "terverifikasi_chunk"
+  },
+  "859": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "d33678395b239d471c0ae515198a5ce2b9d0709afd1ba8c76756e1b8340f2b7a",
+   "status": "terverifikasi_chunk"
+  },
+  "860": {
+   "build_id": "P4-486e18fc49",
+   "chunk": "0841-0860_20261127192512_colab_395394.json",
+   "sha256": "851bffe3ee11bf39c0c782c6c1315d2e92d1fa31652a7b65b5a0421b5c66ba03",
+   "status": "terverifikasi_chunk"
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "build_id": "P4-b1767c3b5e",
+ "video_sha256_disk": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+ "video_checksum_final": [
+  {
+   "jenis": "asli",
+   "berkas": "/home/ahmad-mafaza-afnani/Documents/2d-animation/stories/uji3_kopi_sore/output/uji3_kopi_sore.mp4",
+   "sha256": "db742f26f50e62d4d86144b2a7d0e7244fde9c67798740a2ef64ea54ae394370",
+   "ukuran": 115567146,
+   "build_id": "P4-b1767c3b5e",
+   "sumber_sha256": null,
+   "sumber": null,
+   "catatan": "rakitan make.py mode=penuh; provenance PASS",
+   "dibuat": "2026-11-27T19:45:03+0700"
+  }
+ ],
+ "video_checksum_riwayat_build_lama": [
+  {
+   "jenis": "asli",
+   "build_id": "P4-888954b55c",
+   "sha256": "7b29a5cb98b79489941fdf03cbe5c8c2149ec6fa95e81c8830f19f3ce0aa63de",
+   "dibuat": "2026-11-27T18:07:44+0700"
+  }
+ ],
+ "scene_build": {
+  "dimulai": "2026-11-27T18:57:50+0700",
+  "blender": "Blender 4.5.16 LTS (hash 3f6797307da5 built 2026-11-10 01:31:21)",
+  "selesai": "2026-11-27T18:59:37+0700",
+  "durasi_dtk": 106.8,
+  "scene_blend_sha256": "b9467133c80f1354ba43914ad203fa3c611257ef69f8dab3ef7d414848b61f67"
+ }
+}

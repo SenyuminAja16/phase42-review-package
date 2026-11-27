@@ -1,0 +1,38 @@
+{
+ "build_id": "P4-486e18fc49",
+ "video_sha256_disk": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+ "video_checksum_final": [
+  {
+   "jenis": "asli",
+   "berkas": "/home/ahmad-mafaza-afnani/Documents/2d-animation/stories/benchmark_warung/output/benchmark_warung.mp4",
+   "sha256": "6d18d916a948f10d66e875f25794486bcafeb760774148218d3fa4acf9afdc61",
+   "ukuran": 124154092,
+   "build_id": "P4-486e18fc49",
+   "sumber_sha256": null,
+   "sumber": null,
+   "catatan": "rakitan make.py mode=penuh; provenance PASS",
+   "dibuat": "2026-11-27T19:26:29+0700"
+  }
+ ],
+ "video_checksum_riwayat_build_lama": [
+  {
+   "jenis": "asli",
+   "build_id": "P4-555dd710c7",
+   "sha256": "555c86f78b5ce2e87916034eb0032da46768a68aeab9f0f50a1267263eea35d3",
+   "dibuat": "2026-11-27T16:51:36+0700"
+  },
+  {
+   "jenis": "asli",
+   "build_id": "P4-71837de932",
+   "sha256": "9b5533e4edda83da02a358b914a1429e86f7c39052874e743d3cc0b4e2603199",
+   "dibuat": "2026-11-27T17:52:04+0700"
+  }
+ ],
+ "scene_build": {
+  "dimulai": "2026-11-27T18:47:27+0700",
+  "blender": "Blender 4.5.16 LTS (hash 3f6797307da5 built 2026-11-10 01:31:21)",
+  "selesai": "2026-11-27T18:50:23+0700",
+  "durasi_dtk": 175.9,
+  "scene_blend_sha256": "78091a6ae9f820a8f66229ab5e65c1a120ecc89b5b85579a0c55579904cf27c6"
+ }
+}
